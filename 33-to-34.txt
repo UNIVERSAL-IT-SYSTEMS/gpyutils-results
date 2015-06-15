@@ -2,6 +2,7 @@ dev-libs/boost:0/1.52
 dev-libs/boost:0/1.53
 dev-libs/boost:0/1.54
 dev-perl/Inline-Python:0
+dev-python/3to2:0
 dev-python/django-openstack-auth:0
 dev-python/enum34:0
 dev-python/pathlib:0
