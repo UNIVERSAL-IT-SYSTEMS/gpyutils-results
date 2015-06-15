@@ -1,0 +1,16 @@
+dev-libs/boost:0/1.52
+dev-libs/boost:0/1.53
+dev-libs/boost:0/1.54
+dev-perl/Inline-Python:0
+dev-python/django-openstack-auth:0
+dev-python/enum34:0
+dev-python/pathlib:0
+dev-python/pypam:0
+dev-python/python-glanceclient:0
+dev-python/simplegui:0
+dev-python/simpletal:5
+dev-python/warlock:0
+sci-geosciences/mapnik:0
+sci-physics/geant-python:0
+sci-physics/lammps:0
+x11-libs/libxcb:0

@@ -1,0 +1,3053 @@
+=app-accessibility/SphinxTrain-1.0.8::gentoo
+	app-accessibility/sphinxbase
+=app-accessibility/accerciser-3.12.0::gentoo
+	>=dev-libs/glib-2.28:2
+	dev-libs/gobject-introspection
+=app-accessibility/brltty-5.2::gentoo
+	net-wireless/bluez
+	>=dev-java/java-config-2.2.0
+=app-accessibility/caribou-0.4.17::gentoo
+	>=dev-libs/gobject-introspection-0.10.7
+	dev-libs/libxml2
+	sys-apps/dbus
+	dev-libs/libxslt
+=app-accessibility/orca-3.14.3::gentoo
+	>=dev-libs/glib-2.28:2
+=app-accessibility/pocketsphinx-0.8::gentoo
+	app-accessibility/sphinxbase
+=app-accessibility/speech-dispatcher-0.8.1::gentoo
+	>=dev-libs/glib-2.28:2
+	>=media-libs/libsndfile-1.0.2
+	media-libs/alsa-lib
+	dev-python/pyxdg
+=app-accessibility/sphinxbase-0.8::gentoo
+	>=app-doc/doxygen-1.4.7
+=app-admin/abrt-2.0.12-r2::gentoo
+	>=dev-libs/btparser-0.18
+	>=dev-libs/glib-2.21:2
+	dev-libs/libxml2
+	sys-apps/dbus
+	>=sys-devel/gdb-7
+	app-text/asciidoc
+=app-admin/ansible-1.9.0.1::gentoo
+	dev-vcs/git
+=app-admin/collectd-5.4.1-r1::gentoo
+	dev-libs/libxml2
+	sys-cluster/ganglia
+	>=sys-libs/openipmi-2.0.16-r1
+	sys-fs/owfs
+	dev-db/postgresql
+	net-analyzer/rrdtool
+	net-analyzer/net-snmp
+	www-servers/varnish
+	dev-libs/mongo-c-driver
+	sys-kernel/vserver-sources
+=app-admin/diamond-4.0-r1::gentoo
+	dev-python/configobj
+	dev-python/setproctitle
+	dev-python/pymongo
+	dev-python/mysql-python
+	dev-python/pysnmp
+	dev-python/redis-py
+	dev-python/mock
+=app-admin/eclean-kernel-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-admin/equo-254::gentoo
+	sys-apps/file[python]
+=app-admin/glance-2014.2.3::gentoo
+	dev-python/mysql-python
+	dev-python/psycopg:2
+=app-admin/matter-254::gentoo
+	sys-apps/file[python]
+=app-admin/packagekit-base-0.8.15-r1::gentoo
+	>=net-misc/networkmanager-0.6.4
+	>=sys-apps/dbus-1.3.0
+	>=sys-apps/systemd-204
+=app-admin/rigo-254::gentoo
+	dev-python/pygobject:3[cairo]
+=app-admin/salt-2014.1.13::gentoo
+	dev-python/pip
+	dev-python/virtualenv
+	dev-python/timelib
+	>=dev-python/SaltTesting-2014.4.24
+=app-admin/setools-3.3.8-r5::gentoo
+	>=sys-libs/libselinux-2.3
+	dev-libs/libxml2:2
+	>=gnome-base/libglade-2.0
+	>=dev-java/java-config-2.2.0
+=app-admin/system-config-printer-1.4.8::gentoo
+	>=dev-libs/glib-2:2
+	net-print/cups[dbus]
+	gnome-base/libgnome-keyring[introspection]
+=app-admin/system-config-printer-common-1.4.3::gentoo
+	>=dev-libs/glib-2
+	net-print/cups[dbus]
+=app-admin/system-config-printer-gnome-1.4.3-r1::gentoo
+	~app-admin/system-config-printer-common-1.4.3
+	gnome-base/libgnome-keyring[introspection]
+=app-admin/webapp-config-9999::gentoo
+	dev-vcs/git
+=app-arch/createrepo-0.10.3::gentoo
+	>=sys-apps/yum-3.4.3
+=app-arch/deltarpm-3.6_pre20110223-r1::gentoo
+	<app-arch/rpm-5
+=app-arch/rpm-4.11.0.1::gentoo
+	app-doc/doxygen
+=app-arch/unrpa-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-arch/vimball-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-backup/backintime-1.0.24-r2::gentoo
+	gnome-base/libglade
+	dev-util/meld
+	dev-python/gnome-vfs-python
+	dev-python/libgnome-python
+=app-backup/bacula-5.0.3-r4::gentoo
+	dev-db/postgresql[threads]
+	app-editors/vim
+	app-editors/gvim
+=app-backup/bareos-12.4.5-r1::gentoo
+	dev-db/postgresql:*[threads]
+	app-editors/vim
+	app-editors/gvim
+=app-backup/duplicity-0.6.23-r1::gentoo
+	dev-python/lockfile
+=app-backup/holland-backup-mysql-lvm-1.0.10::gentoo
+	~app-backup/holland-backup-mysql-meta-1.0.10[mysqldump]
+=app-backup/obnam-1.7.4::gentoo
+	dev-python/cliapp
+	dev-python/fuse-python
+	dev-python/larch
+	<dev-python/paramiko-1.13
+	dev-python/tracing
+	dev-python/ttystatus
+=app-cdr/gcdemu-2.1.1::gentoo
+	>=dev-libs/glib-2.28:2
+	dev-libs/gobject-introspection
+	sys-apps/dbus
+=app-crypt/gcr-3.12.2::gentoo
+	>=dev-libs/glib-2.34:2
+	>=sys-apps/dbus-1
+	>=dev-libs/gobject-introspection-1.34
+	dev-libs/libxslt
+	dev-util/gdbus-codegen
+=app-crypt/gkeys-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-crypt/gkeys-gen-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-crypt/heimdal-1.5.3-r2::gentoo
+	sys-libs/libcap-ng
+=app-crypt/libsecret-0.16::gentoo
+	>=dev-libs/glib-2.32.0:2
+	>=dev-libs/gobject-introspection-1.29
+	>=gnome-base/gnome-keyring-3
+	dev-libs/libxslt
+	dev-util/gdbus-codegen
+	dev-python/mock
+	dev-python/pygobject:3
+=app-doc/doxygen-1.8.3.1::gentoo
+	media-gfx/graphviz
+=app-editors/bluefish-2.2.6::gentoo
+	>=dev-libs/glib-2.16:2
+	dev-libs/libxml2:2
+=app-editors/gedit-3.14.3::gentoo
+	>=dev-libs/libxml2-2.5.0:2
+	>=dev-libs/glib-2.40:2[dbus]
+	>=dev-libs/libpeas-1.7.0[gtk]
+	net-libs/libsoup:2.4
+	>=dev-libs/gobject-introspection-0.9.3
+	dev-libs/libxml2:2
+=app-editors/gedit-plugins-3.14.1::gentoo
+	>=app-editors/gedit-3.14[python?]
+	>=dev-libs/glib-2.32:2
+	>=dev-libs/libpeas-1.7.0[gtk,python?]
+	>=dev-libs/libgit2-glib-0.0.6
+	>=gnome-extra/zeitgeist-0.9.12[introspection]
+=app-editors/gvim-7.4.273::gentoo
+	sys-libs/libselinux
+=app-editors/pluma-1.8.0::gentoo
+	>=dev-libs/glib-2.32:2
+	>=dev-libs/libxml2-2.5:2
+	>=dev-python/pygtksourceview-2.9.2:2
+=app-editors/retext-9999::gentoo
+	dev-vcs/git
+=app-editors/vim-7.4.273::gentoo
+	sys-libs/libselinux
+=app-emacs/pymacs-0.25-r1::gentoo
+	>=dev-python/docutils-0.7
+=app-emulation/crossover-bin-12.5.0-r2::gentoo
+	net-print/cups[abi_x86_32(-)]
+	media-libs/alsa-lib[abi_x86_32(-)]
+	media-libs/mesa[abi_x86_32(-)]
+	sys-apps/util-linux[abi_x86_32(-)]
+	x11-libs/libxcb[abi_x86_32(-)]
+=app-emulation/ganeti-2.10.5-r4::gentoo
+	>=app-emulation/xen-3.0
+	app-emulation/qemu
+	app-emulation/lxc
+	sys-cluster/ceph
+	dev-python/mock
+	dev-python/pyyaml
+=app-emulation/libvirt-glib-0.1.8::gentoo
+	dev-libs/libxml2:2
+	>=dev-libs/glib-2.38.0:2
+	>=dev-libs/gobject-introspection-0.10.8:=
+=app-emulation/lxc-1.0.6-r1::gentoo
+	sys-apps/util-linux
+	>=sys-kernel/linux-headers-3.2
+=app-emulation/playonlinux-4.2.4::gentoo
+	net-misc/wget
+	net-fs/samba[winbind]
+=app-emulation/qemu-2.2.1-r2::gentoo
+	>=dev-libs/glib-2.0
+	sys-libs/libcap-ng
+	>=sys-cluster/glusterfs-3.4.0
+	sys-cluster/ceph
+	>=app-emulation/spice-0.12.0
+	>=sys-apps/util-linux-2.16.0
+	net-misc/vde
+	~sys-firmware/seabios-1.7.5
+	sys-firmware/seabios
+	app-accessibility/brltty
+	>=media-libs/alsa-lib-1.0.13
+	net-wireless/bluez
+	dev-util/systemtap
+	app-emulation/xen-tools
+	>=sys-kernel/linux-headers-2.6.35
+	>=dev-libs/glib-2.0[static-libs(+)]
+	sys-libs/libcap-ng[static-libs(+)]
+	>=sys-cluster/glusterfs-3.4.0[static-libs(+)]
+	sys-cluster/ceph[static-libs(+)]
+	>=app-emulation/spice-0.12.0[static-libs(+)]
+	>=sys-apps/util-linux-2.16.0[static-libs(+)]
+	net-misc/vde[static-libs(+)]
+	dev-libs/glib[utils]
+=app-emulation/qemu-guest-agent-1.5.2-r2::gentoo
+	>=dev-libs/glib-2.22
+=app-emulation/spice-0.12.5-r1::gentoo
+	>=dev-libs/glib-2.22:2[static-libs(+)?]
+	media-libs/alsa-lib
+	app-emulation/qemu[smartcard]
+=app-emulation/vboxgtk-0.8.2-r1::gentoo
+	>=app-emulation/virtualbox-4.2.0[-headless,python,sdk]
+	>=app-emulation/virtualbox-bin-4.2.0[python]
+	dev-python/pygobject:3
+=app-emulation/virt-manager-0.10.0-r2::gentoo
+	dev-python/gnome-keyring-python
+=app-emulation/virtualbox-4.3.18::gentoo
+	>=dev-libs/libxslt-1.1.19
+	dev-libs/libxml2
+	>=dev-java/java-config-2.2.0
+	>=dev-lang/yasm-0.6.2
+	>=media-libs/alsa-lib-1.0.13
+=app-emulation/virtualbox-bin-4.3.26.98988-r1::gentoo
+	dev-libs/glib
+	dev-libs/libxml2
+=app-emulation/xen-4.2.5-r9::gentoo
+	~app-emulation/xen-tools-4.2.5
+=app-emulation/xen-pvgrub-4.2.5::gentoo
+	>=app-emulation/xen-4.2.1
+=app-emulation/xen-tools-4.2.5-r6::gentoo
+	dev-libs/glib:2
+	sys-firmware/seabios
+	dev-libs/libxml2
+	app-doc/doxygen
+	media-gfx/graphviz
+=app-forensics/openscap-1.0.8-r1::gentoo
+	gnome-base/gconf
+	>=app-arch/rpm-4.9
+	dev-libs/libxml2
+	dev-libs/libxslt
+	app-doc/doxygen
+=app-i18n/ibus-1.5.5::gentoo
+	>=dev-libs/glib-2.26:2
+	sys-apps/dbus[X?]
+	>=gnome-base/gconf-2.12:2
+	>=dev-libs/gobject-introspection-0.6.8
+	dev-python/pyxdg
+	>=dev-python/dbus-python-0.83
+	dev-python/pygobject:2
+	dev-python/pygtk:2
+	dev-python/pygobject:3
+	gnome-base/gconf
+=app-i18n/ibus-anthy-1.5.4::gentoo
+	>=app-i18n/ibus-1.5.0
+	>=dev-python/pygtk-2.15.2
+	dev-libs/gobject-introspection
+=app-i18n/ibus-cangjie-2.1::gentoo
+	>=app-i18n/ibus-1.4.1
+=app-i18n/ibus-handwrite-2.1.4-r1::gentoo
+	>=app-i18n/ibus-1.3.0
+=app-i18n/ibus-libpinyin-1.6.92::gentoo
+	app-i18n/pyzy
+	>=dev-libs/boost-1.39
+=app-i18n/ibus-pinyin-1.5.0-r2::gentoo
+	app-i18n/pyzy
+	>=dev-libs/boost-1.39
+=app-i18n/ibus-sunpinyin-2.0.4_pre20130108-r2::gentoo
+	~app-i18n/sunpinyin-2.0.4_pre20130108:=
+	dev-util/scons
+=app-i18n/ibus-tutcode-1.0.2-r1::gentoo
+	app-i18n/ibus
+=app-i18n/libtomoe-gtk-0.6.0-r3::gentoo
+	>=app-i18n/tomoe-0.6.0
+	>=dev-util/gtk-doc-1.4
+=app-i18n/mozc-1.10.1390.102-r1::gentoo
+	dev-libs/glib:2
+	x11-libs/libxcb
+	>=app-i18n/ibus-1.4.1
+=app-i18n/pology-0.11-r1::gentoo
+	dev-libs/libxslt
+	dev-libs/libxml2
+=app-i18n/pyzy-0.1.0-r1::gentoo
+	dev-libs/glib:2
+	sys-apps/util-linux
+	dev-libs/boost
+	app-doc/doxygen
+=app-i18n/sunpinyin-2.0.4_pre20130108::gentoo
+	dev-util/scons
+=app-i18n/tomoe-0.6.0-r2::gentoo
+	>=dev-libs/glib-2.4
+	dev-vcs/subversion
+	dev-util/gtk-doc
+=app-laptop/samsung-tools-2.1::gentoo
+	dev-python/dbus-python
+	dev-python/notify-python
+	dev-python/pygtk
+=app-misc/anki-2.0.31::gentoo
+	dev-python/PyQt4[X,svg,webkit]
+	>=dev-python/httplib2-0.7.4
+	dev-python/beautifulsoup:python-2
+	dev-python/send2trash
+	>=dev-python/pyaudio-0.2.4
+=app-misc/cwiid-20110107-r2::gentoo
+	net-wireless/bluez
+=app-misc/evemu-2.0.0::gentoo
+	>=dev-libs/libevdev-0.5
+=app-misc/fslint-2.44-r2::gentoo
+	gnome-base/libglade:2.0
+=app-misc/gcalcli-3.2::gentoo
+	dev-python/python-dateutil
+	dev-python/google-api-python-client
+	dev-python/gdata
+	dev-python/vobject
+=app-misc/gnomecatalog-0.3.4.2-r1::gentoo
+	>=gnome-base/libglade-2:2.0
+=app-misc/goobook-1.8::gentoo
+	dev-python/setuptools
+=app-misc/gourmet-0.17.2::gentoo
+	dev-python/gtkspell-python
+=app-misc/gramps-3.4.5-r1::gentoo
+	media-gfx/graphviz
+=app-misc/hivex-1.3.11::gentoo
+	dev-libs/libxml2:2
+=app-misc/ktoblzcheck-1.45::gentoo
+	net-misc/wget
+=app-misc/ranger-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-misc/tracker-1.2.5::gentoo
+	>=dev-libs/glib-2.40:2
+	>=dev-libs/gobject-introspection-0.9.5
+	sys-apps/util-linux
+	>=gnome-extra/evolution-data-server-3.3.5:=
+	>=www-client/firefox-4.0
+	media-libs/libiptcdata
+	>=net-misc/networkmanager-0.8
+	>=mail-client/thunderbird-5.0
+	>=dev-libs/libxml2-2.6
+	media-video/totem
+	>=sys-apps/dbus-1.3.1[X]
+=app-misc/workrave-1.10.1::gentoo
+	>=dev-libs/glib-2.28.0:2
+	>=sys-apps/dbus-1.2
+	dev-python/cheetah
+=app-misc/yworklog-0.0.7::gentoo
+	dev-python/sqlalchemy
+=app-mobilephone/gammu-1.33.0-r1::gentoo
+	dev-libs/glib:2=
+	net-wireless/bluez:=
+	dev-db/postgresql:=[server]
+=app-mobilephone/obexftp-0.23-r2::gentoo
+	net-wireless/bluez
+=app-mobilephone/wammu-0.36-r1::gentoo
+	>=app-mobilephone/gammu-1.25.0[python]
+=app-office/dia-0.97.3_pre20140417-r1::gentoo
+	>=dev-libs/glib-2:2
+	dev-libs/libxml2
+	dev-libs/libxslt
+	>=dev-python/pygtk-2
+=app-office/gnucash-2.6.5::gentoo
+	>=app-crypt/libsecret-0.18
+	>=dev-libs/glib-2.32.0:2
+	>=dev-libs/libxml2-2.5.10:2
+	dev-libs/libxslt
+	>=net-libs/webkit-gtk-1.2:2
+=app-office/gnumeric-1.12.21::gentoo
+	>=dev-libs/glib-2.38.0:2
+	>=dev-libs/libxml2-2.4.12:2
+	>=dev-libs/gobject-introspection-1:=
+	gnome-extra/libgda:5[gtk]
+=app-office/gtimelog-0.8.1::gentoo
+	dev-libs/gobject-introspection
+	dev-python/dbus-python
+	dev-python/pygobject:3
+	gnome-base/gnome-desktop:2
+=app-office/hamster-time-tracker-9999::gentoo
+	dev-python/gconf-python
+	gnome-base/gconf[introspection]
+	dev-python/pyxdg
+	>=dev-vcs/git-1.8.2.1
+=app-office/libreoffice-4.4.3.2::gentoo
+	>=dev-libs/boost-1.55:=
+	media-gfx/graphite2
+	>=media-libs/harfbuzz-0.9.18:=[icu(+)]
+	net-wireless/bluez
+	net-print/cups
+	gnome-extra/evolution-data-server
+	gnome-base/gconf:2
+	>=dev-db/postgresql-9.0:*[kerberos]
+	dev-libs/glib:2
+	>=net-libs/telepathy-glib-0.18.0
+	media-fonts/liberation-fonts
+	>=dev-java/java-config-2.2.0
+	>=dev-libs/libxml2-2.7.8
+	dev-libs/libxslt
+	>=app-doc/doxygen-1.8.4
+=app-office/libreoffice-bin-4.4.3.2::gentoo
+	dev-libs/boost:0/1.55.0
+	=media-gfx/graphite2-1.2*
+	media-libs/harfbuzz:0/0.9.18[icu]
+	>=dev-libs/boost-1.55:=
+	media-gfx/graphite2
+	>=media-libs/harfbuzz-0.9.18:=[icu(+)]
+	net-print/cups
+	gnome-extra/evolution-data-server
+	gnome-base/gconf:2
+	media-fonts/liberation-fonts
+	>=dev-java/java-config-2.2.0
+	dev-util/xdelta:3
+=app-office/lyx-2.0.8.1::gentoo
+	>=dev-libs/boost-1.34
+	net-print/cups
+	app-text/sgmltools-lite
+	media-gfx/graphviz
+	app-office/dia
+	media-gfx/inkscape
+	app-office/gnumeric
+=app-office/openerp-7.0.20140125::gentoo
+	dev-db/postgresql[server]
+	media-gfx/pydot
+=app-office/planner-0.14.6_p20130520::gentoo
+	>=dev-libs/glib-2.6:2
+	>=gnome-base/libglade-2.4:2.0
+	>=gnome-base/gconf-2.6:2
+	>=dev-libs/libxml2-2.6.27:2
+	>=dev-libs/libxslt-1.1.23
+	>=gnome-extra/evolution-data-server-3.6:=
+=app-office/pybliographer-1.2.15-r1::gentoo
+	dev-libs/glib:2
+	app-text/gnome-doc-utils
+=app-office/scribus-1.4.4-r1::gentoo
+	dev-libs/boost
+	dev-libs/libxml2
+	net-print/cups
+=app-office/taskcoach-1.3.40::gentoo
+	>=dev-python/twisted-core-10.0
+=app-pda/libplist-1.11::gentoo
+	>=dev-libs/libxml2-2.7.8
+=app-pda/pilot-link-0.12.5-r1::gentoo
+	net-wireless/bluez
+	>=dev-java/java-config-2.2.0
+=app-portage/diffmask-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-portage/elogviewer-0.6.2-r3::gentoo
+	>=sys-apps/portage-2.1
+	>=dev-python/pygtk-2.0
+=app-portage/esearch-1.3-r1::gentoo
+	sys-apps/portage
+=app-portage/etc-proposals-1.4.3-r3::gentoo
+	>=dev-python/pygtk-2.10
+	>=dev-python/PyQt4-4.1.1[X]
+=app-portage/euscan-9999::gentoo
+	dev-vcs/git
+=app-portage/flaggie-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-portage/g-sorcery-9999::gentoo
+	dev-vcs/git
+=app-portage/gentoolkit-0.3.0.8-r2::gentoo
+	sys-apps/portage
+=app-portage/gentoolkit-dev-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-portage/gentoopm-0.2.6::gentoo
+	sys-apps/pkgcore
+	>=sys-apps/portage-2.1.10.3
+	>=sys-apps/paludis-0.64.2[python-bindings]
+	dev-python/epydoc
+=app-portage/gpyutils-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-portage/gs-elpa-9999::gentoo
+	dev-vcs/git
+=app-portage/gs-pypi-9999::gentoo
+	dev-vcs/git
+=app-portage/install-mask-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-portage/layman-2.0.0-r1::gentoo
+	dev-vcs/bzr
+	dev-vcs/git
+	dev-vcs/mercurial
+	>=dev-vcs/subversion-1.5.4[http]
+	>=dev-vcs/subversion-1.5.4[webdav-neon]
+	>=dev-vcs/subversion-1.5.4[webdav-serf]
+	dev-vcs/subversion
+=app-portage/metagen-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-portage/mirrorselect-9999::gentoo
+	dev-vcs/git
+=app-portage/overlint-0.5.2::gentoo
+	sys-apps/portage
+=app-portage/portpeek-2.0.25::gentoo
+	>=app-portage/gentoolkit-0.3.0.6-r3
+	>=sys-apps/portage-2.1.11.9
+=app-portage/smart-live-rebuild-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=app-portage/tatt-0.2::gentoo
+	app-portage/gentoolkit
+	www-client/pybugz
+=app-text/asciidoc-8.6.8-r1::gentoo
+	dev-libs/libxslt
+	media-gfx/graphviz
+	media-sound/lilypond
+=app-text/bibus-1.5.2-r1::gentoo
+	app-office/libreoffice
+=app-text/calibre-1.48-r1::gentoo
+	media-fonts/liberation-fonts
+=app-text/fbless-9999::gentoo
+	dev-vcs/git
+=app-text/gnome-doc-utils-0.20.10-r1::gentoo
+	>=dev-libs/libxslt-1.1.8
+=app-text/gtranslator-2.91.6::gentoo
+	>=dev-libs/glib-2.32:2
+	>=dev-libs/libxml2-2.4.12:2
+	>=dev-libs/libpeas-1.2[gtk]
+	gnome-extra/libgda:5=
+=app-text/nfoview-1.15.1::gentoo
+	dev-python/pygobject:3
+=app-text/openlp-2.0.4::gentoo
+	dev-python/pyodbc
+=app-text/paperwork-0.2.3::gentoo
+	dev-util/glade[introspection,python]
+=app-text/pdf2djvu-0.7.19::gentoo
+	dev-libs/libxml2:=
+	dev-libs/libxslt:=
+=app-text/pdfshuffler-0.6.0-r1::gentoo
+	dev-python/PyPDF2
+	dev-python/pyPdf
+	dev-python/python-poppler
+=app-text/txt2tags-2.6-r1::gentoo
+	app-editors/vim
+	app-editors/gvim
+=app-text/xiphos-3.1.5::gentoo
+	>=dev-libs/glib-2
+	dev-libs/libxml2
+	gnome-base/gconf
+	net-libs/webkit-gtk:3
+	app-text/gnome-doc-utils
+	dev-libs/libxslt
+=app-vim/automatictexplugin-12.5-r1::gentoo
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/conque-2.3-r1::gentoo
+	>=app-editors/vim-7.1
+	>=app-editors/gvim-7.1
+=app-vim/easytags-3.4.3::gentoo
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/gundo-2.5.0::gentoo
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/notes-0.23.4::gentoo
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/pyclewn-2.0.1::gentoo
+	app-arch/vimball
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/slimv-0.9.12-r1::gentoo
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/splice-1.0.1::gentoo
+	app-editors/vim[python]
+	app-editors/gvim[python]
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/vim-latex-1.8.23.20130116::gentoo
+	app-editors/vim[python?]
+	app-editors/gvim[python?]
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/vimcalc-1.3-r2::gentoo
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/vimpress-3.2.0::gentoo
+	dev-python/markdown
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=app-vim/youcompleteme-20130910::gentoo
+	>=sys-devel/clang-3.3
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
+=dev-cpp/gmock-1.7.0-r1::gentoo
+	=dev-cpp/gtest-1.7.0*[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+=dev-cpp/icnc-1.0.100::gentoo
+	app-doc/doxygen
+=dev-cpp/pficommon-1.3.1.0::gentoo
+	dev-db/postgresql
+	dev-cpp/gtest
+=dev-db/barman-1.4.0::gentoo
+	dev-db/postgresql[server]
+=dev-db/hyperdex-1.6.0-r1::gentoo
+	dev-libs/libmacaroons
+=dev-db/mysql-workbench-6.0.9::gentoo
+	dev-libs/glib:2
+	gnome-base/libglade:2.0
+	dev-libs/boost
+	>=dev-cpp/ctemplate-0.95
+	>=dev-libs/libxml2-2.6.2:2
+	gnome-base/libgnome-keyring
+	dev-python/pexpect
+	>=dev-python/paramiko-1.7.4
+=dev-db/pgxnclient-1.2-r1::gentoo
+	>=dev-db/postgresql-9.1[server]
+=dev-db/postgresql-9.0.19::gentoo
+	dev-libs/libxml2
+	dev-libs/libxslt
+=dev-db/tokumx-1.5.0-r1::gentoo
+	>=dev-libs/boost-1.50[threads(+)]
+=dev-embedded/bitbake-1.17.0::gentoo
+	dev-python/ply
+	dev-python/progressbar
+	dev-libs/libxslt
+=dev-games/cegui-0.8.4::gentoo
+	dev-libs/libxml2
+	app-doc/doxygen
+=dev-java/antlr-2.7.7-r5::gentoo
+	>=dev-java/java-config-2.2.0
+=dev-java/java-config-2.2.0::gentoo
+	sys-apps/portage
+=dev-java/java-gnome-4.0.20::gentoo
+	>=dev-libs/glib-2.22
+	>=gnome-base/libglade-2.6.4
+	>=gnome-base/gnome-desktop-2.22.0:2
+	>=dev-java/java-config-2.2.0
+=dev-lang/gdl-0.9.4::gentoo
+	sci-libs/plplot:0=[-dynamic]
+	sci-libs/grib_api:0=
+	>=dev-java/antlr-2.7.7-r5:0[cxx,java,script]
+=dev-lang/ispc-1.8.1::gentoo
+	>=sys-devel/clang-3.0
+	>=sys-devel/llvm-3.0
+=dev-lang/python-exec-2.9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-lang/rust-1.0.0::gentoo
+	sys-devel/clang
+	>=sys-devel/llvm-3.6.0[multitarget(-)]
+=dev-lang/yasm-9999::gentoo
+	dev-vcs/git
+=dev-libs/beecrypt-4.2.1-r3::gentoo
+	>=dev-java/java-config-2.2.0
+	app-doc/doxygen
+=dev-libs/boost-1.55.0-r2::gentoo
+	=dev-util/boost-build-1.55*
+=dev-libs/botan-1.10.5::gentoo
+	dev-python/sphinx
+=dev-libs/btparser-0.24::gentoo
+	>=dev-libs/glib-2.21:2
+=dev-libs/dee-1.2.7::gentoo
+	dev-libs/glib:2
+	dev-libs/gobject-introspection
+	dev-util/gtk-doc
+=dev-libs/glib-2.40.2::gentoo
+	>=sys-libs/libselinux-2.2.2-r5[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/libxslt-1.0
+	>=dev-util/systemtap-1.3
+	sys-devel/gdb
+	>=sys-apps/dbus-1.2.14
+=dev-libs/gobject-introspection-1.40.0-r2::gentoo
+	>=dev-libs/glib-2.40:2
+	dev-python/mako
+=dev-libs/hammer-9999::gentoo
+	dev-util/scons
+	>=dev-libs/glib-2.29
+	dev-vcs/git
+=dev-libs/jsoncpp-0.5.0-r1::gentoo
+	app-doc/doxygen
+=dev-libs/keybinder-0.3.0-r201::gentoo
+	dev-libs/gobject-introspection
+=dev-libs/libRocket-1.2.1_p20130110::gentoo
+	dev-libs/boost[python]
+=dev-libs/libclc-0.0.1_pre20140101-r1::gentoo
+	>=sys-devel/clang-3.4
+	>=sys-devel/llvm-3.4
+	<sys-devel/clang-3.6
+	<sys-devel/llvm-3.6
+=dev-libs/libdbusmenu-12.10.2-r1::gentoo
+	>=dev-libs/glib-2.32
+	dev-libs/libxml2
+	>=dev-libs/gobject-introspection-1
+	app-text/gnome-doc-utils
+=dev-libs/libgit2-glib-0.0.12::gentoo
+	>=dev-libs/glib-2.28.0:2
+	>=dev-libs/gobject-introspection-0.10.1
+=dev-libs/libhid-0.2.16-r4::gentoo
+	app-doc/doxygen
+=dev-libs/libixion-0.9.0::gentoo
+	dev-libs/boost:=
+=dev-libs/libmateweather-1.8.0::gentoo
+	>=dev-libs/libxml2-2.6:2
+	>=net-libs/libsoup-2.34:2.4
+=dev-libs/libnatspec-0.2.6-r1::gentoo
+	app-doc/doxygen
+=dev-libs/libnl-3.2.9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-libs/libpeas-1.12.1-r1::gentoo
+	>=dev-libs/glib-2.32:2
+	>=dev-libs/gobject-introspection-1.39
+	>=dev-util/glade-3.9.1:3.10
+=dev-libs/libpqxx-4.0.1::gentoo
+	dev-db/postgresql
+=dev-libs/libpwquality-1.2.3::gentoo
+	>=sys-libs/cracklib-2.8:=
+=dev-libs/libqzeitgeist-0.8.0::gentoo
+	gnome-extra/zeitgeist
+=dev-libs/libreport-2.0.13-r1::gentoo
+	>=dev-libs/btparser-0.18:=
+	>=dev-libs/glib-2.21:2
+	dev-libs/libxml2:2
+	dev-libs/newt:=
+	net-libs/libproxy:=
+	sys-apps/dbus
+	gnome-base/gnome-keyring
+	app-text/asciidoc
+=dev-libs/libxslt-1.1.28-r1::gentoo
+	>=dev-libs/libxml2-2.8.0:2
+=dev-libs/mongo-c-driver-0.7.1-r1::gentoo
+	dev-python/sphinx
+=dev-libs/protobuf-2.5.0-r2::gentoo
+	>=dev-java/java-config-2.2.0
+=dev-libs/qrosspython-0.3.1::gentoo
+	dev-python/sip
+=dev-libs/serd-0.18.2::gentoo
+	app-doc/doxygen
+=dev-libs/sord-0.12.0::gentoo
+	>=dev-libs/serd-0.14.0
+	app-doc/doxygen
+=dev-libs/urdfdom-0.3.0::gentoo
+	dev-libs/boost:=[threads]
+=dev-libs/xapian-bindings-1.2.19::gentoo
+	>=dev-java/java-config-2.2.0
+=dev-python/CoverageTestRunner-1.9-r1::gentoo
+	dev-python/coverage
+=dev-python/PyQt5-5.4.1::gentoo
+	>=dev-qt/qtwebkit-5.3.2:5[printsupport]
+=dev-python/SaltTesting-2015.2.16::gentoo
+	>=dev-python/requests-2.4.2
+=dev-python/anyvc-0.3.7.1-r1::gentoo
+	dev-vcs/bzr
+	dev-vcs/mercurial
+	dev-python/subvertpy
+=dev-python/astropy-0.3.1::gentoo
+	dev-python/matplotlib
+	dev-python/sphinx
+	media-gfx/graphviz
+	dev-libs/libxml2
+=dev-python/atpy-0.9.7::gentoo
+	dev-python/pygresql
+=dev-python/audioread-1.0.1::gentoo
+	dev-python/pymad
+=dev-python/autopep8-9999::gentoo
+	dev-vcs/git
+=dev-python/babelfish-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/bokeh-0.7.1::gentoo
+	>=net-libs/nodejs-0.8.28[npm]
+=dev-python/cached-property-0.1.5::gentoo
+	dev-python/pytest
+=dev-python/cangjie-1.1::gentoo
+	dev-python/cython
+	>=dev-python/cython-0.14
+=dev-python/cgkit-2.0.0::gentoo
+	dev-util/scons
+=dev-python/cliapp-1.20130808::gentoo
+	dev-python/CoverageTestRunner
+=dev-python/click-2.0::gentoo
+	dev-python/colorama
+=dev-python/compizconfig-python-0.8.4-r5::gentoo
+	>=dev-libs/glib-2.6
+=dev-python/configshell-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/cvxopt-1.1.6-r1::gentoo
+	dev-python/sphinx
+=dev-python/cython-0.19.1-r1::gentoo
+	dev-python/sphinx
+=dev-python/dbus-python-1.2.0-r1::gentoo
+	>=sys-apps/dbus-1.6:=
+=dev-python/django-1.4.20::gentoo
+	>=app-admin/webapp-config-1.50.15
+=dev-python/django-international-0.0.3::gentoo
+	dev-python/django
+=dev-python/django-piston-9999::gentoo
+	dev-vcs/mercurial
+=dev-python/drpython-3.11.4::gentoo
+	>=dev-python/wxpython-2.6
+=dev-python/egg-python-2.25.3-r1::gentoo
+	~dev-python/gnome-python-extras-base-2.25.3
+=dev-python/elib-intl-0_pre20110711::gentoo
+	dev-python/setuptools
+=dev-python/envisage-4.3.0-r1::gentoo
+	dev-python/apptools
+=dev-python/enzyme-9999::gentoo
+	dev-vcs/git
+=dev-python/fixtures-0.3.14-r2::gentoo
+	>=dev-python/testtools-0.9.22
+=dev-python/flask-9999::gentoo
+	dev-vcs/git
+=dev-python/gconf-python-2.28.1-r1::gentoo
+	>=gnome-base/gconf-2.11.1
+	~dev-python/gnome-python-base-2.28.1
+=dev-python/git-python-0.3.6::gentoo
+	dev-vcs/git
+=dev-python/gitdb-0.6.3::gentoo
+	dev-vcs/git
+=dev-python/gnome-keyring-python-2.32.0-r1::gentoo
+	>=gnome-base/gnome-keyring-0.5.0
+	~dev-python/gnome-python-desktop-base-2.32.0
+=dev-python/gnome-python-base-2.28.1-r1::gentoo
+	>=dev-libs/glib-2.6:2
+=dev-python/gnome-python-desktop-base-2.32.0-r1::gentoo
+	>=dev-libs/glib-2.6.0:2
+=dev-python/gnome-python-extras-base-2.25.3-r1::gentoo
+	>=dev-libs/glib-2.6:2
+=dev-python/gnome-vfs-python-2.28.1-r1::gentoo
+	~dev-python/gnome-python-base-2.28.1
+=dev-python/graph-tool-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/gst-python-0.10.22-r1::gentoo
+	dev-libs/libxml2
+=dev-python/gtkspell-python-2.25.3-r1::gentoo
+	~dev-python/gnome-python-extras-base-2.25.3
+=dev-python/guessit-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/hglib-1.0::gentoo
+	>=dev-vcs/mercurial-2.4.2
+=dev-python/hgtools-2.0.2::gentoo
+	dev-vcs/mercurial
+=dev-python/hp3parclient-2.0.0::gentoo
+	>=dev-python/httplib2-0.6.0
+=dev-python/http-parser-0.7.12::gentoo
+	dev-python/cython
+=dev-python/httpretty-0.8.0::gentoo
+	dev-python/ipdb
+=dev-python/ipdbplugin-1.4::gentoo
+	dev-python/ipdb
+	dev-python/nose
+=dev-python/ipython-2.4.1::gentoo
+	>=net-libs/nodejs-0.9.12
+=dev-python/jedi-0.8.1-r2::gentoo
+	dev-python/sphinx
+=dev-python/jsonrpclib-0_pre20110820-r1::gentoo
+	dev-python/simplejson
+=dev-python/kaa-base-0.6.0-r1::gentoo
+	>=dev-libs/glib-2.4.0
+	net-dns/avahi[python]
+=dev-python/kaa-imlib2-0.2.3-r2::gentoo
+	dev-libs/libxml2[python]
+=dev-python/larch-1.20130808::gentoo
+	dev-python/cliapp
+	dev-python/tracing
+	dev-python/ttystatus
+	dev-python/CoverageTestRunner
+	dev-util/cmdtest
+=dev-python/ldap3-0.9.8.2::gentoo
+	>=dev-python/pyasn1-0.1.7
+=dev-python/libbonobo-python-2.28.1-r1::gentoo
+	~dev-python/gnome-python-base-2.28.1
+=dev-python/libgnome-python-2.28.1-r1::gentoo
+	~dev-python/gnome-python-base-2.28.1
+=dev-python/libgnomecanvas-python-2.28.1-r1::gentoo
+	~dev-python/gnome-python-base-2.28.1
+=dev-python/librsvg-python-2.32.0-r1::gentoo
+	~dev-python/gnome-python-desktop-base-2.32.0
+=dev-python/libvirt-python-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/libwnck-python-2.32.0-r1::gentoo
+	~dev-python/gnome-python-desktop-base-2.32.0
+=dev-python/llvmlite-0.2.0::gentoo
+	>=sys-devel/llvm-3.5:=[multitarget]
+=dev-python/llvmpy-0.12.2::gentoo
+	=sys-devel/llvm-3.3*:=[multitarget]
+	dev-python/sphinx
+=dev-python/lxml-3.3.5::gentoo
+	>=dev-libs/libxml2-2.7.2
+	>=dev-libs/libxslt-1.1.15
+=dev-python/matplotlib-1.4.2::gentoo
+	dev-libs/glib:2=
+	media-gfx/graphviz[cairo]
+=dev-python/milk-0.5.1::gentoo
+	dev-python/numpy
+	dev-python/setuptools
+	dev-python/milksets
+=dev-python/mpmath-0.18::gentoo
+	dev-python/gmpy
+	dev-python/matplotlib
+=dev-python/mygpoclient-1.7-r1::gentoo
+	dev-python/simplejson
+	dev-python/minimock
+=dev-python/nautilus-python-1.1-r2::gentoo
+	dev-libs/libxslt
+	>=dev-util/gtk-doc-1.9
+=dev-python/newt_syrup-0.1.2-r1::gentoo
+	>=dev-libs/newt-0.52.11
+=dev-python/nose-9999::gentoo
+	>=dev-python/sphinx-0.6
+	dev-python/twisted-core
+	dev-vcs/git
+=dev-python/nose-testconfig-0.9::gentoo
+	dev-python/nose
+=dev-python/objgraph-1.7.2::gentoo
+	media-gfx/graphviz
+=dev-python/odo-0.3.2::gentoo
+	dev-python/docutils
+=dev-python/oosuite-0.45::gentoo
+	sci-libs/nlopt[python]
+=dev-python/openpyxl-9999::gentoo
+	dev-vcs/mercurial
+=dev-python/os-diskconfig-python-novaclient-ext-9999::gentoo
+	dev-vcs/git
+=dev-python/oslo-db-1.0.2::gentoo
+	dev-python/mysql-python
+	dev-python/psycopg:2
+=dev-python/oslo-messaging-1.9.0::gentoo
+	>=dev-python/oslo-context-0.2.0
+	<dev-python/oslo-context-0.3.0
+=dev-python/pandas-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/paramiko-1.12.2::gentoo
+	dev-python/ecdsa
+=dev-python/patsy-0.2.0::gentoo
+	dev-python/ipython
+	dev-python/matplotlib
+	dev-python/sphinx
+=dev-python/pillow-2.5.3-r1::gentoo
+	dev-python/sphinx
+	dev-python/sphinx-better-theme
+=dev-python/pivy-9999::gentoo
+	dev-vcs/mercurial
+=dev-python/polib-1.0.4::gentoo
+	dev-python/sphinx
+=dev-python/psycopg-1.1.21-r1::gentoo
+	dev-db/postgresql
+=dev-python/pyGPG-9999::gentoo
+	dev-vcs/git
+=dev-python/pyalsa-1.0.26-r1::gentoo
+	media-libs/alsa-lib
+=dev-python/pyalsaaudio-0.7-r1::gentoo
+	media-libs/alsa-lib
+	>=dev-python/sphinx-0.6
+=dev-python/pyatspi-2.12.0::gentoo
+	>=sys-apps/dbus-1
+=dev-python/pybluez-0.18-r1::gentoo
+	net-wireless/bluez
+=dev-python/pycadf-0.8.0::gentoo
+	>=dev-python/oslo-messaging-1.6.0
+	>=dev-python/oslotest-1.2.0
+=dev-python/pycairo-1.10.0-r4::gentoo
+	x11-libs/xpyb
+=dev-python/pycallgraph-1.0.1::gentoo
+	media-gfx/graphviz
+=dev-python/pychroot-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/pycmd-1.1::gentoo
+	>=dev-python/py-1.4.9
+=dev-python/pycollada-0.4::gentoo
+	dev-python/numpy
+	dev-python/lxml
+	>=dev-python/python-dateutil-2.0
+	dev-python/sphinx
+	dev-python/python-dateutil
+=dev-python/pycrypto-2.6.1::gentoo
+	dev-python/docutils
+	>=dev-python/epydoc-3
+=dev-python/pycuda-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/pycups-1.9.68::gentoo
+	net-print/cups
+=dev-python/pyds-0.7.3-r1::gentoo
+	app-text/silvercity
+=dev-python/pygal-1.5.1::gentoo
+	dev-python/lxml
+=dev-python/pygene-0.2.1-r1::gentoo
+	>=dev-python/pyfltk-1.1.2
+	>=dev-python/epydoc-2.1-r2
+=dev-python/pyglet-1.1.4-r2::gentoo
+	media-libs/alsa-lib[alisp]
+=dev-python/pygobject-2.28.6-r55::gentoo
+	>=dev-libs/glib-2.24.0:2
+	dev-lang/python-exec:2
+=dev-python/pygoocanvas-0.14.1-r1::gentoo
+	>=dev-util/gtk-doc-1.4
+=dev-python/pygraphviz-1.2::gentoo
+	media-gfx/graphviz
+=dev-python/pygresql-4.1.1::gentoo
+	dev-db/postgresql:9.0
+	dev-db/postgresql:9.1
+	dev-db/postgresql:9.2
+=dev-python/pygtk-2.24.0-r4::gentoo
+	>=dev-libs/glib-2.8:2
+	>=gnome-base/libglade-2.5:2.0
+	dev-libs/libxslt
+=dev-python/pygtkglext-1.1.0-r1::gentoo
+	>=dev-libs/glib-2.0:2
+=dev-python/pygtkhelpers-0.4.3-r1::gentoo
+	dev-python/sphinx
+=dev-python/pygtksourceview-2.10.1-r1::gentoo
+	dev-libs/libxslt
+=dev-python/pyh2o-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/pyinsane-1.3.8::gentoo
+	virtual/python-imaging
+=dev-python/pykerberos-1.1.5::gentoo
+	app-crypt/mit-krb5
+=dev-python/pymongo-2.6.3::gentoo
+	dev-python/pykerberos
+=dev-python/pymountboot-0.2.1::gentoo
+	>=sys-apps/util-linux-2.20
+=dev-python/pyndex-0.3.2a-r1::gentoo
+	>=dev-db/metakit-2.4.9.2[python]
+=dev-python/pynotifier-0.7.0-r2::gentoo
+	dev-python/twisted-core
+=dev-python/pyocr-0.2.4::gentoo
+	virtual/python-imaging
+=dev-python/pyoembed-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/pyopencl-9999::gentoo
+	dev-vcs/git
+=dev-python/pyparted-3.10::gentoo
+	dev-python/decorator
+=dev-python/pypgsql-2.5.1-r1::gentoo
+	dev-db/postgresql
+=dev-python/pyplusplus-9999::gentoo
+	dev-vcs/subversion[http]
+	dev-vcs/subversion[webdav-neon]
+	dev-vcs/subversion[webdav-serf]
+=dev-python/pypy-2.3.1-r2::gentoo
+	dev-python/sphinx
+=dev-python/pypy-bin-2.3.1-r2::gentoo
+	dev-python/sphinx
+=dev-python/pyscard-1.6.16::gentoo
+	sys-apps/pcsc-lite
+=dev-python/pysrt-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/pysvn-1.7.9::gentoo
+	<dev-vcs/subversion-1.9
+=dev-python/pysyck-0.61.2-r1::gentoo
+	>=dev-libs/syck-0.55
+=dev-python/pytest-timeout-0.4::gentoo
+	dev-python/pytest
+=dev-python/python-bibtex-1.2.7-r1::gentoo
+	dev-libs/glib:2
+=dev-python/python-caja-1.8.0::gentoo
+	dev-libs/glib:2
+=dev-python/python-digest-1.7-r1::gentoo
+	dev-python/setuptools
+=dev-python/python-gtkmvc-1.99.1::gentoo
+	>=dev-python/pygtk-2.24.0
+=dev-python/python-ldap-9999::gentoo
+	dev-vcs/git
+=dev-python/python-linux-procfs-9999::gentoo
+	dev-vcs/git
+=dev-python/python-magic-0.4.6-r1::gentoo
+	sys-apps/file[-python]
+=dev-python/python-musicbrainz-0.7.4-r1::gentoo
+	dev-python/epydoc
+=dev-python/python-openid-2.2.5-r1::gentoo
+	dev-python/twill
+	dev-python/pycurl
+=dev-python/python-openstackclient-1.0.4::gentoo
+	>=dev-python/python-glanceclient-0.15.0
+	<dev-python/python-glanceclient-0.18.0
+	>=dev-python/python-keystoneclient-1.1.0
+	<dev-python/python-keystoneclient-1.4.0
+	>=dev-python/python-novaclient-2.22.0
+	<dev-python/python-novaclient-2.24.0
+	>=dev-python/python-cinderclient-1.1.0
+	<dev-python/python-cinderclient-1.2.0
+	>=dev-python/python-neutronclient-2.3.11
+	<dev-python/python-neutronclient-2.5.0
+	>=dev-python/stevedore-1.3.0
+	<dev-python/stevedore-1.4.0
+=dev-python/python-stdnum-0.9::gentoo
+	dev-python/setuptools
+	dev-python/suds
+=dev-python/python-termstyle-0.1.10::gentoo
+	dev-python/setuptools
+=dev-python/pytools-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/pywavelets-0.2.2-r1::gentoo
+	dev-python/sphinx
+=dev-python/pywcs-1.11-r1::gentoo
+	virtual/pyfits
+=dev-python/pywebkitgtk-1.1.8-r1::gentoo
+	dev-libs/libxslt
+	>=net-libs/webkit-gtk-1.1.15:2
+=dev-python/pyxattr-9999::gentoo
+	dev-vcs/git
+=dev-python/pyxenstore-0.0.2::gentoo
+	app-emulation/xen-tools
+=dev-python/rackspace-auth-openstack-9999::gentoo
+	dev-vcs/git
+=dev-python/rdflib-3.2.3-r1::gentoo
+	dev-python/bsddb3
+	dev-libs/redland-bindings[python]
+	dev-python/setuptools
+=dev-python/remoteobjects-99999999::gentoo
+	dev-vcs/git
+=dev-python/reportlab-2.6::gentoo
+	virtual/python-imaging
+=dev-python/requests-2.6.0::gentoo
+	app-misc/ca-certificates
+=dev-python/robotframework-selenium2library-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/rst2pdf-0.93-r2::gentoo
+	media-gfx/svg2rlg
+=dev-python/rtslib-9999::gentoo
+	dev-vcs/git
+=dev-python/runsnakerun-2.0.4::gentoo
+	dev-python/squaremap
+	dev-python/wxpython
+=dev-python/scoop-0.7.0-r1::gentoo
+	>=dev-python/greenlet-0.3.4
+	>=dev-python/pyzmq-13.1.0
+	dev-python/setuptools
+=dev-python/sepolgen-1.2.1-r1::gentoo
+	>=sys-libs/libselinux-2.0[python]
+	app-admin/setools[python]
+=dev-python/setuptools-9999::gentoo
+	dev-vcs/mercurial
+=dev-python/setuptools_hg-0.4-r1::gentoo
+	dev-vcs/mercurial
+=dev-python/shiboken-1.2.2::gentoo
+	dev-libs/libxml2
+	dev-libs/libxslt
+=dev-python/simpleeval-0.8.5::gentoo
+	dev-python/setuptools
+=dev-python/six-1.3.0::gentoo
+	dev-python/sphinx
+=dev-python/snakeoil-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-python/socketpool-0.5.2::gentoo
+	dev-python/gevent
+=dev-python/south-0.8.4::gentoo
+	dev-python/django[sqlite]
+=dev-python/soya-0.14-r1::gentoo
+	dev-python/editobj
+=dev-python/sqlalchemy-0.7.10::gentoo
+	dev-python/pymssql
+	dev-python/mysql-python
+	>=dev-python/psycopg-2
+=dev-python/sqlite3dbm-0.1.4-r1::gentoo
+	dev-python/sphinx
+=dev-python/sqlitecachec-1.1.4-r1::gentoo
+	dev-libs/glib:2
+	dev-libs/libxml2
+=dev-python/squaremap-1.0.3::gentoo
+	<dev-python/wxpython-3
+=dev-python/ssl-fetch-9999::gentoo
+	dev-vcs/git
+=dev-python/statsmodels-0.5.0::gentoo
+	dev-python/matplotlib
+	dev-python/sphinx
+	dev-python/ipython
+=dev-python/stevedore-1.4.0-r1::gentoo
+	>=dev-python/coverage-3.6
+=dev-python/subvertpy-0.9.1::gentoo
+	>=dev-vcs/subversion-1.4
+	dev-python/testtools
+=dev-python/tagpy-2013.1::gentoo
+	>=dev-libs/boost-1.49.0[python]
+=dev-python/thunarx-python-0.3.0-r1::gentoo
+	dev-libs/glib:2
+=dev-python/transmissionrpc-9999::gentoo
+	dev-vcs/mercurial
+=dev-python/treq-0.2.1::gentoo
+	dev-python/sphinx
+=dev-python/ttfquery-1.0.5-r1::gentoo
+	dev-python/fonttools
+	dev-python/numpy
+=dev-python/turbolift-2.0.5::gentoo
+	dev-python/setuptools
+=dev-python/tvdb_api-1.9::gentoo
+	dev-python/setuptools
+=dev-python/txAMQP-0.6.2::gentoo
+	dev-python/twisted-core
+=dev-python/urwid-1.2.2::gentoo
+	dev-python/twisted-core
+=dev-python/vatnumber-1.1::gentoo
+	dev-python/suds
+=dev-python/watchdog-0.8.2::gentoo
+	dev-python/pytest
+	dev-python/pytest-cov
+	>=dev-python/pytest-timeout-0.3
+=dev-python/weasyprint-0.21-r1::gentoo
+	media-gfx/cairosvg
+=dev-python/wehjit-0.2.2-r1::gentoo
+	dev-python/genshi
+=dev-python/ws4py-9999::gentoo
+	dev-vcs/git
+=dev-python/wxpython-2.8.12.1-r2::gentoo
+	dev-libs/glib:2
+=dev-python/xcffib-0.1.10::gentoo
+	x11-libs/libxcb
+=dev-python/yolk-0.4.3-r1::gentoo
+	dev-python/setuptools
+	dev-python/yolk-portage
+=dev-python/zsi-2.1_alpha1-r1::gentoo
+	dev-python/twisted-core
+	dev-python/twisted-web
+=dev-qt/qtwebkit-5.4.1::gentoo
+	dev-libs/libxml2:2
+	dev-libs/libxslt
+	dev-libs/glib:2
+=dev-tcltk/snack-2.2.10-r6::gentoo
+	media-libs/alsa-lib
+=dev-tex/dot2tex-2.8.7-r1::gentoo
+	media-gfx/graphviz
+=dev-util/a8-0.11-r2::gentoo
+	app-editors/gvim
+	app-editors/vim
+=dev-util/anjuta-3.14.1::gentoo
+	>=dev-libs/glib-2.34:2
+	>=dev-libs/libxml2-2.4.23
+	>=gnome-extra/libgda-5:5=
+	>=dev-util/devhelp-3.7.4:=
+	>=dev-util/glade-3.12:3.10=
+	>=dev-libs/gobject-introspection-0.9.5
+	>=dev-vcs/subversion-1.8:=
+	app-admin/packagekit-base
+=dev-util/apitrace-4.0::gentoo
+	>=media-libs/mesa-9.1.6[egl?,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=media-libs/mesa-8.0[gles1,gles2]
+=dev-util/buildbot-9999::gentoo
+	dev-vcs/git
+=dev-util/buildbot-slave-9999::gentoo
+	dev-vcs/git
+=dev-util/catalyst-2.0.16::gentoo
+	app-text/asciidoc
+=dev-util/cdiff-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-util/cligh-9999::gentoo
+	dev-vcs/git
+=dev-util/cmdtest-0.6::gentoo
+	dev-python/cliapp
+	dev-python/ttystatus
+=dev-util/coccigrep-1.12::gentoo
+	dev-util/coccinelle[python]
+	app-editors/vim
+	app-editors/gvim
+	dev-python/sphinx
+=dev-util/coccinelle-1.0.0_rc17::gentoo
+	app-editors/vim
+	app-editors/gvim
+=dev-util/confix-9999::gentoo
+	dev-vcs/subversion[http]
+	dev-vcs/subversion[webdav-neon]
+	dev-vcs/subversion[webdav-serf]
+=dev-util/cppcheck-1.67::gentoo
+	dev-libs/libxslt
+=dev-util/d-feet-0.3.8::gentoo
+	>=dev-libs/glib-2.34:2
+	>=dev-libs/gobject-introspection-0.9.6
+	>=sys-apps/dbus-1
+	dev-python/pep8
+=dev-util/devhelp-3.14.0::gentoo
+	>=dev-libs/glib-2.37.3:2
+	>=net-libs/webkit-gtk-2:4
+=dev-util/dogtail-0.9.0-r2::gentoo
+	dev-libs/gobject-introspection
+=dev-util/dwarves-9999::gentoo
+	dev-vcs/git
+=dev-util/gdbus-codegen-2.40.2::gentoo
+	>=dev-libs/glib-2.40.2:2
+=dev-util/geany-plugins-1.24-r1::gentoo
+	dev-libs/libxml2:2
+	dev-libs/glib:2
+	x11-libs/vte:0
+	dev-util/devhelp
+	gnome-base/gconf:2
+	net-libs/webkit-gtk:2
+	>=x11-libs/vte-0.28:0
+	net-libs/libsoup
+	sys-devel/gdb
+=dev-util/glade-3.8.5::gentoo
+	>=dev-libs/glib-2.8:2
+	>=dev-libs/libxml2-2.4:2
+	>=dev-python/pygtk-2.10:2
+	>=app-text/gnome-doc-utils-0.9
+=dev-util/gquilt-0.25-r1::gentoo
+	dev-vcs/mercurial
+=dev-util/gtk-doc-1.21::gentoo
+	>=dev-libs/glib-2.6:2
+	dev-libs/libxslt
+	>=dev-libs/libxml2-2.3.6:2
+	app-editors/vim
+	app-editors/gvim
+=dev-util/meld-3.12.3::gentoo
+	>=dev-libs/glib-2.36:2
+	dev-util/itstool
+=dev-util/ninja-1.4.0::gentoo
+	app-editors/vim
+	app-editors/gvim
+	app-text/asciidoc
+	app-doc/doxygen
+	dev-libs/libxslt
+	dev-cpp/gtest
+=dev-util/ninja-ide-2.1.1-r3::gentoo
+	dev-python/PyQt4[webkit]
+	dev-python/pyinotify
+=dev-util/osc-9999::gentoo
+	dev-vcs/git
+=dev-util/perf-3.12::gentoo
+	sys-process/audit
+	dev-libs/newt
+	app-text/asciidoc
+=dev-util/pkgcheck-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-util/spec-cleaner-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=dev-util/synopsis-0.13::gentoo
+	media-gfx/graphviz
+=dev-util/trace-cmd-2.5.1::gentoo
+	sys-kernel/linux-headers
+	app-text/asciidoc
+=dev-util/umockdev-0.8.2::gentoo
+	>=dev-libs/glib-2.32:2
+=dev-vcs/bzr-2.5.1-r1::gentoo
+	dev-python/subunit
+=dev-vcs/bzr-fastimport-0.13.0::gentoo
+	>=dev-vcs/bzr-1.18
+	>=dev-python/python-fastimport-0.9
+=dev-vcs/bzr-rewrite-0.6.3::gentoo
+	>=dev-vcs/bzr-2.5.0
+=dev-vcs/bzrtools-2.5::gentoo
+	>=dev-vcs/bzr-2.4
+=dev-vcs/git-1.8.5.6::gentoo
+	gnome-base/libgnome-keyring
+	dev-vcs/subversion[-dso,perl]
+	app-text/asciidoc
+=dev-vcs/git-bz-0.12.12.15::gentoo
+	dev-vcs/git
+=dev-vcs/git-cola-2.1.2::gentoo
+	dev-vcs/git
+	app-text/asciidoc
+=dev-vcs/gitg-0.3.2::gentoo
+	>=dev-libs/glib-2.38:2
+	>=dev-libs/gobject-introspection-0.10.1
+	>=dev-libs/libgit2-glib-0.0.10
+	<dev-libs/libgit2-glib-0.0.16
+	>=dev-libs/libpeas-1.5.0[gtk]
+	>=net-libs/webkit-gtk-2.2:3[introspection]
+	>=dev-util/glade-3.2:3.10
+=dev-vcs/github-pages-publish-0.1.2::gentoo
+	dev-python/setuptools
+	>=dev-python/pygit2-0.20.0
+=dev-vcs/gitinspector-0.3.1::gentoo
+	dev-vcs/git
+=dev-vcs/gitstats-0_pre131024::gentoo
+	dev-vcs/git
+=dev-vcs/hg-fast-export-20140328::gentoo
+	dev-vcs/git
+	dev-vcs/mercurial
+=dev-vcs/hgsubversion-1.6.1::gentoo
+	>=dev-vcs/subversion-1.5[python]
+=dev-vcs/hgview-1.7.1-r1::gentoo
+	app-text/asciidoc
+=dev-vcs/mercurial-3.3.2::gentoo
+	app-misc/ca-certificates
+=dev-vcs/qbzr-0.23.1::gentoo
+	>=dev-vcs/bzr-2.5
+	>=dev-python/PyQt4-4.1[X]
+=dev-vcs/rapidsvn-0.12.1-r1::gentoo
+	dev-vcs/subversion
+	dev-libs/libxslt
+	app-doc/doxygen
+	media-gfx/graphviz
+=dev-vcs/stgit-0.16-r2::gentoo
+	>=dev-vcs/git-1.6.3.3
+	app-text/asciidoc
+=dev-vcs/subversion-1.7.19::gentoo
+	dev-libs/glib:2
+	sys-apps/dbus
+	gnome-base/libgnome-keyring
+	>=dev-java/java-config-2.2.0
+	dev-python/ctypesgen
+	app-doc/doxygen
+=dev-vcs/tortoisehg-3.3.2::gentoo
+	>=dev-vcs/mercurial-3.2
+	<dev-vcs/mercurial-3.4
+	>=dev-python/sphinx-1.0.3
+=games-action/openclonk-5.5.1::gentoo
+	>=dev-libs/boost-1.40
+	dev-libs/glib:2
+	dev-libs/libxml2[python]
+=games-action/slune-1.0.15-r1::gentoo
+	>=dev-python/soya-0.9
+	>=dev-python/py2play-0.1.9
+	>=dev-python/pyopenal-0.1.3
+	>=dev-python/pyogg-1.1
+	>=dev-python/pyvorbis-1.1
+=games-action/teeworlds-0.6.3::gentoo
+	~dev-util/bam-0.4.0
+=games-board/gnome-hearts-0.3.1-r1::gentoo
+	>=gnome-base/libglade-2
+=games-board/gnubg-1.04.000::gentoo
+	dev-libs/glib:2
+	dev-libs/libxml2
+=games-board/pychess-0.10.1-r2::gentoo
+	dev-python/librsvg-python
+	dev-python/gconf-python
+=games-emulation/gfceux-2.1.1-r1::gentoo
+	dev-python/pygtk
+=games-emulation/sdlmame-0.148_p1-r1::gentoo
+	media-libs/alsa-lib
+	gnome-base/gconf
+=games-emulation/sdlmess-0.148_p1::gentoo
+	media-libs/portmidi
+	gnome-base/gconf
+=games-kids/gcompris-14.12::gentoo
+	dev-libs/libxml2
+=games-kids/pytraffic-2.5.4-r1::gentoo
+	dev-python/pygtk
+=games-mud/wxmud-9999::gentoo
+	dev-vcs/subversion[http]
+	dev-vcs/subversion[webdav-neon]
+	dev-vcs/subversion[webdav-serf]
+=games-puzzle/brainworkshop-4.8.4::gentoo
+	dev-python/pyopenal
+	>=dev-python/pyglet-1.1.4[openal]
+	>=dev-python/pyglet-1.1.4[alsa]
+=games-puzzle/hexamine-0.2.1::gentoo
+	dev-python/pygame
+=games-rpg/adonthell-0.3.5-r1::gentoo
+	media-gfx/graphviz
+	app-doc/doxygen
+=games-server/cyphesis-0.6.2::gentoo
+	dev-db/postgresql
+	>=dev-libs/boost-1.40
+	dev-libs/libxml2
+=games-strategy/freeorion-0.4.5_pre::gentoo
+	>=dev-libs/boost-1.47[python]
+=games-strategy/gwp-0.4.0-r3::gentoo
+	gnome-base/libglade
+=games-strategy/outerspace-0.5.68::gentoo
+	>=dev-python/pygame-1.7
+=games-util/nml-0.4.0::gentoo
+	dev-vcs/mercurial
+=games-util/pyfa-9999::gentoo
+	dev-vcs/git
+=gnome-base/gconf-3.2.6-r3::gentoo
+	>=dev-libs/glib-2.34.3:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=sys-apps/dbus-1.6.18-r1:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/libxml2-2.9.1-r4:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/gobject-introspection-0.9.5:=
+	dev-libs/libxslt
+=gnome-base/gnome-desktop-2.32.1-r2::gentoo
+	>=dev-libs/glib-2.34:2
+	>=gnome-base/gconf-2:2
+	>=app-text/gnome-doc-utils-0.3.2
+=gnome-base/gnome-keyring-3.12.2-r1::gentoo
+	>=app-crypt/gcr-3.5.3:=[gtk]
+	>=dev-libs/glib-2.38:2
+	app-misc/ca-certificates
+	>=sys-apps/dbus-1.1.1
+	sys-libs/libcap-ng
+	dev-libs/libxslt
+=gnome-base/gnome-settings-daemon-3.14.2::gentoo
+	>=dev-libs/glib-2.37.7:2
+	>=net-print/cups-1.4[dbus]
+	>=net-misc/networkmanager-0.9.9.1
+	sys-apps/systemd
+	dev-libs/libxml2:2
+=gnome-base/gnome-shell-3.14.3::gentoo
+	>=app-crypt/gcr-3.7.5[introspection]
+	>=dev-libs/glib-2.39.1:2
+	>=dev-libs/gobject-introspection-0.10.1
+	>=gnome-base/gnome-keyring-3.3.90
+	gnome-base/libgnome-keyring
+	>=gnome-extra/evolution-data-server-3.5.3:=
+	>=net-im/telepathy-logger-0.2.4[introspection]
+	>=net-libs/telepathy-glib-0.19[introspection]
+	dev-libs/libxml2:2
+	media-libs/mesa
+	>=net-libs/libsoup-2.40:2.4[introspection]
+	app-crypt/libsecret
+	>=net-misc/networkmanager-0.9.8[introspection]
+	>=app-accessibility/caribou-0.4.8
+	>=gnome-base/gnome-settings-daemon-3.8.3
+	>=sys-apps/systemd-31
+	>=app-i18n/ibus-1.4.99[dconf(+),gtk3,introspection]
+	dev-libs/libxslt
+=gnome-base/libglade-2.6.4-r2::gentoo
+	>=dev-libs/glib-2.34.3:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/libxml2-2.9.1-r4[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+=gnome-base/libgnome-keyring-3.12.0::gentoo
+	>=dev-libs/glib-2.16.0:2
+	>=sys-apps/dbus-1
+	>=gnome-base/gnome-keyring-3.1.92
+	>=dev-libs/gobject-introspection-1.30.0
+=gnome-extra/avant-window-navigator-0.4.2::gentoo
+	>=dev-libs/glib-2.16
+	>=x11-libs/libdesktop-agnostic-0.3.9[gconf?]
+	dev-vcs/bzr
+	>=gnome-base/gconf-2
+	dev-util/gtk-doc
+=gnome-extra/cinnamon-2.4.6::gentoo
+	app-misc/ca-certificates
+	>=dev-libs/glib-2.29.10:2
+	>=dev-libs/gobject-introspection-0.10.1
+	dev-libs/libxml2:2
+	gnome-base/gconf:2[introspection]
+	>=gnome-extra/cinnamon-desktop-2.4:0=[introspection]
+	net-libs/libsoup:2.4[introspection]
+	>=x11-wm/muffin-2.4[introspection]
+	gnome-base/libgnome-keyring
+	>=net-misc/networkmanager-0.8.999[introspection]
+	>=app-accessibility/caribou-0.3
+	>=gnome-extra/nemo-2.4
+	>=gnome-extra/cinnamon-screensaver-2.4
+=gnome-extra/cinnamon-desktop-2.4.2::gentoo
+	>=dev-libs/glib-2.32:2
+	>=dev-libs/gobject-introspection-0.9.7
+=gnome-extra/cinnamon-screensaver-2.6.3::gentoo
+	>=dev-libs/glib-2.37.3:2[dbus]
+	>=gnome-extra/cinnamon-desktop-2.6.3:0=[systemd=]
+	net-libs/webkit-gtk:3[introspection]
+	sys-apps/dbus
+	>=sys-apps/systemd-31:0=
+=gnome-extra/evolution-data-server-3.12.11::gentoo
+	>=app-crypt/gcr-3.4
+	>=app-crypt/libsecret-0.5[crypt]
+	>=dev-libs/glib-2.36:2
+	>=net-libs/libsoup-2.42:2.4
+	>=dev-libs/libxml2-2
+	>=app-crypt/gcr-3.4[gtk]
+	>=dev-libs/gobject-introspection-0.9.12
+	dev-util/gdbus-codegen
+=gnome-extra/gdesklets-core-0.36.3-r4::gentoo
+	>=dev-libs/glib-2:2
+=gnome-extra/gnome-activity-journal-0.8.0-r4::gentoo
+	dev-python/dbus-python
+	dev-python/libgnome-python
+	dev-python/gconf-python
+	dev-python/gst-python:0.10
+	dev-python/pycairo
+	dev-python/pygobject:2
+	dev-python/pygtk:2
+	dev-python/pyxdg
+	gnome-extra/zeitgeist
+	sys-apps/dbus
+	dev-python/python-distutils-extra
+=gnome-extra/gnome-builder-3.16.3::gentoo
+	>=dev-libs/glib-2.44:2
+	>=dev-libs/libgit2-glib-0.22.6[ssh]
+	>=dev-libs/libxml2-2.9
+	dev-python/pygobject:3
+	>=dev-util/devhelp-3.16
+	sys-devel/clang
+	>=dev-libs/gobject-introspection-1.42
+=gnome-extra/gnome-commander-1.4.2::gentoo
+	app-text/gnome-doc-utils
+	>=dev-libs/glib-2.6.0:2
+	gnome-base/gnome-keyring
+	>=media-gfx/exiv2-0.14
+	>=dev-python/gnome-vfs-python-2.0.0
+=gnome-extra/gnome-tweak-tool-3.14.2::gentoo
+	net-libs/libsoup[introspection]
+	>=gnome-base/gnome-settings-daemon-3
+	gnome-base/gnome-shell
+=gnome-extra/libgda-5.2.2::gentoo
+	>=dev-libs/glib-2.32:2
+	>=dev-libs/libxml2-2
+	dev-libs/libxslt
+	x11-libs/goocanvas:2.0=
+	media-gfx/graphviz
+	>=net-libs/libsoup-2.24:2.4
+	>=dev-libs/gobject-introspection-1.30
+	app-crypt/libsecret
+	dev-db/postgresql:=
+	dev-python/reportlab
+	>=dev-java/java-config-2.2.0
+	>=app-text/gnome-doc-utils-0.9
+=gnome-extra/nautilus-dropbox-1.6.2::gentoo
+	dev-libs/glib:2
+=gnome-extra/nemo-2.4.5::gentoo
+	>=dev-libs/glib-2.34:2
+	>=gnome-extra/cinnamon-desktop-1.0:0=
+	>=dev-libs/libxml2-2.7.8:2
+	>=dev-libs/gobject-introspection-0.6.4
+	>=app-misc/tracker-0.12:=
+	>=dev-util/gdbus-codegen-2.31.0
+	dev-util/gtk-doc
+=gnome-extra/zeitgeist-0.9.14::gentoo
+	>=dev-libs/glib-2.26.0:2
+	sys-apps/dbus
+	gnome-extra/zeitgeist-extensions
+	dev-libs/gobject-introspection
+	gnome-extra/zeitgeist-datasources
+	net-libs/telepathy-glib
+=gnome-extra/zeitgeist-datasources-0.8.1::gentoo
+	>=www-client/firefox-4.0
+	app-editors/vim[python]
+	gnome-extra/zeitgeist
+=gnome-extra/zeitgeist-explorer-0.2-r1::gentoo
+	gnome-extra/zeitgeist
+=gnome-extra/zeitgeist-extensions-0.0.13-r2::gentoo
+	dev-libs/xapian-bindings[python]
+	dev-python/dbus-python
+	dev-python/pygobject
+	dev-python/pyxdg
+	dev-python/python-geoclue
+	dev-python/pympler
+	dev-python/python-sqlparse
+	app-misc/tracker
+=kde-apps/kajongg-4.14.3::gentoo
+	>=dev-python/twisted-core-8.2.0
+=kde-apps/kate-4.14.3::gentoo
+	dev-libs/libxml2
+	dev-libs/libxslt
+=kde-apps/marble-4.14.3::gentoo
+	>=sci-geosciences/gpsd-2.95[qt4]
+=kde-base/plasma-workspace-4.11.14::gentoo
+	>=sci-geosciences/gpsd-2.37
+	dev-libs/boost
+=kde-frameworks/extra-cmake-modules-5.10.0::gentoo
+	>=kde-frameworks/kapidox-5.10
+	app-doc/doxygen
+=kde-frameworks/kapidox-5.10.0::gentoo
+	app-doc/doxygen
+	media-gfx/graphviz[python]
+	>=kde-frameworks/extra-cmake-modules-5.10
+=kde-misc/kcm-ufw-0.4.3-r1::gentoo
+	>=net-firewall/ufw-0.31
+=kde-misc/magneto-kde-254::gentoo
+	kde-base/pykde4
+	dev-python/PyQt4[dbus]
+=kde-misc/wicd-client-kde-0.3.1-r1::gentoo
+	net-misc/wicd
+=mail-client/alot-0.3.5::gentoo
+	>=dev-python/twisted-core-10.2.0
+	>=net-mail/notmuch-0.13[crypt,python]
+	sys-apps/file[python]
+=mail-client/claws-mail-3.9.1::gentoo
+	dev-libs/glib
+	>=net-libs/webkit-gtk-1.0:2
+	net-misc/networkmanager
+	>=dev-python/pygtk-2.10.3
+	dev-libs/libxml2
+=mail-client/thunderbird-24.8.0::gentoo
+	>=dev-libs/glib-2.26:2
+	>=media-libs/mesa-7.10
+	media-libs/alsa-lib
+	>=dev-lang/yasm-1.1
+=mail-filter/pypolicyd-spf-1.1.2::gentoo
+	dev-python/authres
+=mail-filter/spambayes-1.1_alpha6-r2::gentoo
+	dev-python/setuptools
+=mail-mta/msmtp-1.4.32::gentoo
+	dev-python/gnome-keyring-python
+	gnome-base/libgnome-keyring
+=mate-base/mate-applets-1.8.0-r1::gentoo
+	>=dev-libs/glib-2.22:2
+	>=dev-libs/libmateweather-1.6.1:0
+	>=dev-libs/libxml2-2.5:2
+	dev-python/pygobject:3
+	>=mate-base/mate-desktop-1.6:0
+	>=sys-apps/dbus-1.1.2:0
+	>=net-misc/networkmanager-0.7:0
+	dev-libs/libxslt:0
+=mate-base/mate-desktop-1.8.0-r1::gentoo
+	>=dev-libs/glib-2.34:2
+=mate-base/mate-menus-1.8.0::gentoo
+	>=dev-libs/glib-2.15.2:2
+	>=dev-libs/gobject-introspection-0.6.7:0
+=mate-extra/caja-dropbox-1.8.0::gentoo
+	>=dev-libs/glib-2.14:2
+	dev-python/docutils:0
+=media-fonts/liberation-fonts-2.00.1-r1::gentoo
+	media-gfx/fontforge
+	dev-python/fonttools
+=media-gfx/asymptote-2.32::gentoo
+	>=media-libs/mesa-8
+	media-libs/mesa[osmesa]
+	app-editors/vim
+	app-editors/gvim
+=media-gfx/blender-2.72b-r2::gentoo
+	>=dev-libs/boost-1.44[nls?,threads(+)]
+	<=media-libs/opencolorio-1.0.9
+	media-libs/openimageio
+	media-libs/libsndfile
+	app-doc/doxygen[-nodot(-),dot(+)]
+	dev-python/sphinx
+=media-gfx/cptutils-1.48::gentoo
+	dev-libs/libxml2:2
+=media-gfx/dispcalgui-2.0.0.0::gentoo
+	dev-python/wxpython:2.8
+	>=dev-python/numpy-1.2.1
+=media-gfx/drqueue-0.64.4-r1::gentoo
+	>=dev-util/scons-0.97
+=media-gfx/eog-plugins-3.14.1::gentoo
+	>=dev-libs/glib-2.32:2
+	>=dev-libs/libpeas-0.7.4:=
+	media-gfx/postr
+=media-gfx/eom-1.8.0::gentoo
+	>=dev-libs/glib-2.25.9:2
+	>=dev-libs/libxml2-2:2
+	>=mate-base/mate-desktop-1.6:0
+=media-gfx/exiv2-0.24-r1::gentoo
+	>=dev-libs/boost-1.44
+	app-doc/doxygen
+	dev-libs/libxslt
+	media-gfx/graphviz
+=media-gfx/fontforge-20120731-r1::gentoo
+	>=dev-libs/libxml2-2.6.7
+=media-gfx/freecad-0.13.1830-r1::gentoo
+	dev-libs/boost
+	dev-python/matplotlib
+	dev-python/pycollada
+	dev-python/pivy
+	dev-python/PyQt4[svg]
+	dev-python/pyopencl
+	dev-python/numpy
+=media-gfx/gimp-2.8.10-r1::gentoo
+	>=dev-libs/glib-2.30.2:2
+	dev-libs/libxml2
+	dev-libs/libxslt
+	media-libs/alsa-lib
+	>=net-libs/webkit-gtk-1.6.1:2
+	>=dev-util/gtk-doc-1
+=media-gfx/graphite2-1.2.1::gentoo
+	dev-libs/glib:2
+=media-gfx/graphviz-2.28.0::gentoo
+	>=dev-libs/glib-2.11.1
+=media-gfx/hugin-2013.0.0-r1::gentoo
+	<dev-libs/boost-1.54.0:=
+	media-gfx/exiv2:=
+	media-libs/lensfun
+=media-gfx/inkscape-0.48.5-r1::gentoo
+	>=dev-libs/glib-2.6.5
+	>=dev-libs/libxml2-2.6.20
+	>=dev-libs/libxslt-1.0.15
+	media-gfx/uniconvertor
+	app-office/dia
+	dev-libs/boost
+=media-gfx/mypaint-1.1.0-r2::gentoo
+	dev-util/scons
+=media-gfx/postr-0.13.1::gentoo
+	app-text/gnome-doc-utils
+=media-gfx/printrun-20140730::gentoo
+	dev-python/pyserial
+	dev-python/wxpython
+	dev-python/pyglet
+	dev-python/dbus-python
+	media-gfx/cairosvg
+=media-gfx/pycam-0.5.1::gentoo
+	dev-python/pygtk
+	dev-python/pygtkglext
+	dev-python/pyopengl
+=media-gfx/pydot-1.0.28-r1::gentoo
+	media-gfx/graphviz
+=media-gfx/zbar-0.10-r5::gentoo
+	dev-libs/glib:2
+=media-libs/alsa-lib-1.0.27.2::gentoo
+	>=app-doc/doxygen-1.2.6
+=media-libs/aubio-0.4.0-r1::gentoo
+	media-libs/libsndfile
+	app-doc/doxygen
+=media-libs/avidemux-plugins-2.6.5::gentoo
+	>=dev-lang/spidermonkey-1.5-r2:0=
+	dev-libs/libxml2:2
+	>=media-libs/alsa-lib-1.0.3b-r2:0
+=media-libs/clutter-gst-2.0.14::gentoo
+	>=dev-libs/glib-2.20:2
+	>=dev-libs/gobject-introspection-0.6.8
+=media-libs/gegl-0.3.0::gentoo
+	>=dev-libs/glib-2.36:2
+	>=dev-libs/gobject-introspection-1.32
+	>=media-libs/lensfun-0.2.5
+=media-libs/gexiv2-0.6.1::gentoo
+	dev-libs/glib:2
+	>=media-gfx/exiv2-0.21
+=media-libs/grilo-0.2.11::gentoo
+	>=dev-libs/glib-2.34:2
+	dev-libs/libxml2:2
+	>=dev-libs/gobject-introspection-0.9
+	>=net-libs/libsoup-2.41.3:2.4
+=media-libs/gst-rtsp-server-0.10.8-r1::gentoo
+	>=dev-libs/glib-2.10.0:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/gobject-introspection-0.6.3
+	>=dev-libs/glib-2.38.2-r1:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+=media-libs/hamlib-1.2.15.3-r1::gentoo
+	dev-libs/libxml2
+	app-doc/doxygen
+=media-libs/harfbuzz-0.9.35::gentoo
+	>=dev-libs/glib-2.34.3:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=media-gfx/graphite2-1.2.1:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/gobject-introspection-1.34
+=media-libs/lensfun-0.2.8-r1::gentoo
+	>=dev-libs/glib-2.28
+	app-doc/doxygen
+=media-libs/libcaca-0.99_beta18-r2::gentoo
+	>=dev-java/java-config-2.2.0
+	app-doc/doxygen
+=media-libs/libepoxy-1.2::gentoo
+	media-libs/mesa[egl]
+=media-libs/libgpod-0.8.3::gentoo
+	>=app-pda/libplist-1.0:=
+	>=dev-libs/glib-2.16:2
+	dev-libs/libxml2
+	app-pda/libimobiledevice:=
+	dev-libs/libxslt
+=media-libs/libiptcdata-1.0.4-r1::gentoo
+	>=dev-util/gtk-doc-1
+=media-libs/libsndfile-1.0.25-r1::gentoo
+	media-libs/alsa-lib
+=media-libs/lilv-0.18.0::gentoo
+	media-libs/lv2
+	>=media-libs/sratom-0.4.0
+	>=dev-libs/serd-0.14.0
+	>=dev-libs/sord-0.12.0
+	app-doc/doxygen
+=media-libs/lv2-1.8.0::gentoo
+	media-libs/libsndfile
+	app-doc/doxygen
+	dev-python/rdflib
+=media-libs/lv2-ui-2.4::gentoo
+	>=media-libs/lv2core-6.0
+=media-libs/mesa-10.2.8::gentoo
+	>=x11-libs/libxcb-1.9.3:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=sys-devel/llvm-3.3-r3:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	<sys-devel/llvm-3.6
+	dev-libs/libclc
+	sys-devel/llvm[video_cards_radeon]
+	>=sys-devel/clang-3.3:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+=media-libs/opencolorio-1.0.8::gentoo
+	>=media-libs/openimageio-1.1.0
+=media-libs/opencv-2.4.9::gentoo
+	dev-libs/glib:2
+	sci-libs/vtk[rendering]
+	>=dev-java/java-config-2.2.0
+	>=dev-java/javatoolkit-0.3.0-r2
+=media-libs/openimageio-1.1.7::gentoo
+	dev-libs/boost[python?]
+	>=media-libs/opencolorio-1.0.7:=
+	>=media-libs/opencv-2.3:=
+=media-libs/portmidi-217-r1::gentoo
+	media-libs/alsa-lib
+	>=dev-java/java-config-2.2.0
+	app-doc/doxygen
+=media-libs/raul-0.8.0-r1::gentoo
+	dev-libs/boost
+	>=dev-libs/glib-2.14.0
+	app-doc/doxygen
+=media-libs/slv2-0.6.6-r1::gentoo
+	media-libs/lv2
+	media-libs/lv2core
+	app-doc/doxygen
+=media-libs/sratom-0.4.6::gentoo
+	>=media-libs/lv2-1.8.1
+	>=dev-libs/serd-0.14.0
+	>=dev-libs/sord-0.12.0
+	app-doc/doxygen
+=media-libs/suil-0.8.2::gentoo
+	media-libs/lv2
+	app-doc/doxygen
+=media-libs/vigra-1.9.0::gentoo
+	app-doc/doxygen
+=media-plugins/mda-lv2-1.0.0::gentoo
+	media-libs/lv2
+=media-plugins/quodlibet-plugins-2.6.3::gentoo
+	~media-sound/quodlibet-2.6.3
+=media-radio/radiotray-0.7.3-r2::gentoo
+	sys-apps/dbus[X]
+=media-radio/wspr-2.00-r2::gentoo
+	media-libs/hamlib
+=media-sound/a2jmidid-8-r1::gentoo
+	media-libs/alsa-lib
+	sys-apps/dbus
+=media-sound/ardour-3.5.308-r1::gentoo
+	media-libs/aubio
+	>=dev-libs/glib-2.10.1:2
+	>=dev-libs/libxml2-2.6:2
+	>=media-libs/libsndfile-1.0.18
+	dev-libs/libxslt
+	media-libs/alsa-lib
+	dev-libs/boost
+	>=media-libs/slv2-0.6.1
+	media-libs/lilv
+	media-libs/sratom
+	dev-libs/sord
+	>=media-libs/suil-0.6.10
+	>=media-libs/lv2-1.4.0
+	app-doc/doxygen[dot]
+=media-sound/beets-1.3.3-r1::gentoo
+	dev-python/sphinx
+=media-sound/csound-5.19.01::gentoo
+	>=media-libs/libsndfile-1.0.16
+	media-libs/alsa-lib
+	dev-libs/boost
+	media-libs/portmidi
+	>=dev-java/java-config-2.2.0
+=media-sound/frescobaldi-2.0.16::gentoo
+	>=media-sound/lilypond-2.14.2
+	media-libs/portmidi
+=media-sound/gnome-music-3.14.3.1::gentoo
+	>=dev-libs/glib-2.28:2
+	>=dev-libs/gobject-introspection-1.35.9
+	>=media-libs/grilo-0.2.6:0.2[introspection]
+	app-misc/tracker[introspection(+)]
+	app-misc/tracker[gstreamer]
+	app-misc/tracker[ffmpeg]
+=media-sound/gpodder-3.6.0::gentoo
+	>=dev-python/eyeD3-0.7
+	>=dev-python/feedparser-5.1.2
+	>=dev-python/mygpoclient-1.7
+	>=dev-python/pygtk-2.16:2
+	dev-python/dbus-python
+	net-wireless/bluez
+	dev-python/gst-python:0.10
+	media-libs/libgpod[python]
+	dev-python/pywebkitgtk
+	dev-python/minimock
+	dev-python/coverage
+=media-sound/jalv-1.0.0::gentoo
+	media-libs/lv2
+	>=media-libs/lilv-0.14.0
+	>=dev-libs/serd-0.4.5
+	>=media-libs/suil-0.6.0
+	>=media-libs/sratom-0.2.0
+=media-sound/lash-0.5.4-r2::gentoo
+	dev-libs/libxml2
+	>=sys-apps/util-linux-2.24.1-r3[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	media-libs/alsa-lib
+=media-sound/lilypond-2.18.2::gentoo
+	media-gfx/fontforge
+=media-sound/listen-0.6.5-r1::gentoo
+	dev-python/pywebkitgtk
+	media-libs/libgpod[python]
+=media-sound/marrie-0.3.2-r1::gentoo
+	dev-python/setuptools
+	>=dev-python/feedparser-5.1.3
+	dev-python/docutils
+=media-sound/patchage-0.5.0-r1::gentoo
+	>=media-libs/raul-0.7.0
+	>=x11-libs/flowcanvas-0.7.1
+	media-libs/alsa-lib
+	dev-libs/boost
+=media-sound/picard-1.3.1::gentoo
+	media-libs/mutagen
+=media-sound/pithos-9999::gentoo
+	dev-vcs/git
+=media-sound/quodlibet-2.6.3::gentoo
+	dev-libs/keybinder:0
+	app-misc/media-player-info
+=media-sound/rgain-1.2.1::gentoo
+	media-libs/mutagen
+	>=dev-python/docutils-0.9
+=media-sound/rhythmbox-3.0.3::gentoo
+	>=dev-libs/glib-2.34.0:2
+	>=dev-libs/libxml2-2.7.8:2
+	>=dev-libs/gobject-introspection-0.10.0
+	>=dev-libs/libpeas-0.7.3[gtk,python?]
+	>=net-libs/libsoup-2.34.0:2.4
+	>=sys-libs/tdb-1.2.6
+	>=media-libs/clutter-gst-1.9.92:2.0
+	>=app-crypt/libsecret-0.14
+	>=net-libs/webkit-gtk-1.10:3
+	>=media-libs/libgpod-0.7.92[udev]
+	gnome-extra/zeitgeist
+	>=media-libs/grilo-0.2:0.2
+	sys-apps/dbus
+	>=app-crypt/libsecret-0.14[introspection]
+	>=net-libs/webkit-gtk-1.10:3[introspection]
+	>=app-text/gnome-doc-utils-0.9.1
+=media-sound/solfege-3.22.2::gentoo
+	>=dev-python/pygtk-2.12
+	dev-python/pyalsa
+	dev-libs/libxslt
+=media-sound/sonata-1.6.2.1-r1::gentoo
+	>=dev-python/pygtk-2.12
+	>=dev-python/python-mpd-0.2.1
+	dev-python/dbus-python
+	dev-python/zsi
+	>=dev-python/tagpy-0.93
+	dev-python/egg-python
+=media-sound/soundconverter-2.1.3::gentoo
+	dev-python/gconf-python
+	dev-python/gnome-vfs-python
+	dev-python/libgnome-python
+	gnome-base/libglade
+=media-sound/volti-0.2.3-r1::gentoo
+	>=dev-python/pygtk-2.16
+	>=dev-python/pyalsaaudio-0.7-r1
+	dev-python/dbus-python
+	>=dev-python/python-xlib-0.15_rc1
+=media-tv/freevo-1.9.0-r1::gentoo
+	>=dev-python/pylirc-0.0.3
+=media-tv/kodi-14.1::gentoo
+	app-pda/libplist
+	dev-libs/boost
+	dev-libs/libxml2
+	dev-libs/libxslt
+	media-libs/alsa-lib
+	net-dns/avahi
+	>=net-fs/samba-3.4.6[smbclient(+)]
+	net-wireless/bluez
+	sys-apps/dbus
+	media-libs/mesa[gles2]
+	dev-cpp/gtest
+=media-tv/tvnamer-2.3::gentoo
+	dev-python/tvdb_api
+	dev-python/setuptools
+=media-tv/xbmc-12.1-r1::gentoo
+	app-pda/libplist
+	dev-libs/boost
+	media-libs/alsa-lib
+	net-dns/avahi
+	>=net-fs/samba-3.4.6[smbclient]
+	net-wireless/bluez
+	sys-apps/dbus
+=media-video/arista-0.9.7::gentoo
+	dev-python/gconf-python:2
+=media-video/griffith-0.13-r1::gentoo
+	virtual/python-imaging
+	gnome-base/libglade
+=media-video/gtk-recordmydesktop-0.3.8-r3::gentoo
+	dev-python/pygtk:2
+=media-video/handbrake-0.9.9-r1::gentoo
+	dev-libs/glib:2
+	dev-lang/yasm
+=media-video/mpv-0.3.10::gentoo
+	media-libs/alsa-lib
+	>=media-libs/libcaca-0.99_beta18
+	net-fs/samba
+	media-libs/mesa[egl,wayland]
+	dev-python/docutils
+=media-video/openshot-1.4.3::gentoo
+	dev-python/librsvg-python
+=media-video/pitivi-0.94::gentoo
+	dev-libs/glib:2
+	>=dev-libs/gobject-introspection-1.34
+	>=media-libs/clutter-gst-2:2.0[introspection]
+	dev-python/setuptools
+=media-video/subliminal-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=media-video/totem-3.12.2::gentoo
+	>=dev-libs/glib-2.35:2
+	>=dev-libs/libpeas-1.1.0[gtk]
+	>=dev-libs/libxml2-2.6:2
+	>=media-libs/clutter-gst-1.5.5:2.0
+	>=media-libs/grilo-0.2.10:0.2[playlist]
+	>=dev-libs/gobject-introspection-0.6.7
+	>=gnome-extra/zeitgeist-0.9.12
+=media-video/tovid-0.35.2::gentoo
+	media-video/mpv[libmpv,dvdnav]
+	app-text/txt2tags
+=net-analyzer/fail2ban-0.9.1::gentoo
+	sys-apps/systemd[python]
+=net-analyzer/gr-fosphor-9999::gentoo
+	dev-libs/boost:=
+	dev-vcs/git
+=net-analyzer/gsm-receiver-9999::gentoo
+	>=net-wireless/gnuradio-3.7_rc:0=
+	dev-vcs/git
+=net-analyzer/linkchecker-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=net-analyzer/nagstamon-1.0.1::gentoo
+	dev-python/pygobject:2
+	dev-python/pygtk
+	dev-python/lxml
+	dev-python/beautifulsoup:python-2
+	dev-python/keyring
+	dev-python/egg-python
+=net-analyzer/net-snmp-5.7.3_pre5-r1::gentoo
+	app-arch/rpm
+	dev-libs/libnl:3
+	app-doc/doxygen
+=net-analyzer/nmap-6.47-r1::gentoo
+	dev-vcs/subversion
+=net-analyzer/ntop-5.0.1-r1::gentoo
+	net-analyzer/rrdtool[graph]
+	net-analyzer/net-snmp[ipv6]
+	media-gfx/graphviz
+	net-misc/wget
+	dev-libs/glib:2
+	dev-python/mako
+=net-analyzer/rrdtool-1.4.8-r1::gentoo
+	>=dev-libs/glib-2.28.7:2[static-libs(+)?]
+	>=dev-libs/libxml2-2.7.8:2[static-libs(+)?]
+=net-analyzer/scapy-2.2.0-r2::gentoo
+	media-gfx/graphviz
+=net-analyzer/w3af-1.1-r1::gentoo
+	>=net-analyzer/scapy-2
+	media-gfx/graphviz
+	>dev-python/pygtk-2.0
+	dev-python/pygtksourceview
+=net-analyzer/wapiti-9999::gentoo
+	dev-vcs/subversion[http]
+	dev-vcs/subversion[webdav-neon]
+	dev-vcs/subversion[webdav-serf]
+=net-dialup/freeradius-2.2.5::gentoo
+	dev-db/postgresql
+=net-dns/avahi-0.6.31-r6::gentoo
+	>=dev-libs/glib-2.34.3:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=sys-apps/dbus-1.6.18-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	dev-libs/gobject-introspection
+	dev-python/pygtk
+	dev-python/dbus-python
+	dev-python/twisted-core
+	dev-python/twisted-web
+	app-doc/doxygen
+=net-dns/bind-9.10.1_p1::gentoo
+	dev-db/postgresql:=
+	dev-libs/libxml2
+=net-dns/dnsimple-dyndns-0.1::gentoo
+	>=dev-python/requests-2.0.0
+=net-firewall/firewalld-0.2.9-r1::gentoo
+	dev-python/dbus-python
+	dev-python/decorator
+	>=dev-python/python-slip-0.2.7[dbus]
+	dev-python/pygobject:3
+	sys-apps/systemd
+	dev-python/pygtk:2
+	dev-libs/glib:2
+=net-firewall/fwknop-2.6.6::gentoo
+	net-misc/wget[ssl]
+=net-fs/netatalk-3.1.6::gentoo
+	sys-libs/tdb
+	net-dns/avahi[dbus,-mdnsresponder-compat]
+	sys-libs/cracklib
+	sys-apps/dbus
+	app-misc/tracker
+=net-fs/samba-4.0.25::gentoo
+	>=app-crypt/heimdal-1.5[-ssl]
+	>=sys-libs/ldb-1.1.16
+	>=sys-libs/tevent-0.9.18
+	net-print/cups
+=net-ftp/pybootd-1.5.0_pre20110524131526::gentoo
+	>=dev-python/netifaces-0.5
+=net-im/bitlbee-3.2.2::gentoo
+	>=dev-libs/glib-2.14
+	net-im/pidgin
+	app-text/asciidoc
+=net-im/ekg2-9999::gentoo
+	dev-libs/glib:2=
+	>=dev-vcs/git-1.8.2.1
+=net-im/empathy-3.12.7::gentoo
+	>=dev-libs/glib-2.37.6:2
+	>=app-crypt/libsecret-0.5
+	>=net-libs/webkit-gtk-1.9.1:3
+	media-libs/clutter-gst:2.0
+	net-libs/farstream:0.2=
+	>=net-libs/telepathy-glib-0.23.2
+	>=net-im/telepathy-logger-0.8.0:=
+	app-crypt/gcr
+	dev-libs/libxml2:2
+	net-libs/libsoup:2.4
+	dev-libs/libxslt
+	>=net-im/telepathy-mission-control-5.14
+=net-im/err-1.7.1::gentoo
+	dev-python/xmpppy
+	dev-vcs/git
+=net-im/gajim-0.16::gentoo
+	net-misc/networkmanager
+=net-im/pidgin-2.10.10::gentoo
+	>=dev-libs/glib-2.16
+	>=dev-libs/libxml2-2.6.18
+	>=gnome-extra/evolution-data-server-3.6:=
+	net-libs/farstream:0.1
+	net-dns/avahi[dbus]
+	>=sys-apps/dbus-0.90
+	dev-python/dbus-python
+	net-misc/networkmanager
+	app-doc/doxygen
+=net-im/telepathy-logger-0.8.1::gentoo
+	>=dev-libs/glib-2.28:2
+	>=sys-apps/dbus-1.1
+	>=net-libs/telepathy-glib-0.19.2[introspection?]
+	dev-libs/libxml2
+	dev-libs/libxslt
+	>=dev-libs/gobject-introspection-0.9.6
+=net-im/telepathy-mission-control-5.16.2::gentoo
+	>=dev-libs/glib-2.32:2
+	>=sys-apps/dbus-0.95
+	>=net-libs/telepathy-glib-0.20
+	>=net-misc/networkmanager-0.7
+	dev-libs/libxslt
+=net-irc/hexchat-2.10.2::gentoo
+	dev-libs/glib:2
+	net-libs/libproxy
+=net-irc/irssi-otr-0.3-r1::gentoo
+	dev-libs/glib:2
+=net-irc/limnoria-99999999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=net-irc/redirbot-0.0.5::gentoo
+	>=dev-python/twisted-core-11.1.0
+	dev-python/twisted-words
+=net-irc/telepathy-idle-0.2.0::gentoo
+	>=dev-libs/glib-2.32:2
+	sys-apps/dbus
+	dev-python/twisted-words
+=net-irc/weechat-1.1.1::gentoo
+	app-text/asciidoc
+=net-irc/znc-9999::gentoo
+	dev-vcs/git
+=net-libs/farstream-0.1.2-r2::gentoo
+	>=dev-libs/glib-2.30:2
+	>=dev-libs/gobject-introspection-0.10.11
+	net-libs/gupnp-igd
+=net-libs/gtk-vnc-0.5.3::gentoo
+	>=dev-libs/glib-2.30.1:2
+	>=dev-libs/gobject-introspection-0.9.4
+=net-libs/gupnp-0.20.13::gentoo
+	>=net-libs/libsoup-2.48.0:2.4[introspection?,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/glib-2.34.3:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/libxml2-2.9.1-r4[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=sys-apps/util-linux-2.24.1-r3[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/gobject-introspection-0.6.4
+=net-libs/gupnp-igd-0.2.2-r1::gentoo
+	>=net-libs/gupnp-0.18
+	>=dev-libs/glib-2.16:2
+	>=dev-libs/gobject-introspection-0.10
+=net-libs/ldns-1.6.17::gentoo
+	app-doc/doxygen
+=net-libs/libproxy-0.4.11-r2::gentoo
+	>=dev-libs/glib-2.34.3:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=sys-apps/dbus-1.6.18-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-lang/spidermonkey-1.8.5:0=
+	>=net-libs/webkit-gtk-1.6:3=
+	net-misc/networkmanager
+=net-libs/libsoup-2.46.0-r1::gentoo
+	>=dev-libs/glib-2.34.3:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/libxml2-2.9.1-r4:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/gobject-introspection-0.9.5
+	net-fs/samba
+	>=dev-libs/glib-2.40:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+=net-libs/rb_libtorrent-0.16.17-r2::gentoo
+	>=dev-libs/boost-1.48:=[threads]
+=net-libs/telepathy-glib-0.24.0::gentoo
+	>=dev-libs/glib-2.36:2
+	>=dev-libs/gobject-introspection-1.30
+	dev-libs/libxslt
+	net-im/telepathy-mission-control
+=net-libs/telepathy-logger-qt-0.8.0::gentoo
+	>=net-im/telepathy-logger-0.8.0
+	net-libs/telepathy-glib
+	>=net-libs/telepathy-qt-0.9.1
+=net-libs/telepathy-qt-0.9.5::gentoo
+	>=net-libs/telepathy-glib-0.18.0
+	dev-libs/glib:2
+	dev-python/dbus-python
+=net-libs/webkit-gtk-2.4.8::gentoo
+	dev-libs/libxml2:2
+	dev-libs/libxslt
+	media-libs/harfbuzz:=[icu(+)]
+	>=dev-libs/glib-2.36.0:2
+	>=net-libs/libsoup-2.42.0:2.4[introspection?]
+	media-libs/mesa[egl]
+	media-libs/mesa[gles2]
+	>=dev-libs/gobject-introspection-1.32.0
+	app-crypt/libsecret
+	>=sys-devel/clang-3.3
+	dev-util/gdbus-codegen
+=net-mail/automx-0.10.2-r1::gentoo
+	www-servers/uwsgi
+	net-misc/wget
+=net-mail/mpop-1.0.29::gentoo
+	dev-python/gnome-keyring-python
+	gnome-base/libgnome-keyring
+=net-mail/notmuch-0.16-r1::gentoo
+	>=dev-libs/glib-2.22
+	sys-libs/talloc
+	dev-vcs/git
+	<sys-devel/gdb-7.8
+=net-mail/offlineimap-6.5.5::gentoo
+	dev-python/docutils
+=net-misc/elliptics-eblob-0.22.16::gentoo
+	dev-libs/boost[python]
+=net-misc/flexget-1.2.141::gentoo
+	<dev-python/sqlalchemy-0.9.99
+=net-misc/gsutil-3.37::gentoo
+	>=dev-python/crcmod-1.7
+=net-misc/hotot-0.9.8.14::gentoo
+	dev-python/pywebkitgtk
+=net-misc/leapcast-9999::gentoo
+	dev-vcs/git
+=net-misc/livestreamer-1.7.2::gentoo
+	dev-python/pycrypto
+	>=dev-python/requests-1.0
+	dev-python/setuptools
+=net-misc/networkmanager-0.9.10.1_pre20141101::gentoo
+	>=sys-apps/dbus-1.2
+	>=dev-libs/glib-2.32:2
+	>=dev-libs/libnl-3.2.8:3=
+	>=net-libs/libsoup-2.26:2.4=
+	>=net-wireless/bluez-5
+	>=dev-libs/newt-0.52.15
+	>=dev-libs/gobject-introspection-0.10.3
+	>=sys-apps/systemd-183:0=
+	net-dns/avahi:=[autoipd]
+	>=sys-apps/systemd-183
+	>=sys-kernel/linux-headers-2.6.29
+=net-misc/openconnect-4.08::gentoo
+	dev-libs/libxml2
+	net-libs/libproxy
+	app-misc/ca-certificates
+=net-misc/openvswitch-2.0.0-r3::gentoo
+	dev-python/twisted-core
+	dev-python/twisted-conch
+	dev-python/twisted-web
+=net-misc/polly-0.93.9::gentoo
+	dev-python/gconf-python
+	dev-python/gtkspell-python
+=net-misc/pycnb-0.0.4::gentoo
+	dev-python/twisted-web
+=net-misc/rabbitmq-server-3.2.4::gentoo
+	dev-libs/libxslt
+	dev-python/simplejson
+=net-misc/ris-linux-0.4-r1::gentoo
+	net-fs/samba
+=net-misc/spice-gtk-0.20-r1::gentoo
+	>=dev-libs/glib-2.26:2
+	dev-libs/gobject-introspection
+	dev-python/pygtk:2
+	dev-python/pyparsing
+=net-misc/tinc-1.1_pre10-r1::gentoo
+	net-misc/vde
+=net-misc/usbip-3.19::gentoo
+	>=dev-libs/glib-2.6
+	>=sys-kernel/linux-headers-3.17
+=net-misc/wget-1.16::gentoo
+	sys-apps/util-linux
+	sys-apps/util-linux[static-libs(+)]
+=net-misc/wicd-1.7.2.4-r3::gentoo
+	dev-python/pygtk
+	dev-python/python-iwscan
+	dev-python/python-wpactrl
+	dev-python/urwid
+	dev-python/Babel
+=net-misc/youtube-dl-2015.04.03::gentoo
+	dev-python/nose[coverage(+)]
+=net-p2p/deluge-1.3.11::gentoo
+	>=net-libs/rb_libtorrent-0.14.9[python]
+=net-p2p/pybitmessage-9999::gentoo
+	dev-vcs/git
+=net-p2p/qbittorrent-3.1.9.2-r1::gentoo
+	dev-libs/boost:=
+	>=net-libs/rb_libtorrent-0.16.17
+	<net-libs/rb_libtorrent-1.0.0
+=net-print/cups-1.7.5::gentoo
+	>=sys-apps/dbus-1.6.18-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=net-dns/avahi-0.6.31-r2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-java/java-config-2.2.0
+=net-print/hplip-3.14.10::gentoo
+	>=net-print/cups-1.4.0
+	>=sys-apps/dbus-1.6.8-r1
+	net-analyzer/net-snmp
+=net-voip/telepathy-gabble-0.18.3::gentoo
+	>=dev-libs/glib-2.32:2
+	>=sys-apps/dbus-1.1.0
+	>=net-libs/telepathy-glib-0.19.9
+	dev-libs/libxml2
+	net-libs/libsoup:2.4[ssl]
+	>=net-libs/libsoup-2.33.1
+	dev-libs/libxslt
+	>=dev-python/twisted-core-0.8.2
+	>=dev-python/twisted-words-0.8.2
+	>=dev-python/dbus-python-0.83
+=net-voip/telepathy-haze-0.8.0::gentoo
+	>=net-im/pidgin-2.7
+	>=dev-libs/glib-2.30:2
+=net-voip/telepathy-rakia-0.8.0::gentoo
+	>=dev-libs/glib-2.30:2
+	>=net-libs/telepathy-glib-0.17.6
+	>=sys-apps/dbus-0.60
+	dev-libs/libxslt
+	dev-python/twisted-core
+=net-voip/telepathy-salut-0.8.1::gentoo
+	dev-libs/libxml2
+	>=dev-libs/glib-2.28:2
+	>=sys-apps/dbus-1.1.0
+	>=net-libs/telepathy-glib-0.17.1
+	>=net-dns/avahi-0.6.22[dbus]
+	net-libs/libsoup:2.4
+	sys-apps/util-linux
+	dev-libs/libxslt
+	dev-python/twisted-words
+=net-wireless/aircrack-ng-1.2_rc1-r1::gentoo
+	dev-libs/libnl:3
+	sys-apps/usbutils
+=net-wireless/blueman-1.23_p20140717-r1::gentoo
+	dev-libs/glib:2=
+	dev-python/pygobject:3
+	>=net-wireless/bluez-4.61:=
+	sys-apps/dbus
+	>=net-misc/networkmanager-0.8
+=net-wireless/bluez-4.101-r9::gentoo
+	>=dev-libs/glib-2.28:2
+	>=sys-apps/dbus-1.6:=
+	>=media-libs/alsa-lib-1.0.27.2:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?,alsa_pcm_plugins_extplug(+),alsa_pcm_plugins_ioplug(+)]
+	media-libs/libsndfile:=
+	net-print/cups:=
+	>=dev-python/dbus-python-1
+	dev-python/pygobject:2
+	dev-python/pygobject:3
+=net-wireless/chirp-0.4.1::gentoo
+	dev-python/pyserial
+	dev-libs/libxml2[python]
+	dev-python/pygtk
+=net-wireless/cpyrit-cuda-0.4.0-r1::gentoo
+	~net-wireless/pyrit-0.4.0
+=net-wireless/cpyrit-opencl-0.4.0-r1::gentoo
+	~net-wireless/pyrit-0.4.0
+=net-wireless/crda-1.1.3-r1::gentoo
+	dev-libs/libnl:3
+=net-wireless/gnuradio-3.6.5.1-r2::gentoo
+	dev-python/pyqwt:5
+	>=app-doc/doxygen-1.5.7.1
+=net-wireless/gr-baz-9999::gentoo
+	app-doc/doxygen
+	>=dev-vcs/git-1.8.2.1
+=net-wireless/gr-iqbal-0.37.2::gentoo
+	dev-libs/boost:=
+=net-wireless/gr-osmosdr-0.1.4::gentoo
+	dev-libs/boost:=
+	dev-python/cheetah
+=net-wireless/gr-rds-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=net-wireless/lorcon-0.0_p20130212-r1::gentoo
+	dev-libs/libnl
+=net-wireless/multimode-1.00-r2::gentoo
+	>=net-wireless/gr-osmosdr-0.0.1
+=net-wireless/pyrit-0.4.0-r1::gentoo
+	>=net-analyzer/scapy-2
+	net-wireless/cpyrit-opencl
+	net-wireless/cpyrit-cuda
+=net-wireless/ubertooth-9999::gentoo
+	net-wireless/bluez:=
+	>=dev-vcs/git-1.8.2.1
+=net-wireless/uhd-3.8.2::gentoo
+	dev-libs/boost:=
+	dev-python/cheetah
+=net-wireless/wifi-radar-2.0.8-r2::gentoo
+	>=dev-python/pygtk-2.16.0-r1
+=sci-astronomy/pyephem-3.7.5.1::gentoo
+	dev-python/sphinx
+=sci-biology/seqan-1.3.1-r1::gentoo
+	sci-biology/samtools
+=sci-biology/tophat-2.0.9::gentoo
+	dev-libs/boost
+	sci-biology/samtools
+	sci-biology/seqan
+=sci-calculators/units-2.11::gentoo
+	dev-lang/python-exec:2
+=sci-chemistry/apbs-1.4.1-r2::gentoo
+	app-doc/doxygen
+=sci-chemistry/ball-1.4.2::gentoo
+	dev-libs/boost
+	sci-libs/libsvm
+	dev-python/sip
+=sci-chemistry/ccp4-apps-6.1.3-r13::gentoo
+	~sci-libs/ccp4-libs-6.1.3
+	>=sci-libs/ccp4-libs-6.1.3-r7
+	dev-python/pyxml
+	dev-libs/libxml2:2
+	sci-chemistry/pymol
+=sci-chemistry/ccp4i-6.1.3-r4::gentoo
+	media-gfx/graphviz
+	sci-libs/ccp4-libs
+=sci-chemistry/coot-0.7.1-r1::gentoo
+	>=sci-libs/ccp4-libs-6.1
+=sci-chemistry/molequeue-0.7.1::gentoo
+	app-doc/doxygen
+=sci-chemistry/pdb2pqr-1.9.0-r1::gentoo
+	dev-util/scons
+=sci-chemistry/pointless-1.6.14-r1::gentoo
+	sci-chemistry/ccp4-apps
+	>=sci-libs/ccp4-libs-6.1.3-r10
+=sci-chemistry/pymol-1.7.0.1::gentoo
+	sci-chemistry/apbs
+	sci-chemistry/pdb2pqr
+=sci-chemistry/pymol-apbs-plugin-2.1_p26::gentoo
+	sci-chemistry/apbs
+	sci-chemistry/pdb2pqr
+=sci-chemistry/relax-3.3.4::gentoo
+	sci-chemistry/vmd
+	dev-util/scons
+=sci-electronics/pulseview-0.2.0::gentoo
+	>=dev-libs/glib-2.28.0
+	>=dev-libs/boost-1.42
+	>=sci-libs/libsigrokdecode-0.3.0
+=sci-electronics/sigrok-cli-0.5.0::gentoo
+	>=dev-libs/glib-2.28.0
+	>=sci-libs/libsigrokdecode-0.3.0
+=sci-geosciences/gpsd-3.10::gentoo
+	net-wireless/bluez
+	sys-apps/dbus
+	>=dev-util/scons-1.2.1
+=sci-geosciences/mapnik-2.2.0::gentoo
+	>=dev-libs/boost-1.48[threads,python?]
+	dev-libs/libxml2
+	>=dev-db/postgresql-8.3
+	sci-libs/gdal
+	dev-util/scons
+=sci-geosciences/mapserver-6.0.1-r3::gentoo
+	>=sci-libs/gdal-1.8.0
+	sci-libs/geos
+	media-libs/mesa
+	dev-libs/libxml2:2
+	dev-libs/libxslt[crypt]
+	>=app-admin/webapp-config-1.50.15
+=sci-geosciences/osm-gps-map-0.7.3::gentoo
+	>=dev-libs/glib-2.16.0:2
+	>=net-libs/libsoup-2.4.0:2.4
+	dev-libs/gobject-introspection
+=sci-geosciences/qgis-1.8.0::gentoo
+	>=sci-libs/gdal-1.6.1[geos,python?]
+	sci-libs/geos
+	>=dev-db/postgresql-8.4
+=sci-geosciences/tappy-0.9.0::gentoo
+	dev-python/pywavelets
+=sci-geosciences/tilecache-2.11-r1::gentoo
+	virtual/python-imaging
+	dev-python/paste
+	dev-python/setuptools
+=sci-libs/Fiona-1.5.1::gentoo
+	>=sci-libs/gdal-1.8
+=sci-libs/Rtree-0.8.2::gentoo
+	sci-libs/scipy
+	dev-python/setuptools
+=sci-libs/Shapely-1.3.0::gentoo
+	>=sci-libs/geos-3.1
+=sci-libs/ceres-solver-1.9.0::gentoo
+	dev-libs/protobuf
+	dev-python/sphinx
+	dev-python/sphinx_rtd_theme
+=sci-libs/chemkit-0.1::gentoo
+	dev-libs/boost
+=sci-libs/deap-0.9.1::gentoo
+	dev-python/setuptools
+=sci-libs/gdal-1.10.1::gentoo
+	dev-libs/libxml2
+	>=sci-libs/geos-2.2.1
+	>=dev-db/postgresql-8.4:*
+	>=dev-java/java-config-2.2.0
+	app-doc/doxygen
+=sci-libs/geos-3.4.1-r1::gentoo
+	app-doc/doxygen
+=sci-libs/libsigrokdecode-0.3.0::gentoo
+	>=dev-libs/glib-2.24.0
+=sci-libs/libsvm-3.17-r1::gentoo
+	>=dev-java/java-config-2.2.0
+=sci-libs/plplot-5.10.0-r1::gentoo
+	>=dev-java/java-config-2.2.0
+=sci-libs/pyshp-9999::gentoo
+	dev-vcs/subversion[http]
+	dev-vcs/subversion[webdav-neon]
+	dev-vcs/subversion[webdav-serf]
+=sci-libs/shogun-3.2.0::gentoo
+	dev-libs/libxml2:=
+	dev-libs/protobuf:=
+	sci-libs/nlopt:=
+	app-doc/doxygen[dot]
+	sci-libs/scipy
+	dev-cpp/gmock
+=sci-libs/vtk-6.0.0::gentoo
+	dev-libs/libxml2:2
+	media-libs/mesa
+	>=dev-libs/boost-1.40.0[mpi?]
+	media-libs/mesa[osmesa]
+	dev-db/postgresql:=
+	>=dev-java/java-config-2.2.0
+	app-doc/doxygen
+	dev-util/ninja
+=sci-libs/xdmf2-1.0_p141226-r1::gentoo
+	dev-libs/libxml2:2
+	app-doc/doxygen
+=sci-mathematics/Macaulay2-1.7_pre::gentoo
+	dev-libs/libxml2:2
+=sci-mathematics/kodkod-1.5.2::gentoo
+	>=dev-java/java-config-2.2.0
+=sci-mathematics/p9m4-05-r1::gentoo
+	dev-python/wxpython:*
+	dev-python/setuptools
+=sci-mathematics/singular-3.1.6::gentoo
+	dev-libs/boost:0=
+=sci-physics/espresso-3.3.0::gentoo
+	app-doc/doxygen[dot]
+=sci-physics/espresso++-1.9.2::gentoo
+	dev-python/mpi4py
+	dev-util/ninja
+=sci-physics/hoomd-blue-1.0.2::gentoo
+	app-doc/doxygen
+=sci-physics/lhapdf-6.1.5::gentoo
+	dev-libs/boost:0=
+	app-doc/doxygen[latex]
+=sci-physics/root-5.34.26::gentoo
+	net-dns/avahi:0=
+	media-gfx/graphviz:0=
+	dev-db/postgresql:=
+	dev-libs/libxml2:2=
+=sci-visualization/fityk-1.2.1::gentoo
+	sci-libs/nlopt
+	dev-libs/boost
+=sci-visualization/gwyddion-2.39::gentoo
+	gnome-base/gconf:2
+	dev-libs/libxml2:2
+	dev-util/gtk-doc
+=sci-visualization/mayavi-4.3.0::gentoo
+	sci-libs/vtk[python]
+	dev-python/wxpython[opengl]
+=sci-visualization/paraview-4.1.0-r2::gentoo
+	dev-libs/jsoncpp
+	dev-libs/libxml2:2
+	<dev-libs/protobuf-2.6
+	dev-python/PyQt4
+	app-doc/doxygen
+=sci-visualization/pythonprop-0.13::gentoo
+	dev-python/matplotlib[gtk]
+	dev-python/basemap
+=sci-visualization/pyxplot-0.9.2::gentoo
+	dev-libs/libxml2:2
+=sci-visualization/qtiplot-0.9.8.9-r2::gentoo
+	>=dev-libs/boost-1.35.0:=
+=sys-apps/apparmor-utils-2.8.3::gentoo
+	~sys-libs/libapparmor-2.8.3[perl]
+=sys-apps/dbus-1.8.16::gentoo
+	sys-libs/libselinux
+	sys-apps/systemd:0=
+	app-doc/doxygen
+	>=dev-libs/glib-2.24
+=sys-apps/entropy-server-254::gentoo
+	~app-admin/matter-254[entropy]
+	app-text/asciidoc
+=sys-apps/etckeeper-1.11-r1::gentoo
+	dev-vcs/bzr
+	dev-vcs/git
+	dev-vcs/mercurial
+=sys-apps/file-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=sys-apps/kmod-20::gentoo
+	dev-util/gtk-doc
+=sys-apps/pacman-4.0.3-r1::gentoo
+	app-doc/doxygen
+	app-text/asciidoc
+=sys-apps/paludis-1.4.2-r1::gentoo
+	sys-apps/file
+	>=dev-libs/libxml2-2.6
+	>=app-doc/doxygen-1.5.3
+	>=dev-cpp/gtest-1.6.0-r1
+=sys-apps/pkgcore-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=sys-apps/policycoreutils-2.2.5-r4::gentoo
+	>=sys-libs/libselinux-2.2[python]
+	>=sys-libs/libsemanage-2.2[python]
+	sys-libs/libcap-ng
+	dev-python/ipy
+	sys-apps/dbus
+	>=sys-process/audit-1.5.1
+	dev-python/sepolgen
+=sys-apps/portage-2.2.14::gentoo
+	dev-lang/python-exec:2
+=sys-apps/razercfg-0.23::gentoo
+	dev-python/PyQt4
+=sys-apps/rigo-daemon-254::gentoo
+	dev-python/dbus-python
+	dev-python/pygobject:3
+=sys-apps/systemd-216-r3::gentoo
+	>=sys-apps/util-linux-2.20:0=
+	sys-libs/libapparmor:0=
+	>=sys-process/audit-2:0=
+	>=sys-fs/cryptsetup-1.6:0=
+	>=dev-libs/glib-2.34.3:2=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/gobject-introspection-1.31.1:0=
+	>=sys-apps/kmod-15:0=
+	sys-libs/libselinux:0=
+	>=sys-apps/util-linux-2.24.1-r2
+	>=sys-apps/util-linux-2.22
+	>=sys-kernel/linux-headers-3.8
+	>=sys-kernel/linux-headers-3.9
+	>=dev-util/gtk-doc-1.18
+	>=sys-apps/dbus-1.6.8-r1:0
+	>=sys-apps/dbus-1.6.8-r1:0[systemd]
+=sys-apps/tuned-2.3.0::gentoo
+	dev-util/systemtap
+=sys-apps/util-linux-2.24.1-r2::gentoo
+	sys-libs/libcap-ng
+	sys-libs/libselinux
+=sys-auth/keystone-2014.2.3-r2::gentoo
+	dev-python/mysql-python
+	dev-python/psycopg:2
+=sys-auth/pam_usb-0.5.0::gentoo
+	dev-libs/libxml2
+	sys-apps/dbus
+	dev-python/dbus-python
+	dev-python/pygobject:2
+=sys-auth/sssd-1.9.6-r3::gentoo
+	dev-libs/glib:2
+	>=sys-libs/talloc-2.0.7
+	>=sys-libs/tdb-1.2.9
+	>=sys-libs/tevent-0.9.16
+	>=sys-libs/ldb-1.1.17-r1:=
+	>=app-crypt/mit-krb5-1.10.3
+	>=sys-libs/libselinux-2.1.9
+	>=sys-libs/libsemanage-2.1
+	>=sys-apps/dbus-1.6
+	dev-libs/libnl:3
+	>=dev-libs/libxslt-1.1.26
+	app-doc/doxygen
+=sys-block/blocks-0.1.4_pre131210-r1::gentoo
+	dev-python/maintboot
+	sys-fs/cryptsetup
+=sys-block/fio-2.1.9::gentoo
+	dev-libs/glib:2
+=sys-boot/grub-2.02_beta2-r3::gentoo
+	sys-fs/zfs
+	app-emulation/xen-tools
+	app-emulation/qemu
+=sys-cluster/ceph-0.80.9::gentoo
+	<dev-libs/boost-1.56.0:=[threads]
+	sys-apps/util-linux
+	dev-libs/libxml2
+	sys-fs/zfs
+=sys-cluster/cinder-2014.2.2::gentoo
+	dev-python/mysql-python
+	dev-python/psycopg:2
+=sys-cluster/crmsh-2.1.1::gentoo
+	>=sys-cluster/pacemaker-1.1.8
+=sys-cluster/fence-agents-3.1.5-r2::gentoo
+	dev-libs/libxslt
+=sys-cluster/ganglia-3.5.0-r1::gentoo
+	net-analyzer/rrdtool
+=sys-cluster/glusterfs-3.5.3::gentoo
+	dev-libs/glib:2
+	dev-util/systemtap
+	dev-libs/libxml2
+=sys-cluster/hpx-0.9.8::gentoo
+	>=dev-libs/boost-1.51
+	dev-libs/libxml2
+=sys-cluster/neutron-2014.2.3::gentoo
+	dev-python/mysql-python
+	dev-python/psycopg:2
+	net-misc/openvswitch
+=sys-cluster/nova-2014.2.3::gentoo
+	dev-python/mysql-python
+	dev-python/psycopg:2
+	net-misc/openvswitch
+	net-misc/rabbitmq-server
+	app-emulation/qemu
+	app-emulation/xen
+	app-emulation/xen-tools
+=sys-cluster/pacemaker-1.1.12-r2::gentoo
+	dev-libs/libxslt
+	net-analyzer/net-snmp
+=sys-devel/clang-3.2::gentoo
+	~sys-devel/llvm-3.2[debug=,multitarget=]
+=sys-devel/distcc-3.1-r10::gentoo
+	>=net-dns/avahi-0.6[dbus]
+=sys-devel/gdb-9999::gentoo
+	dev-vcs/git
+=sys-devel/llvm-3.2::gentoo
+	app-editors/vim
+	app-editors/gvim
+	dev-python/sphinx
+=sys-fs/bedup-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=sys-fs/cryptsetup-1.6.2::gentoo
+	sys-apps/util-linux[static-libs(+)]
+	sys-apps/util-linux
+=sys-fs/owfs-2.7_p21-r3::gentoo
+	net-dns/avahi[mdnsresponder-compat]
+=sys-fs/pysize-0.2-r1::gentoo
+	dev-python/pygtk:2
+=sys-fs/udiskie-0.6.2::gentoo
+	dev-python/dbus-python
+	dev-python/notify-python
+	dev-python/pygobject:2
+	dev-python/pyxdg
+	app-text/asciidoc
+	dev-python/setuptools
+=sys-fs/zfs-0.6.2::gentoo
+	sys-libs/libselinux
+	sys-apps/util-linux[static-libs?]
+	sys-apps/util-linux
+=sys-kernel/gentoo-sources-3.4.9999::gentoo
+	dev-vcs/subversion[http]
+	dev-vcs/subversion[webdav-neon]
+	dev-vcs/subversion[webdav-serf]
+	>=dev-vcs/git-1.8.2.1
+=sys-kernel/raspberrypi-sources-3.10.9999::gentoo
+	dev-vcs/git
+=sys-kernel/zen-sources-3.8.9999::gentoo
+	dev-vcs/git
+=sys-libs/ldb-1.1.17-r1::gentoo
+	>=sys-libs/talloc-2.1.0[python]
+	>=sys-libs/tevent-0.9.21[python(+)]
+	>=sys-libs/tdb-1.2.12[python]
+	dev-libs/libxslt
+	app-doc/doxygen
+=sys-libs/libcap-ng-0.7.4::gentoo
+	sys-kernel/linux-headers
+=sys-libs/libselinux-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=sys-libs/libsemanage-2.2-r2::gentoo
+	>=sys-libs/libselinux-2.2.2-r1
+	sys-process/audit
+=sys-libs/libsmbios-2.2.28::gentoo
+	dev-libs/libxml2
+	app-doc/doxygen
+	media-gfx/graphviz
+=sys-libs/openipmi-2.0.18-r1::gentoo
+	dev-libs/glib:2
+	net-analyzer/net-snmp
+=sys-libs/talloc-2.1.0-r1::gentoo
+	dev-libs/libxslt
+=sys-libs/tevent-0.9.19::gentoo
+	>=sys-libs/talloc-2.0.8[python]
+=sys-process/audit-2.2.2-r2::gentoo
+	sys-libs/libcap-ng
+	>=sys-kernel/linux-headers-2.6.34
+=virtual/funcsigs-0::gentoo
+	dev-python/funcsigs
+=www-apache/mod_spdy-9999::gentoo
+	dev-vcs/subversion[http]
+	dev-vcs/subversion[webdav-neon]
+	dev-vcs/subversion[webdav-serf]
+	dev-vcs/git
+=www-apps/blohg-0.13::gentoo
+	=dev-python/click-2.0
+	=dev-python/docutils-0.11*
+	>=dev-python/flask-0.10.1
+	>=dev-python/flask-babel-0.7
+	>=dev-python/frozen-flask-0.7
+	>=dev-python/jinja-2.5.2
+	dev-python/pyyaml
+	dev-python/setuptools
+	dev-python/pygments
+	=dev-python/pygit2-0.20*
+	>=dev-vcs/mercurial-1.6
+	dev-python/sphinx
+	dev-python/mock
+=www-apps/blohg-tumblelog-0.2::gentoo
+	>=www-apps/blohg-0.12
+=www-apps/horizon-2014.1.9999::gentoo
+	dev-vcs/git
+=www-apps/moinmoin-1.9.7-r1::gentoo
+	>=app-admin/webapp-config-1.50.15
+=www-apps/ownpaste-9999::gentoo
+	dev-vcs/mercurial
+=www-apps/trac-1.0.2::gentoo
+	>=app-admin/webapp-config-1.50.15
+=www-apps/trac-accountmanager-0.4.2-r1::gentoo
+	>=www-apps/trac-0.12
+=www-client/chromium-43.0.2357.65::gentoo
+	>=app-accessibility/speech-dispatcher-0.8:=
+	>=net-print/cups-1.3.11:=
+	dev-libs/glib:=
+	>=dev-libs/jsoncpp-0.5.0-r1:=
+	dev-libs/libxml2:=[icu]
+	dev-libs/libxslt:=
+	>=gnome-base/gconf-2.24.0:=
+	>=gnome-base/libgnome-keyring-3.12:=
+	>=media-libs/alsa-lib-1.0.19:=
+	media-libs/harfbuzz:=[icu(+)]
+	sys-apps/dbus:=
+	dev-lang/yasm
+	dev-util/ninja
+=www-client/elinks-9999::gentoo
+	net-fs/samba
+	>=dev-lang/spidermonkey-1.8.5:0=
+	>=dev-vcs/git-1.8.2.1
+=www-client/firefox-24.3.0::gentoo
+	>=dev-libs/glib-2.26:2
+	>=media-libs/mesa-7.10
+	media-libs/alsa-lib
+	>=dev-lang/yasm-1.1
+=www-client/midori-0.5.8::gentoo
+	>=dev-libs/glib-2.32.3
+	dev-libs/libxml2
+	>=net-libs/libsoup-2.38:2.4
+	>=net-libs/webkit-gtk-1.8.1:2[jit=]
+	>=app-crypt/gcr-3
+	>=net-libs/webkit-gtk-1.11.91:3[jit=]
+	>=net-libs/webkit-gtk-1.8.1:3[jit=]
+	dev-libs/gobject-introspection
+	dev-util/gtk-doc
+=www-client/pybugz-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=www-client/seamonkey-2.32::gentoo
+	>=media-libs/mesa-10.2:*
+	media-libs/alsa-lib
+	>=sys-apps/dbus-0.60
+	>=dev-libs/glib-2.26:2
+	>=dev-lang/yasm-1.1
+=www-client/uzbl-2012.05.14-r1::gentoo
+	dev-libs/glib:2
+	>=net-libs/libsoup-2.24:2.4
+	>=net-libs/webkit-gtk-1.1.15:2
+	net-libs/webkit-gtk:3
+	dev-python/pygtk
+	dev-python/pygobject:2
+	app-editors/vim
+	app-editors/gvim
+=www-client/weboob-9998::gentoo
+	dev-vcs/git
+=www-plugins/gnash-0.8.10_p20131019::gentoo
+	>=dev-libs/boost-1.41.0:0=
+	dev-libs/libxml2
+	media-libs/mesa[egl]
+	gnome-base/gconf
+	dev-python/pygtk:2
+	media-libs/mesa[openvg]
+	sys-apps/dbus
+=www-servers/cherokee-1.2.103-r2::gentoo
+	net-analyzer/rrdtool
+=www-servers/uwsgi-2.0.9::gentoo
+	dev-libs/libxml2
+	sys-apps/util-linux
+	dev-db/postgresql:=
+	sys-cluster/ceph
+	sys-apps/systemd
+	dev-libs/libxslt
+	net-analyzer/rrdtool
+=www-servers/varnish-4.0.0-r1::gentoo
+	dev-python/docutils
+=x11-apps/fusion-icon-0.1-r4::gentoo
+	>=dev-python/compizconfig-python-0.6.0
+=x11-apps/intel-gpu-tools-1.7::gentoo
+	dev-libs/glib:2
+=x11-drivers/xf86-video-virtualbox-4.3.18::gentoo
+	>=dev-lang/yasm-0.6.2
+=x11-libs/flowcanvas-0.7.1-r1::gentoo
+	dev-libs/boost
+	media-gfx/graphviz
+	app-doc/doxygen
+=x11-libs/goocanvas-2.0.2::gentoo
+	>=dev-libs/glib-2.28.0:2
+	>=dev-libs/gobject-introspection-0.6.7
+=x11-libs/hippo-canvas-0.3.0-r2::gentoo
+	>=dev-libs/glib-2.6:2
+=x11-libs/libdesktop-agnostic-0.3.92-r1::gentoo
+	>=dev-libs/glib-2
+	gnome-base/gconf:2
+	gnome-base/libglade:2.0
+	gnome-base/gnome-desktop:2
+	dev-libs/gobject-introspection
+=x11-libs/libxcb-1.9.1::gentoo
+	dev-libs/libxslt
+	app-text/asciidoc
+	app-doc/doxygen
+=x11-libs/vte-0.28.2-r206::gentoo
+	>=dev-libs/glib-2.26:2
+	dev-util/glade:3
+	>=dev-libs/gobject-introspection-0.9.0
+=x11-libs/xpyb-1.3.1-r2::gentoo
+	>=x11-libs/libxcb-1.7
+	<x11-proto/xcb-proto-1.9
+=x11-libs/xvba-video-9999::gentoo
+	dev-vcs/git
+=x11-misc/calise-0.4.2::gentoo
+	sys-kernel/linux-headers
+=x11-misc/compton-0.1_beta1::gentoo
+	sys-apps/dbus
+	app-text/asciidoc
+=x11-misc/dockmanager-0.1.0-r1::gentoo
+	dev-libs/glib:2
+	x11-libs/libdesktop-agnostic
+=x11-misc/grub2-theme-preview-1.1::gentoo
+	app-emulation/qemu
+	sys-boot/grub:2
+=x11-misc/icewmcp-3.2-r4::gentoo
+	dev-python/pygtk:2
+	x11-wm/icewm
+=x11-misc/magneto-gtk-254::gentoo
+	dev-python/notify-python
+	dev-python/pygtk:2
+=x11-misc/magneto-gtk3-254::gentoo
+	dev-libs/gobject-introspection
+=x11-misc/menulibre-13.01.4::gentoo
+	dev-libs/gobject-introspection
+=x11-misc/mozo-1.8.0::gentoo
+	>=mate-base/mate-menus-1.6:0[introspection,python]
+=x11-misc/obmenu-1.0-r1::gentoo
+	dev-python/pygtk
+=x11-misc/obtheme-2013.2.20.2::gentoo
+	dev-python/fuse-python
+=x11-misc/redshift-1.7-r1::gentoo
+	x11-libs/libxcb
+	dev-libs/glib:2
+	>=gnome-base/gconf-2
+=x11-misc/treeline-1.4.1-r1::gentoo
+	dev-python/PyQt4[X]
+=x11-misc/winswitch-0.12.18-r1::gentoo
+	dev-python/twisted-core
+	dev-python/twisted-conch
+=x11-misc/zim-0.61::gentoo
+	dev-vcs/bzr
+	dev-vcs/git
+	dev-vcs/mercurial
+=x11-plugins/purple-plugin_pack-2.7.0-r1::gentoo
+	net-im/pidgin[gtk?,ncurses?]
+=x11-plugins/screenlets-0.1.6::gentoo
+	dev-python/beautifulsoup:python-2
+	dev-python/dbus-python
+	dev-python/gconf-python
+	dev-python/gnome-keyring-python
+	dev-python/libwnck-python
+	dev-python/pyxdg
+	dev-python/librsvg-python
+=x11-proto/xcb-proto-1.8-r3::gentoo
+	dev-libs/libxml2
+=x11-terms/guake-0.5.0::gentoo
+	dev-python/dbus-python
+	dev-python/gconf-python
+	dev-python/notify-python
+	dev-python/pygtk
+	dev-python/pyxdg
+	x11-libs/vte:0[python]
+=x11-terms/terminator-0.96-r2::gentoo
+	dev-libs/keybinder:0[python]
+	x11-libs/vte:0[python]
+	sys-apps/dbus
+	dev-python/gconf-python
+	dev-python/libgnome-python
+=x11-terms/terra-9999::gentoo
+	dev-libs/gobject-introspection
+	dev-python/python-xlib
+	<dev-python/python-distutils-extra-2.34
+	>=dev-vcs/bzr-2.0.1
+=x11-terms/valaterm-0.6::gentoo
+	>=dev-libs/glib-2
+=x11-wm/icewm-1.3.8::gentoo
+	dev-python/pyxdg
+	gnome-base/gnome-desktop:2
+=x11-wm/muffin-2.4.4::gentoo
+	>=dev-libs/glib-2.25.10:2
+	>=gnome-extra/cinnamon-desktop-2.3:0=[introspection?]
+	>=dev-libs/gobject-introspection-0.9.5
+	>=app-text/gnome-doc-utils-0.8
+=x11-wm/openbox-3.5.2-r1::gentoo
+	dev-libs/glib:2
+	>=dev-libs/libxml2-2.0
+=x11-wm/qtile-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
+=x11-wm/xpra-0.11.6::gentoo
+	dev-python/pygtkglext
+	dev-python/gst-python:0.10
