@@ -1100,7 +1100,7 @@
 	dev-libs/libxslt
 	>=net-libs/webkit-gtk-1.1.15:2
 =dev-python/pyxattr-9999::gentoo
-	dev-vcs/git
+	>=dev-vcs/git-1.8.2.1
 =dev-python/pyxenstore-0.0.2::gentoo
 	app-emulation/xen-tools
 =dev-python/rackspace-auth-openstack-9999::gentoo
@@ -2892,7 +2892,7 @@
 	dev-util/gtk-doc
 =www-client/pybugz-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=www-client/seamonkey-2.32::gentoo
+=www-client/seamonkey-2.33.1-r1::gentoo
 	>=media-libs/mesa-10.2:*
 	media-libs/alsa-lib
 	>=sys-apps/dbus-0.60
