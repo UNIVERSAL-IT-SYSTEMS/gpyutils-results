@@ -5,6 +5,7 @@ dev-perl/Inline-Python:0
 dev-python/3to2:0
 dev-python/django-openstack-auth:0
 dev-python/enum34:0
+dev-python/keepassx:0
 dev-python/pathlib:0
 dev-python/pypam:0
 dev-python/python-glanceclient:0
