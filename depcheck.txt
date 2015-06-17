@@ -839,7 +839,7 @@
 	>=dev-vcs/git-1.8.2.1
 =dev-python/hglib-1.0::gentoo
 	>=dev-vcs/mercurial-2.4.2
-=dev-python/hgtools-2.0.2::gentoo
+=dev-python/hgtools-6.0::gentoo
 	dev-vcs/mercurial
 =dev-python/hp3parclient-2.0.0::gentoo
 	>=dev-python/httplib2-0.6.0
