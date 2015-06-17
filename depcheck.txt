@@ -1213,7 +1213,7 @@
 =dev-python/zsi-2.1_alpha1-r1::gentoo
 	dev-python/twisted-core
 	dev-python/twisted-web
-=dev-qt/qtwebkit-5.4.1::gentoo
+=dev-qt/qtwebkit-5.4.2::gentoo
 	dev-libs/libxml2:2
 	dev-libs/libxslt
 	dev-libs/glib:2
