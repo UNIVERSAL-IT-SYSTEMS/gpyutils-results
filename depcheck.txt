@@ -2773,7 +2773,7 @@
 =sys-fs/cryptsetup-1.6.2::gentoo
 	sys-apps/util-linux[static-libs(+)]
 	sys-apps/util-linux
-=sys-fs/owfs-2.7_p21-r3::gentoo
+=sys-fs/owfs-2.7_p21-r4::gentoo
 	net-dns/avahi[mdnsresponder-compat]
 =sys-fs/pysize-0.2-r1::gentoo
 	dev-python/pygtk:2
