@@ -559,13 +559,13 @@
 =app-vim/conque-2.3-r1::gentoo
 	>=app-editors/vim-7.1
 	>=app-editors/gvim-7.1
-=app-vim/easytags-3.4.3::gentoo
+=app-vim/easytags-3.9.1::gentoo
 	>=app-editors/vim-7.3
 	>=app-editors/gvim-7.3
 =app-vim/gundo-2.5.0::gentoo
 	>=app-editors/vim-7.3
 	>=app-editors/gvim-7.3
-=app-vim/notes-0.23.4::gentoo
+=app-vim/notes-0.29::gentoo
 	>=app-editors/vim-7.3
 	>=app-editors/gvim-7.3
 =app-vim/pyclewn-2.0.1::gentoo
