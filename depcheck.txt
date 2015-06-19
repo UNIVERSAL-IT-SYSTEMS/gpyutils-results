@@ -1330,6 +1330,8 @@
 	app-text/asciidoc
 =dev-util/umockdev-0.8.2::gentoo
 	>=dev-libs/glib-2.32:2
+=dev-util/uncrustify-9999::gentoo
+	>=dev-vcs/git-1.8.2.1
 =dev-vcs/bzr-2.5.1-r1::gentoo
 	dev-python/subunit
 =dev-vcs/bzr-fastimport-0.13.0::gentoo
@@ -1561,6 +1563,7 @@
 	>=dev-libs/libxml2-2.9
 	dev-python/pygobject:3
 	>=dev-util/devhelp-3.16
+	dev-util/uncrustify
 	sys-devel/clang
 	>=dev-libs/gobject-introspection-1.42
 =gnome-extra/gnome-commander-1.4.2::gentoo
