@@ -747,8 +747,8 @@
 	>=dev-java/java-config-2.2.0
 =dev-python/CoverageTestRunner-1.9-r1::gentoo
 	dev-python/coverage
-=dev-python/PyQt5-5.4.1::gentoo
-	>=dev-qt/qtwebkit-5.3.2:5[printsupport]
+=dev-python/PyQt5-5.4.2::gentoo
+	>=dev-qt/qtwebkit-5.4.2:5[printsupport]
 =dev-python/SaltTesting-2015.2.16::gentoo
 	>=dev-python/requests-2.4.2
 =dev-python/anyvc-0.3.7.1-r1::gentoo
