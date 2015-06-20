@@ -2895,6 +2895,9 @@
 	dev-util/gtk-doc
 =www-client/pybugz-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
+=www-client/qutebrowser-0.2.1::gentoo
+	dev-qt/qtwebkit:5[gstreamer]
+	app-text/asciidoc
 =www-client/seamonkey-2.33.1-r1::gentoo
 	>=media-libs/mesa-10.2:*
 	media-libs/alsa-lib
