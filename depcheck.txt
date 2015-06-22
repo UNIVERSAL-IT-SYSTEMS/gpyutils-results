@@ -86,7 +86,7 @@
 	~app-admin/system-config-printer-common-1.4.3
 	gnome-base/libgnome-keyring[introspection]
 =app-admin/webapp-config-9999::gentoo
-	dev-vcs/git
+	>=dev-vcs/git-1.8.2.1
 =app-arch/createrepo-0.10.3::gentoo
 	>=sys-apps/yum-3.4.3
 =app-arch/deltarpm-3.6_pre20110223-r1::gentoo
@@ -850,7 +850,7 @@
 =dev-python/ipdbplugin-1.4::gentoo
 	dev-python/ipdb
 	dev-python/nose
-=dev-python/ipython-2.4.1::gentoo
+=dev-python/ipython-3.2.0::gentoo
 	>=net-libs/nodejs-0.9.12
 =dev-python/jedi-0.8.1-r2::gentoo
 	dev-python/sphinx
