@@ -1303,7 +1303,7 @@
 =dev-util/meld-3.12.3::gentoo
 	>=dev-libs/glib-2.36:2
 	dev-util/itstool
-=dev-util/ninja-1.4.0::gentoo
+=dev-util/ninja-1.5.1::gentoo
 	app-editors/vim
 	app-editors/gvim
 	app-text/asciidoc
