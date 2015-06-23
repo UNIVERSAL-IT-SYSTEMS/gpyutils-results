@@ -1263,7 +1263,7 @@
 	dev-vcs/subversion[webdav-serf]
 =dev-util/cppcheck-1.67::gentoo
 	dev-libs/libxslt
-=dev-util/d-feet-0.3.8::gentoo
+=dev-util/d-feet-0.3.9::gentoo
 	>=dev-libs/glib-2.34:2
 	>=dev-libs/gobject-introspection-0.9.6
 	>=sys-apps/dbus-1
@@ -1832,7 +1832,7 @@
 	media-libs/libsndfile
 	app-doc/doxygen
 	dev-python/rdflib
-=media-libs/lv2-ui-2.4::gentoo
+=media-libs/lv2-ui-2.4-r1::gentoo
 	>=media-libs/lv2core-6.0
 =media-libs/mesa-10.2.8::gentoo
 	>=x11-libs/libxcb-1.9.3:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
