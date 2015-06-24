@@ -510,7 +510,7 @@
 	>=sys-apps/portage-2.1.11.9
 =app-portage/smart-live-rebuild-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=app-portage/tatt-0.2::gentoo
+=app-portage/tatt-0.3::gentoo
 	app-portage/gentoolkit
 	www-client/pybugz
 =app-text/asciidoc-8.6.8-r1::gentoo
