@@ -879,8 +879,8 @@
 	>=dev-vcs/git-1.8.2.1
 =dev-python/libwnck-python-2.32.0-r1::gentoo
 	~dev-python/gnome-python-desktop-base-2.32.0
-=dev-python/llvmlite-0.2.0::gentoo
-	>=sys-devel/llvm-3.5:=[multitarget]
+=dev-python/llvmlite-0.2.1::gentoo
+	=sys-devel/llvm-3.5*:=[multitarget]
 =dev-python/llvmpy-0.12.2::gentoo
 	=sys-devel/llvm-3.3*:=[multitarget]
 	dev-python/sphinx
@@ -2132,7 +2132,7 @@
 	sys-libs/cracklib
 	sys-apps/dbus
 	app-misc/tracker
-=net-fs/samba-4.0.25::gentoo
+=net-fs/samba-4.0.26::gentoo
 	>=app-crypt/heimdal-1.5[-ssl]
 	>=sys-libs/ldb-1.1.16
 	>=sys-libs/tevent-0.9.18
