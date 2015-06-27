@@ -137,14 +137,14 @@
 	>=dev-vcs/git-1.8.2.1
 =app-crypt/heimdal-1.5.3-r2::gentoo
 	sys-libs/libcap-ng
-=app-crypt/libsecret-0.16::gentoo
-	>=dev-libs/glib-2.32.0:2
+=app-crypt/libsecret-0.18::gentoo
+	>=dev-libs/glib-2.38:2
 	>=dev-libs/gobject-introspection-1.29
-	>=gnome-base/gnome-keyring-3
 	dev-libs/libxslt
 	dev-util/gdbus-codegen
 	dev-python/mock
 	dev-python/pygobject:3
+	>=gnome-base/gnome-keyring-3
 =app-doc/doxygen-1.8.3.1::gentoo
 	media-gfx/graphviz
 =app-editors/bluefish-2.2.6::gentoo
@@ -1629,13 +1629,13 @@
 =kde-base/plasma-workspace-4.11.14::gentoo
 	>=sci-geosciences/gpsd-2.37
 	dev-libs/boost
-=kde-frameworks/extra-cmake-modules-5.10.0::gentoo
-	>=kde-frameworks/kapidox-5.10
+=kde-frameworks/extra-cmake-modules-5.11.0::gentoo
+	>=kde-frameworks/kapidox-5.11
 	app-doc/doxygen
-=kde-frameworks/kapidox-5.10.0::gentoo
+=kde-frameworks/kapidox-5.11.0::gentoo
 	app-doc/doxygen
 	media-gfx/graphviz[python]
-	>=kde-frameworks/extra-cmake-modules-5.10
+	>=kde-frameworks/extra-cmake-modules-5.11
 =kde-misc/kcm-ufw-0.4.3-r1::gentoo
 	>=net-firewall/ufw-0.31
 =kde-misc/magneto-kde-254::gentoo
