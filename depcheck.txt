@@ -786,7 +786,7 @@
 	>=dev-libs/glib-2.6
 =dev-python/configshell-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=dev-python/cvxopt-1.1.6-r1::gentoo
+=dev-python/cvxopt-1.1.6-r2::gentoo
 	dev-python/sphinx
 =dev-python/cython-0.19.1-r1::gentoo
 	dev-python/sphinx
