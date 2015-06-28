@@ -1598,7 +1598,7 @@
 	>=app-misc/tracker-0.12:=
 	>=dev-util/gdbus-codegen-2.31.0
 	dev-util/gtk-doc
-=gnome-extra/zeitgeist-0.9.14::gentoo
+=gnome-extra/zeitgeist-0.9.15::gentoo
 	>=dev-libs/glib-2.26.0:2
 	sys-apps/dbus
 	gnome-extra/zeitgeist-extensions
