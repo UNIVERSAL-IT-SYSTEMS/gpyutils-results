@@ -607,12 +607,13 @@
 	dev-db/postgresql[server]
 =dev-db/hyperdex-1.6.0-r1::gentoo
 	dev-libs/libmacaroons
-=dev-db/mysql-workbench-6.0.9::gentoo
+=dev-db/mysql-workbench-6.2.5::gentoo
 	dev-libs/glib:2
 	gnome-base/libglade:2.0
 	dev-libs/boost
 	>=dev-cpp/ctemplate-0.95
 	>=dev-libs/libxml2-2.6.2:2
+	>=sci-libs/gdal-1.11.1-r1[-mdb]
 	gnome-base/libgnome-keyring
 	dev-python/pexpect
 	>=dev-python/paramiko-1.7.4
