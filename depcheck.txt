@@ -335,8 +335,6 @@
 	>=gnome-base/libglade-2:2.0
 =app-misc/goobook-1.8::gentoo
 	dev-python/setuptools
-=app-misc/gourmet-0.17.2::gentoo
-	dev-python/gtkspell-python
 =app-misc/gramps-3.4.5-r1::gentoo
 	media-gfx/graphviz
 =app-misc/hivex-1.3.11::gentoo
