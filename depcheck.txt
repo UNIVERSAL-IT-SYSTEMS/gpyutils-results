@@ -619,7 +619,7 @@
 	>=dev-python/paramiko-1.7.4
 =dev-db/pgxnclient-1.2-r1::gentoo
 	>=dev-db/postgresql-9.1[server]
-=dev-db/postgresql-9.0.19::gentoo
+=dev-db/postgresql-9.0.21::gentoo
 	dev-libs/libxml2
 	dev-libs/libxslt
 =dev-db/tokumx-1.5.0-r1::gentoo
