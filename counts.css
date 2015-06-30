@@ -1,4 +1,4 @@
-address:after { content: '; generated on 2015-06-30 08:49:35.686883'; }
+address:after { content: '; generated on 2015-06-30 12:49:35.315394'; }
 
 /* python-any-r1 */
 #python-any-r1-old:before { content: '23'; }
@@ -9,18 +9,18 @@ address:after { content: '; generated on 2015-06-30 08:49:35.686883'; }
 #python-any-r1-perc2:before { content: '85'; }
 #python-any-r1-bar { width: 82.82%; }
 #python-any-r1-bar2 { width: 85.89%; }
-address:after { content: '; generated on 2015-06-30 08:49:35.687022'; }
+address:after { content: '; generated on 2015-06-30 12:49:35.315480'; }
 
 /* python-single-r1 */
-#python-single-r1-old:before { content: '107'; }
-#python-single-r1-new:before { content: '402'; }
+#python-single-r1-old:before { content: '106'; }
+#python-single-r1-new:before { content: '403'; }
 #python-single-r1-unstable:before { content: '41'; }
 #python-single-r1-all:before { content: '509'; }
-#python-single-r1-perc:before { content: '70'; }
-#python-single-r1-perc2:before { content: '78'; }
-#python-single-r1-bar { width: 70.92%; }
-#python-single-r1-bar2 { width: 78.98%; }
-address:after { content: '; generated on 2015-06-30 08:49:35.687065'; }
+#python-single-r1-perc:before { content: '71'; }
+#python-single-r1-perc2:before { content: '79'; }
+#python-single-r1-bar { width: 71.12%; }
+#python-single-r1-bar2 { width: 79.17%; }
+address:after { content: '; generated on 2015-06-30 12:49:35.315522'; }
 
 /* python-r1 */
 #python-r1-old:before { content: '20'; }
@@ -31,7 +31,7 @@ address:after { content: '; generated on 2015-06-30 08:49:35.687065'; }
 #python-r1-perc2:before { content: '91'; }
 #python-r1-bar { width: 89.71%; }
 #python-r1-bar2 { width: 91.77%; }
-address:after { content: '; generated on 2015-06-30 08:49:35.687104'; }
+address:after { content: '; generated on 2015-06-30 12:49:35.315563'; }
 
 /* distutils-r1 */
 #distutils-r1-old:before { content: '59'; }

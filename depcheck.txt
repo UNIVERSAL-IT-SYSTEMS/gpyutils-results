@@ -1318,6 +1318,8 @@
 	app-text/asciidoc
 =dev-util/pkgcheck-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
+=dev-util/scanmem-0.15.2::gentoo
+	dev-python/pygobject:3
 =dev-util/spec-cleaner-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
 =dev-util/synopsis-0.13::gentoo
