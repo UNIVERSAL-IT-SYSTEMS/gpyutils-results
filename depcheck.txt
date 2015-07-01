@@ -483,6 +483,9 @@
 	dev-python/epydoc
 =app-portage/gpyutils-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
+=app-portage/grs-9999::gentoo
+	dev-vcs/git
+	sys-apps/portage
 =app-portage/gs-elpa-9999::gentoo
 	dev-vcs/git
 =app-portage/gs-pypi-9999::gentoo
@@ -947,9 +950,8 @@
 	dev-vcs/git
 =dev-python/pyalsa-1.0.26-r1::gentoo
 	media-libs/alsa-lib
-=dev-python/pyalsaaudio-0.7-r1::gentoo
+=dev-python/pyalsaaudio-0.7-r2::gentoo
 	media-libs/alsa-lib
-	>=dev-python/sphinx-0.6
 =dev-python/pyatspi-2.12.0::gentoo
 	>=sys-apps/dbus-1
 =dev-python/pybluez-0.18-r1::gentoo
