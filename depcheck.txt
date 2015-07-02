@@ -956,9 +956,6 @@
 	>=sys-apps/dbus-1
 =dev-python/pybluez-0.18-r1::gentoo
 	net-wireless/bluez
-=dev-python/pycadf-0.8.0::gentoo
-	>=dev-python/oslo-messaging-1.6.0
-	>=dev-python/oslotest-1.2.0
 =dev-python/pycairo-1.10.0-r4::gentoo
 	x11-libs/xpyb
 =dev-python/pycallgraph-1.0.1::gentoo
