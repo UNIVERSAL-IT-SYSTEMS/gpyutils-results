@@ -2742,7 +2742,7 @@
 =sys-cluster/hpx-0.9.8::gentoo
 	>=dev-libs/boost-1.51
 	dev-libs/libxml2
-=sys-cluster/neutron-2014.2.3::gentoo
+=sys-cluster/neutron-2014.2.3-r1::gentoo
 	dev-python/mysql-python
 	dev-python/psycopg:2
 	net-misc/openvswitch
