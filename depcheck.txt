@@ -2688,9 +2688,10 @@
 =sys-apps/util-linux-2.24.1-r2::gentoo
 	sys-libs/libcap-ng
 	sys-libs/libselinux
-=sys-auth/keystone-2014.2.3-r2::gentoo
+=sys-auth/keystone-2014.2.9999::gentoo
 	dev-python/mysql-python
 	dev-python/psycopg:2
+	dev-vcs/git
 =sys-auth/pam_usb-0.5.0::gentoo
 	dev-libs/libxml2
 	sys-apps/dbus
