@@ -1383,7 +1383,7 @@
 =dev-vcs/stgit-0.16-r2::gentoo
 	>=dev-vcs/git-1.6.3.3
 	app-text/asciidoc
-=dev-vcs/subversion-1.7.19::gentoo
+=dev-vcs/subversion-1.7.20::gentoo
 	dev-libs/glib:2
 	sys-apps/dbus
 	gnome-base/libgnome-keyring
