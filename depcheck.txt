@@ -650,7 +650,7 @@
 	>=sys-devel/llvm-3.0
 =dev-lang/python-exec-2.9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=dev-lang/rust-1.0.0::gentoo
+=dev-lang/rust-1.1.0::gentoo
 	sys-devel/clang
 	>=sys-devel/llvm-3.6.0[multitarget(-)]
 =dev-lang/yasm-9999::gentoo
@@ -2050,12 +2050,12 @@
 	dev-python/setuptools
 =media-video/subliminal-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=media-video/totem-3.12.2::gentoo
+=media-video/totem-3.14.3::gentoo
 	>=dev-libs/glib-2.35:2
 	>=dev-libs/libpeas-1.1.0[gtk]
 	>=dev-libs/libxml2-2.6:2
 	>=media-libs/clutter-gst-1.5.5:2.0
-	>=media-libs/grilo-0.2.10:0.2[playlist]
+	>=media-libs/grilo-0.2.11:0.2[playlist]
 	>=dev-libs/gobject-introspection-0.6.7
 	>=gnome-extra/zeitgeist-0.9.12
 =media-video/tovid-0.35.2::gentoo
