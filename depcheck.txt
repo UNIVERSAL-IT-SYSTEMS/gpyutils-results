@@ -188,7 +188,7 @@
 	sys-cluster/ceph
 	dev-python/mock
 	dev-python/pyyaml
-=app-emulation/libvirt-glib-0.1.8::gentoo
+=app-emulation/libvirt-glib-0.2.0::gentoo
 	dev-libs/libxml2:2
 	>=dev-libs/glib-2.38.0:2
 	>=dev-libs/gobject-introspection-0.10.8:=
@@ -1509,9 +1509,9 @@
 	dev-vcs/bzr
 	>=gnome-base/gconf-2
 	dev-util/gtk-doc
-=gnome-extra/cinnamon-2.4.6::gentoo
+=gnome-extra/cinnamon-2.4.7::gentoo
 	app-misc/ca-certificates
-	>=dev-libs/glib-2.29.10:2
+	>=dev-libs/glib-2.29.10:2[dbus]
 	>=dev-libs/gobject-introspection-0.10.1
 	dev-libs/libxml2:2
 	gnome-base/gconf:2[introspection]
