@@ -8,11 +8,13 @@ dev-python/enum34:0
 dev-python/freezegun:0
 dev-python/keepassx:0
 dev-python/pathlib:0
-dev-python/pykka:0
 dev-python/pypam:0
+dev-python/pytest-capturelog:0
+dev-python/pytest-localserver:0
 dev-python/python-glanceclient:0
 dev-python/simplegui:0
 dev-python/simpletal:5
+dev-python/vcrpy:0
 dev-python/warlock:0
 sci-geosciences/mapnik:0
 sci-physics/geant-python:0
