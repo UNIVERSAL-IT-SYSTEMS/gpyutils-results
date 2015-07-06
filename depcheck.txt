@@ -2327,7 +2327,7 @@
 	dev-libs/gobject-introspection
 	dev-python/pygtk:2
 	dev-python/pyparsing
-=net-misc/tinc-1.1_pre10-r1::gentoo
+=net-misc/tinc-1.1_pre11::gentoo
 	net-misc/vde
 =net-misc/usbip-3.19::gentoo
 	>=dev-libs/glib-2.6
