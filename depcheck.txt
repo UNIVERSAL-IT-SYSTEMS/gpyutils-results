@@ -2871,10 +2871,11 @@
 	net-fs/samba
 	>=dev-lang/spidermonkey-1.8.5:0=
 	>=dev-vcs/git-1.8.2.1
-=www-client/firefox-24.3.0::gentoo
-	>=dev-libs/glib-2.26:2
-	>=media-libs/mesa-7.10
+=www-client/firefox-31.5.3::gentoo
+	>=media-libs/mesa-10.2:*
 	media-libs/alsa-lib
+	>=sys-apps/dbus-0.60
+	>=dev-libs/glib-2.26:2
 	>=dev-lang/yasm-1.1
 =www-client/midori-0.5.8::gentoo
 	>=dev-libs/glib-2.32.3
