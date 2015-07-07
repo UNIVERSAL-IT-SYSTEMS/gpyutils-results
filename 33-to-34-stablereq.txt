@@ -1,7 +1,6 @@
 app-text/landslide:0
 app-text/nfoview:0
 app-text/wklej:0
-dev-python/oslo-serialization:0
 dev-python/pyftpdlib:0
 dev-python/pympler:0
 dev-python/python-keystoneclient:0
