@@ -1148,10 +1148,6 @@
 	dev-python/django[sqlite]
 =dev-python/soya-0.14-r1::gentoo
 	dev-python/editobj
-=dev-python/sqlalchemy-0.7.10::gentoo
-	dev-python/pymssql
-	dev-python/mysql-python
-	>=dev-python/psycopg-2
 =dev-python/sqlite3dbm-0.1.4-r1::gentoo
 	dev-python/sphinx
 =dev-python/sqlitecachec-1.1.4-r1::gentoo
