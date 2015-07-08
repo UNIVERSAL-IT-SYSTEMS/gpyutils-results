@@ -65,11 +65,9 @@
 	>=sys-apps/systemd-204
 =app-admin/rigo-254::gentoo
 	dev-python/pygobject:3[cairo]
-=app-admin/salt-2014.1.13::gentoo
-	dev-python/pip
-	dev-python/virtualenv
-	dev-python/timelib
-	>=dev-python/SaltTesting-2014.4.24
+=app-admin/salt-2015.5.1::gentoo
+	>=app-editors/vim-7.3
+	>=app-editors/gvim-7.3
 =app-admin/setools-3.3.8-r5::gentoo
 	>=sys-libs/libselinux-2.3
 	dev-libs/libxml2:2
