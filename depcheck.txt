@@ -1445,8 +1445,6 @@
 	gnome-base/libglade
 =games-strategy/outerspace-0.5.68::gentoo
 	>=dev-python/pygame-1.7
-=games-util/nml-0.4.0::gentoo
-	dev-vcs/mercurial
 =games-util/pyfa-9999::gentoo
 	dev-vcs/git
 =gnome-base/gconf-3.2.6-r3::gentoo

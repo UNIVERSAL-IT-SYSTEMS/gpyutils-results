@@ -6,6 +6,8 @@
     =dev-util/boost-build-1.54* [python-single-r1]
 =dev-util/apitrace-4.0::gentoo
     <media-libs/mesa-8.0 [python-single-r1]
+=gnome-extra/nautilus-dropbox-1.6.2::gentoo
+    net-misc/dropbox [python-any-r1]
 =media-video/openshot-1.4.3::gentoo
     >=media-libs/mlt-0.8.2 [python-single-r1]
 =net-analyzer/scapy-2.2.0-r2::gentoo
@@ -14,9 +16,10 @@
     >=sys-cluster/heartbeat-3.0.0 [python-single-r1]
 Statistics:
     1 =dev-util/boost-build-1.54.0::gentoo
-    1 =dev-util/boost-build-1.53.0::gentoo
-    1 =media-libs/mlt-0.9.0::gentoo
     1 =dev-util/boost-build-1.52.0-r1::gentoo
+    1 =media-libs/mlt-0.9.0::gentoo
+    1 =dev-util/boost-build-1.53.0::gentoo
     2 =sys-cluster/heartbeat-3.0.5-r2::gentoo
     3 =dev-python/visual-5.74::gentoo
+    6 =net-misc/dropbox-3.6.8::gentoo
    94 =media-libs/mesa-7.10.3::gentoo
