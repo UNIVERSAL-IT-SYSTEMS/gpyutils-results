@@ -1082,6 +1082,8 @@
 =dev-python/python-stdnum-0.9::gentoo
 	dev-python/setuptools
 	dev-python/suds
+=dev-python/python-systemd-230::gentoo
+	sys-apps/systemd
 =dev-python/python-termstyle-0.1.10::gentoo
 	dev-python/setuptools
 =dev-python/pytools-9999::gentoo
