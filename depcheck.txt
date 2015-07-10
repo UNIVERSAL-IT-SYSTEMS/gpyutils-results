@@ -1693,7 +1693,7 @@
 	media-libs/libsndfile
 	app-doc/doxygen[-nodot(-),dot(+)]
 	dev-python/sphinx
-=media-gfx/cptutils-1.48::gentoo
+=media-gfx/cptutils-1.54::gentoo
 	dev-libs/libxml2:2
 =media-gfx/dispcalgui-2.0.0.0::gentoo
 	dev-python/wxpython:2.8
