@@ -6,7 +6,6 @@ dev-python/pympler:0
 dev-python/winpdb:0
 dev-util/cppcheck:0
 media-gfx/fontforge:0
-net-irc/znc:0
 net-libs/rb_libtorrent:0
 sci-calculators/units:0
 www-servers/varnish:0
