@@ -230,7 +230,7 @@
 	>=app-emulation/virtualbox-4.2.0[-headless,python,sdk]
 	>=app-emulation/virtualbox-bin-4.2.0[python]
 	dev-python/pygobject:3
-=app-emulation/virt-manager-0.10.0-r2::gentoo
+=app-emulation/virt-manager-1.1.0-r2::gentoo
 	dev-python/gnome-keyring-python
 =app-emulation/virtualbox-4.3.18::gentoo
 	>=dev-libs/libxslt-1.1.19
