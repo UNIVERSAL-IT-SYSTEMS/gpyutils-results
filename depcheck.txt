@@ -1707,7 +1707,7 @@
 =media-gfx/eom-1.8.0::gentoo
 	>=dev-libs/glib-2.25.9:2
 	>=dev-libs/libxml2-2:2
-	>=mate-base/mate-desktop-1.6:0
+	>=mate-base/mate-desktop-1.8:0
 =media-gfx/exiv2-0.24-r1::gentoo
 	>=dev-libs/boost-1.44
 	app-doc/doxygen
@@ -2983,7 +2983,7 @@
 =x11-misc/menulibre-13.01.4::gentoo
 	dev-libs/gobject-introspection
 =x11-misc/mozo-1.8.0::gentoo
-	>=mate-base/mate-menus-1.6:0[introspection,python]
+	>=mate-base/mate-menus-1.8:0[introspection,python]
 =x11-misc/obmenu-1.0-r1::gentoo
 	dev-python/pygtk
 =x11-misc/obtheme-2013.2.20.2::gentoo

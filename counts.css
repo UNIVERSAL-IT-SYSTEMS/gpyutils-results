@@ -1,4 +1,4 @@
-address:after { content: '; generated on 2015-07-11 20:49:38.279471'; }
+address:after { content: '; generated on 2015-07-12 08:49:36.299918'; }
 
 /* python-any-r1 */
 #python-any-r1-old:before { content: '24'; }
@@ -9,18 +9,18 @@ address:after { content: '; generated on 2015-07-11 20:49:38.279471'; }
 #python-any-r1-perc2:before { content: '85'; }
 #python-any-r1-bar { width: 82.32%; }
 #python-any-r1-bar2 { width: 85.37%; }
-address:after { content: '; generated on 2015-07-11 20:49:38.279553'; }
+address:after { content: '; generated on 2015-07-12 08:49:36.300004'; }
 
 /* python-single-r1 */
-#python-single-r1-old:before { content: '106'; }
-#python-single-r1-new:before { content: '404'; }
-#python-single-r1-unstable:before { content: '38'; }
+#python-single-r1-old:before { content: '105'; }
+#python-single-r1-new:before { content: '405'; }
+#python-single-r1-unstable:before { content: '39'; }
 #python-single-r1-all:before { content: '510'; }
 #python-single-r1-perc:before { content: '71'; }
 #python-single-r1-perc2:before { content: '79'; }
 #python-single-r1-bar { width: 71.76%; }
-#python-single-r1-bar2 { width: 79.22%; }
-address:after { content: '; generated on 2015-07-11 20:49:38.279596'; }
+#python-single-r1-bar2 { width: 79.41%; }
+address:after { content: '; generated on 2015-07-12 08:49:36.300047'; }
 
 /* python-r1 */
 #python-r1-old:before { content: '20'; }
@@ -31,7 +31,7 @@ address:after { content: '; generated on 2015-07-11 20:49:38.279596'; }
 #python-r1-perc2:before { content: '91'; }
 #python-r1-bar { width: 89.71%; }
 #python-r1-bar2 { width: 91.77%; }
-address:after { content: '; generated on 2015-07-11 20:49:38.279638'; }
+address:after { content: '; generated on 2015-07-12 08:49:36.300088'; }
 
 /* distutils-r1 */
 #distutils-r1-old:before { content: '59'; }
