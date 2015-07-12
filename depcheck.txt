@@ -1663,10 +1663,10 @@
 	gnome-base/libgnome-keyring
 =mate-base/mate-applets-1.8.0-r1::gentoo
 	>=dev-libs/glib-2.22:2
-	>=dev-libs/libmateweather-1.6.1:0
+	>=dev-libs/libmateweather-1.8:0
 	>=dev-libs/libxml2-2.5:2
 	dev-python/pygobject:3
-	>=mate-base/mate-desktop-1.6:0
+	>=mate-base/mate-desktop-1.8:0
 	>=sys-apps/dbus-1.1.2:0
 	>=net-misc/networkmanager-0.7:0
 	dev-libs/libxslt:0
@@ -2971,7 +2971,7 @@
 	x11-libs/libdesktop-agnostic
 =x11-misc/grub2-theme-preview-1.1::gentoo
 	app-emulation/qemu
-	sys-boot/grub:2
+	sys-boot/grub:2[grub_platforms_pc]
 =x11-misc/icewmcp-3.2-r4::gentoo
 	dev-python/pygtk:2
 	x11-wm/icewm
