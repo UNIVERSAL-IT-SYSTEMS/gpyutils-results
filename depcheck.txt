@@ -245,7 +245,7 @@
 	~app-emulation/xen-tools-4.2.5
 =app-emulation/xen-pvgrub-4.2.5::gentoo
 	>=app-emulation/xen-4.2.1
-=app-emulation/xen-tools-4.2.5-r7::gentoo
+=app-emulation/xen-tools-4.2.5-r8::gentoo
 	dev-libs/glib:2
 	sys-firmware/seabios
 	dev-libs/libxml2
@@ -2847,7 +2847,9 @@
 	>=app-admin/webapp-config-1.50.15
 =www-apps/ownpaste-9999::gentoo
 	dev-vcs/mercurial
-=www-apps/trac-1.0.2::gentoo
+=www-apps/trac-1.0.4::gentoo
+	app-text/silvercity
+	app-text/pytextile
 	>=app-admin/webapp-config-1.50.15
 =www-apps/trac-accountmanager-0.4.2-r1::gentoo
 	>=www-apps/trac-0.12
