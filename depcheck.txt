@@ -2680,7 +2680,7 @@
 	>=dev-util/gtk-doc-1.18
 	>=sys-apps/dbus-1.6.8-r1:0
 	>=sys-apps/dbus-1.6.8-r1:0[systemd]
-=sys-apps/tuned-2.3.0::gentoo
+=sys-apps/tuned-2.4.1::gentoo
 	dev-util/systemtap
 =sys-apps/util-linux-2.24.1-r2::gentoo
 	sys-libs/libcap-ng
