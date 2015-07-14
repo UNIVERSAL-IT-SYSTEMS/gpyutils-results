@@ -232,13 +232,13 @@
 	dev-python/pygobject:3
 =app-emulation/virt-manager-1.1.0-r2::gentoo
 	dev-python/gnome-keyring-python
-=app-emulation/virtualbox-4.3.18::gentoo
+=app-emulation/virtualbox-4.3.28::gentoo
 	>=dev-libs/libxslt-1.1.19
 	dev-libs/libxml2
 	>=dev-java/java-config-2.2.0
 	>=dev-lang/yasm-0.6.2
 	>=media-libs/alsa-lib-1.0.13
-=app-emulation/virtualbox-bin-4.3.26.98988-r1::gentoo
+=app-emulation/virtualbox-bin-4.3.28.100309::gentoo
 	dev-libs/glib
 	dev-libs/libxml2
 =app-emulation/xen-4.2.5-r11::gentoo
@@ -2933,7 +2933,7 @@
 	>=dev-python/compizconfig-python-0.6.0
 =x11-apps/intel-gpu-tools-1.7::gentoo
 	dev-libs/glib:2
-=x11-drivers/xf86-video-virtualbox-4.3.18::gentoo
+=x11-drivers/xf86-video-virtualbox-4.3.28::gentoo
 	>=dev-lang/yasm-0.6.2
 =x11-libs/flowcanvas-0.7.1-r1::gentoo
 	dev-libs/boost
