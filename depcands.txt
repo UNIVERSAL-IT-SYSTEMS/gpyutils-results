@@ -15,10 +15,10 @@
 =sys-cluster/pacemaker-1.1.12-r2::gentoo
     >=sys-cluster/heartbeat-3.0.0 [python-single-r1]
 Statistics:
-    1 =dev-util/boost-build-1.53.0::gentoo
-    1 =media-libs/mlt-0.9.0::gentoo
-    1 =dev-util/boost-build-1.54.0::gentoo
     1 =dev-util/boost-build-1.52.0-r1::gentoo
+    1 =media-libs/mlt-0.9.0::gentoo
+    1 =dev-util/boost-build-1.53.0::gentoo
+    1 =dev-util/boost-build-1.54.0::gentoo
     2 =sys-cluster/heartbeat-3.0.5-r2::gentoo
     3 =dev-python/visual-5.74::gentoo
     6 =net-misc/dropbox-3.6.8::gentoo
