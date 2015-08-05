@@ -29,8 +29,13 @@
 	sys-apps/dbus
 	>=sys-devel/gdb-7
 	app-text/asciidoc
-=app-admin/ansible-1.9.0.1::gentoo
+=app-admin/ansible-1.9.2::gentoo
 	dev-vcs/git
+=app-admin/calamares-1.1.2-r1::gentoo
+	sys-apps/dbus
+	sys-boot/grub:2
+	net-misc/networkmanager
+	>=kde-frameworks/extra-cmake-modules-5.11.0:5
 =app-admin/collectd-5.4.1-r1::gentoo
 	dev-libs/libxml2
 	sys-cluster/ganglia
@@ -49,12 +54,13 @@
 	dev-python/mysql-python
 	dev-python/pysnmp
 	dev-python/redis-py
+	>=dev-python/psutil-3
 	dev-python/mock
 =app-admin/eclean-kernel-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
 =app-admin/equo-254::gentoo
 	sys-apps/file[python]
-=app-admin/glance-2014.2.3::gentoo
+=app-admin/glance-2015.1.0-r1::gentoo
 	dev-python/mysql-python
 	dev-python/psycopg:2
 =app-admin/matter-254::gentoo
@@ -76,12 +82,6 @@
 =app-admin/system-config-printer-1.4.8::gentoo
 	>=dev-libs/glib-2:2
 	net-print/cups[dbus]
-	gnome-base/libgnome-keyring[introspection]
-=app-admin/system-config-printer-common-1.4.3::gentoo
-	>=dev-libs/glib-2
-	net-print/cups[dbus]
-=app-admin/system-config-printer-gnome-1.4.3-r1::gentoo
-	~app-admin/system-config-printer-common-1.4.3
 	gnome-base/libgnome-keyring[introspection]
 =app-admin/webapp-config-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
@@ -112,11 +112,13 @@
 	dev-python/lockfile
 =app-backup/holland-backup-mysql-lvm-1.0.10::gentoo
 	~app-backup/holland-backup-mysql-meta-1.0.10[mysqldump]
-=app-backup/obnam-1.7.4::gentoo
+=app-backup/obnam-1.9::gentoo
 	dev-python/cliapp
 	dev-python/fuse-python
 	dev-python/larch
-	<dev-python/paramiko-1.13
+	<dev-python/paramiko-1.13.0
+	>dev-python/paramiko-1.13.0
+	dev-python/pyyaml
 	dev-python/tracing
 	dev-python/ttystatus
 =app-cdr/gcdemu-2.1.1::gentoo
@@ -186,6 +188,16 @@
 	sys-cluster/ceph
 	dev-python/mock
 	dev-python/pyyaml
+=app-emulation/libguestfs-1.28.5-r1::gentoo
+	>=app-misc/hivex-1.3.1
+	>=app-emulation/qemu-2.0[qemu_softmmu_targets_x86_64,systemtap?,selinux?,filecaps]
+	sys-apps/file
+	dev-libs/libxml2:2
+	>=app-misc/hivex-1.3.1[perl?]
+	>=dev-libs/gobject-introspection-1.30.0
+	sys-libs/libselinux
+	sys-libs/libsemanage
+	dev-util/systemtap
 =app-emulation/libvirt-glib-0.2.0::gentoo
 	dev-libs/libxml2:2
 	>=dev-libs/glib-2.38.0:2
@@ -196,7 +208,7 @@
 =app-emulation/playonlinux-4.2.4::gentoo
 	net-misc/wget
 	net-fs/samba[winbind]
-=app-emulation/qemu-2.2.1-r2::gentoo
+=app-emulation/qemu-2.3.0-r4::gentoo
 	>=dev-libs/glib-2.0
 	sys-libs/libcap-ng
 	>=sys-cluster/glusterfs-3.4.0
@@ -245,7 +257,7 @@
 	~app-emulation/xen-tools-4.2.5
 =app-emulation/xen-pvgrub-4.2.5::gentoo
 	>=app-emulation/xen-4.2.1
-=app-emulation/xen-tools-4.2.5-r8::gentoo
+=app-emulation/xen-tools-4.2.5-r9::gentoo
 	dev-libs/glib:2
 	sys-firmware/seabios
 	dev-libs/libxml2
@@ -393,7 +405,7 @@
 	gnome-base/gconf[introspection]
 	dev-python/pyxdg
 	>=dev-vcs/git-1.8.2.1
-=app-office/libreoffice-4.4.3.2::gentoo
+=app-office/libreoffice-4.4.4.3::gentoo
 	>=dev-libs/boost-1.55:=
 	media-gfx/graphite2
 	>=media-libs/harfbuzz-0.9.18:=[icu(+)]
@@ -406,11 +418,12 @@
 	>=net-libs/telepathy-glib-0.18.0
 	media-fonts/liberation-fonts
 	>=dev-java/java-config-2.2.0
+	>=dev-qt/qtwebkit-4.7.4:4
 	>=dev-libs/libxml2-2.7.8
 	dev-libs/libxslt
 	>=app-doc/doxygen-1.8.4
-=app-office/libreoffice-bin-4.4.3.2::gentoo
-	dev-libs/boost:0/1.55.0
+=app-office/libreoffice-bin-4.4.4.3::gentoo
+	dev-libs/boost:0/1.56.0
 	=media-gfx/graphite2-1.2*
 	media-libs/harfbuzz:0/0.9.18[icu]
 	>=dev-libs/boost-1.55:=
@@ -420,6 +433,7 @@
 	gnome-extra/evolution-data-server
 	gnome-base/gconf:2
 	media-fonts/liberation-fonts
+	>=dev-qt/qtwebkit-4.8.5:4
 	>=dev-java/java-config-2.2.0
 	dev-util/xdelta:3
 =app-office/lyx-2.0.8.1::gentoo
@@ -606,7 +620,7 @@
 	dev-db/postgresql[server]
 =dev-db/hyperdex-1.6.0-r1::gentoo
 	dev-libs/libmacaroons
-=dev-db/mysql-workbench-6.2.5::gentoo
+=dev-db/mysql-workbench-6.3.3::gentoo
 	dev-libs/glib:2
 	gnome-base/libglade:2.0
 	dev-libs/boost
@@ -685,6 +699,10 @@
 	dev-libs/gobject-introspection
 =dev-libs/libRocket-1.2.1_p20130110::gentoo
 	dev-libs/boost[python]
+=dev-libs/libappindicator-12.10.0-r200::gentoo
+	>=dev-libs/glib-2.26:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/libdbusmenu-0.6.2[gtk,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	>=dev-libs/gobject-introspection-1
 =dev-libs/libclc-0.0.1_pre20140101-r1::gentoo
 	>=sys-devel/clang-3.4
 	>=sys-devel/llvm-3.4
@@ -701,7 +719,7 @@
 =dev-libs/libhid-0.2.16-r4::gentoo
 	app-doc/doxygen
 =dev-libs/libixion-0.9.0::gentoo
-	dev-libs/boost:=
+	dev-libs/boost:=[threads]
 =dev-libs/libmateweather-1.8.0::gentoo
 	>=dev-libs/libxml2-2.6:2
 	>=net-libs/libsoup-2.34:2.4
@@ -749,8 +767,10 @@
 	dev-python/coverage
 =dev-python/Kivy-1.9.0::gentoo
 	media-libs/opencv
-=dev-python/PyQt5-5.4.1::gentoo
-	>=dev-qt/qtwebkit-5.3.2:5[printsupport]
+=dev-python/PyQt4-4.11.1::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
+=dev-python/PyQt5-5.4.2::gentoo
+	>=dev-qt/qtwebkit-5.4.2:5[printsupport]
 =dev-python/SaltTesting-2015.2.16::gentoo
 	>=dev-python/requests-2.4.2
 =dev-python/anyvc-0.3.7.1-r1::gentoo
@@ -789,11 +809,9 @@
 	>=dev-vcs/git-1.8.2.1
 =dev-python/cvxopt-1.1.6-r2::gentoo
 	dev-python/sphinx
-=dev-python/cython-0.19.1-r1::gentoo
-	dev-python/sphinx
 =dev-python/dbus-python-1.2.0-r1::gentoo
 	>=sys-apps/dbus-1.6:=
-=dev-python/django-1.4.20::gentoo
+=dev-python/django-1.4.21::gentoo
 	>=app-admin/webapp-config-1.50.15
 =dev-python/django-international-0.0.3::gentoo
 	dev-python/django
@@ -843,8 +861,6 @@
 	dev-vcs/mercurial
 =dev-python/hp3parclient-2.0.0::gentoo
 	>=dev-python/httplib2-0.6.0
-=dev-python/http-parser-0.7.12::gentoo
-	dev-python/cython
 =dev-python/httpretty-0.8.0::gentoo
 	dev-python/ipdb
 =dev-python/ipdbplugin-1.4::gentoo
@@ -905,6 +921,9 @@
 =dev-python/nautilus-python-1.1-r2::gentoo
 	dev-libs/libxslt
 	>=dev-util/gtk-doc-1.9
+=dev-python/neovim-python-client-0.0.37::gentoo
+	dev-python/pygobject:2
+	dev-python/pygtk:2
 =dev-python/newt_syrup-0.1.2-r1::gentoo
 	>=dev-libs/newt-0.52.11
 =dev-python/nose-9999::gentoo
@@ -975,7 +994,7 @@
 	>=dev-python/epydoc-3
 =dev-python/pycuda-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=dev-python/pycups-1.9.68::gentoo
+=dev-python/pycups-1.9.72::gentoo
 	net-print/cups
 =dev-python/pyds-0.7.3-r1::gentoo
 	app-text/silvercity
@@ -1041,6 +1060,8 @@
 	dev-python/sphinx
 =dev-python/pyscard-1.6.16::gentoo
 	sys-apps/pcsc-lite
+=dev-python/pyside-1.2.2::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
 =dev-python/pysrt-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
 =dev-python/pysvn-1.7.9::gentoo
@@ -1140,13 +1161,15 @@
 	dev-libs/libxslt
 =dev-python/simpleeval-0.8.5::gentoo
 	dev-python/setuptools
+=dev-python/sip-4.9999::gentoo
+	dev-vcs/mercurial
 =dev-python/six-1.3.0::gentoo
 	dev-python/sphinx
 =dev-python/snakeoil-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
 =dev-python/socketpool-0.5.2::gentoo
 	dev-python/gevent
-=dev-python/south-0.8.4::gentoo
+=dev-python/south-1.0::gentoo
 	dev-python/django[sqlite]
 =dev-python/soya-0.14-r1::gentoo
 	dev-python/editobj
@@ -1213,14 +1236,22 @@
 =dev-python/zsi-2.1_alpha1-r1::gentoo
 	dev-python/twisted-core
 	dev-python/twisted-web
-=dev-qt/qtwebkit-5.4.2::gentoo
-	dev-libs/libxml2:2
-	dev-libs/libxslt
-	dev-libs/glib:2
+=dev-qt/qtwebkit-4.10.4::gentoo
+	dev-libs/libxml2:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	dev-libs/libxslt[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+	dev-libs/glib:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
 =dev-tcltk/snack-2.2.10-r6::gentoo
 	media-libs/alsa-lib
 =dev-tex/dot2tex-2.8.7-r1::gentoo
 	media-gfx/graphviz
+=dev-util/Orange-2.7.2::gentoo
+	dev-python/matplotlib[qt4]
+	dev-python/pillow
+	dev-python/PyQt4[webkit]
+	dev-python/pyqwt
+	sci-libs/scikits_learn
+	sci-libs/scipy
+	dev-python/numpy
 =dev-util/a8-0.11-r2::gentoo
 	app-editors/gvim
 	app-editors/vim
@@ -1236,6 +1267,7 @@
 =dev-util/apitrace-4.0::gentoo
 	>=media-libs/mesa-9.1.6[egl?,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
 	>=media-libs/mesa-8.0[gles1,gles2]
+	>=dev-qt/qtwebkit-4.7:4
 =dev-util/buildbot-9999::gentoo
 	dev-vcs/git
 =dev-util/buildbot-slave-9999::gentoo
@@ -1300,6 +1332,8 @@
 	>=dev-libs/libxml2-2.3.6:2
 	app-editors/vim
 	app-editors/gvim
+=dev-util/kdevelop-python-1.7.1::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
 =dev-util/meld-3.12.3::gentoo
 	>=dev-libs/glib-2.36:2
 	dev-util/itstool
@@ -1621,30 +1655,54 @@
 	dev-python/pympler
 	dev-python/python-sqlparse
 	app-misc/tracker
+=kde-apps/cantor-4.14.3::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
 =kde-apps/kajongg-4.14.3::gentoo
 	>=dev-python/twisted-core-8.2.0
+	>=dev-qt/qtwebkit-4.8.5:4
 =kde-apps/kate-4.14.3::gentoo
 	dev-libs/libxml2
 	dev-libs/libxslt
+	>=dev-qt/qtwebkit-4.8.5:4
+=kde-apps/kig-4.14.3::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
+=kde-apps/lokalize-4.14.3::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
 =kde-apps/marble-4.14.3::gentoo
+	dev-qt/qtwebkit:4
 	>=sci-geosciences/gpsd-2.95[qt4]
+	>=dev-qt/qtwebkit-4.8.5:4
+=kde-apps/superkaramba-4.14.3::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
+=kde-base/krosspython-4.14.3::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
 =kde-base/plasma-workspace-4.11.14::gentoo
 	>=sci-geosciences/gpsd-2.37
+	>=dev-qt/qtwebkit-4.8.5:4
 	dev-libs/boost
-=kde-frameworks/extra-cmake-modules-5.11.0::gentoo
-	>=kde-frameworks/kapidox-5.11
+=kde-base/pykde4-4.14.3::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
+=kde-frameworks/extra-cmake-modules-5.12.0::gentoo
+	>=kde-frameworks/kapidox-5.12
 	app-doc/doxygen
-=kde-frameworks/kapidox-5.11.0::gentoo
+=kde-frameworks/kapidox-5.12.0::gentoo
 	app-doc/doxygen
 	media-gfx/graphviz[python]
-	>=kde-frameworks/extra-cmake-modules-5.11
+	>=kde-frameworks/extra-cmake-modules-5.12
 =kde-misc/kcm-ufw-0.4.3-r1::gentoo
 	>=net-firewall/ufw-0.31
+	>=dev-qt/qtwebkit-4.8.5:4
 =kde-misc/magneto-kde-254::gentoo
 	kde-base/pykde4
 	dev-python/PyQt4[dbus]
+=kde-misc/semantik-0.9.3::gentoo
+	dev-qt/qtwebkit:4
+	>=dev-qt/qtwebkit-4.8.5:4
+=kde-misc/synaptiks-0.8.1-r4::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
 =kde-misc/wicd-client-kde-0.3.1-r1::gentoo
 	net-misc/wicd
+	>=dev-qt/qtwebkit-4.8.5:4
 =mail-client/alot-0.3.5::gentoo
 	>=dev-python/twisted-core-10.2.0
 	>=net-mail/notmuch-0.13[crypt,python]
@@ -1724,6 +1782,7 @@
 =media-gfx/freecad-0.13.1830-r1::gentoo
 	dev-libs/boost
 	dev-python/matplotlib
+	dev-qt/qtwebkit:4
 	dev-python/pycollada
 	dev-python/pivy
 	dev-python/PyQt4[svg]
@@ -1765,7 +1824,7 @@
 	dev-python/pygtk
 	dev-python/pygtkglext
 	dev-python/pyopengl
-=media-gfx/pydot-1.0.28-r1::gentoo
+=media-gfx/pydot-1.0.28-r2::gentoo
 	media-gfx/graphviz
 =media-gfx/zbar-0.10-r5::gentoo
 	dev-libs/glib:2
@@ -1778,9 +1837,12 @@
 	>=dev-lang/spidermonkey-1.5-r2:0=
 	dev-libs/libxml2:2
 	>=media-libs/alsa-lib-1.0.3b-r2:0
-=media-libs/clutter-gst-2.0.14::gentoo
+=media-libs/clutter-gst-2.0.16::gentoo
 	>=dev-libs/glib-2.20:2
 	>=dev-libs/gobject-introspection-0.6.8
+=media-libs/ganv-1.4.2::gentoo
+	media-gfx/graphviz[gtk]
+	dev-libs/gobject-introspection[doctool]
 =media-libs/gegl-0.3.0::gentoo
 	>=dev-libs/glib-2.36:2
 	>=dev-libs/gobject-introspection-1.32
@@ -1835,6 +1897,11 @@
 	dev-python/rdflib
 =media-libs/lv2-ui-2.4-r1::gentoo
 	>=media-libs/lv2core-6.0
+=media-libs/lvtk-1.2.0::gentoo
+	media-libs/lv2
+	>=dev-libs/boost-1.40.0
+	app-doc/doxygen
+	media-gfx/graphviz
 =media-libs/mesa-10.2.8::gentoo
 	>=x11-libs/libxcb-1.9.3:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
 	>=sys-devel/llvm-3.3-r3:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
@@ -1875,6 +1942,9 @@
 	app-doc/doxygen
 =media-libs/vigra-1.9.0::gentoo
 	app-doc/doxygen
+=media-plugins/ams-lv2-1.1.0::gentoo
+	>=media-libs/lv2-1.10.0
+	>=media-libs/lvtk-1.2.0[gtk2]
 =media-plugins/mda-lv2-1.0.0::gentoo
 	media-libs/lv2
 =media-plugins/quodlibet-plugins-2.6.3::gentoo
@@ -1909,6 +1979,14 @@
 	dev-libs/boost
 	media-libs/portmidi
 	>=dev-java/java-config-2.2.0
+=media-sound/exaile-3.4.5::gentoo
+	dev-python/dbus-python
+	dev-python/gst-python:0.10
+	>=dev-python/pygtk-2.17
+	>=dev-python/pygobject-2.18:2
+	>=media-libs/mutagen-1.10
+	dev-python/cddb-py
+	dev-python/notify-python
 =media-sound/frescobaldi-2.0.16::gentoo
 	>=media-sound/lilypond-2.14.2
 	media-libs/portmidi
@@ -1965,21 +2043,21 @@
 =media-sound/rgain-1.2.1::gentoo
 	media-libs/mutagen
 	>=dev-python/docutils-0.9
-=media-sound/rhythmbox-3.0.3::gentoo
-	>=dev-libs/glib-2.34.0:2
+=media-sound/rhythmbox-3.2.1::gentoo
+	>=dev-libs/glib-2.34:2
 	>=dev-libs/libxml2-2.7.8:2
-	>=dev-libs/gobject-introspection-0.10.0
+	>=dev-libs/gobject-introspection-0.10
 	>=dev-libs/libpeas-0.7.3[gtk,python?]
-	>=net-libs/libsoup-2.34.0:2.4
+	>=net-libs/libsoup-2.34:2.4
 	>=sys-libs/tdb-1.2.6
 	>=media-libs/clutter-gst-1.9.92:2.0
-	>=app-crypt/libsecret-0.14
+	>=app-crypt/libsecret-0.18
 	>=net-libs/webkit-gtk-1.10:3
 	>=media-libs/libgpod-0.7.92[udev]
 	gnome-extra/zeitgeist
 	>=media-libs/grilo-0.2:0.2
 	sys-apps/dbus
-	>=app-crypt/libsecret-0.14[introspection]
+	>=app-crypt/libsecret-0.18[introspection]
 	>=net-libs/webkit-gtk-1.10:3[introspection]
 	>=app-text/gnome-doc-utils-0.9.1
 =media-sound/solfege-3.22.2::gentoo
@@ -2064,8 +2142,8 @@
 =media-video/tovid-0.35.2::gentoo
 	media-video/mpv[libmpv,dvdnav]
 	app-text/txt2tags
-=net-analyzer/fail2ban-0.9.1::gentoo
-	sys-apps/systemd[python]
+=net-analyzer/fail2ban-99999999::gentoo
+	>=dev-vcs/git-1.8.2.1
 =net-analyzer/gr-fosphor-9999::gentoo
 	dev-libs/boost:=
 	dev-vcs/git
@@ -2119,7 +2197,7 @@
 	dev-python/twisted-core
 	dev-python/twisted-web
 	app-doc/doxygen
-=net-dns/bind-9.10.1_p1::gentoo
+=net-dns/bind-9.10.2_p2::gentoo
 	dev-db/postgresql:=
 	dev-libs/libxml2
 =net-dns/dnsimple-dyndns-0.1::gentoo
@@ -2127,7 +2205,7 @@
 =net-firewall/firewalld-0.3.10::gentoo
 	sys-apps/systemd
 	dev-libs/glib:2
-=net-firewall/fwknop-2.6.6::gentoo
+=net-firewall/fwknop-2.6.6-r1::gentoo
 	net-misc/wget[ssl]
 =net-fs/netatalk-3.1.6::gentoo
 	sys-libs/tdb
@@ -2254,12 +2332,12 @@
 	>=net-libs/telepathy-glib-0.18.0
 	dev-libs/glib:2
 	dev-python/dbus-python
-=net-libs/webkit-gtk-2.4.8::gentoo
-	dev-libs/libxml2:2
-	dev-libs/libxslt
-	media-libs/harfbuzz:=[icu(+)]
-	>=dev-libs/glib-2.36.0:2
-	>=net-libs/libsoup-2.42.0:2.4[introspection?]
+=net-libs/webkit-gtk-2.4.9::gentoo
+	>=dev-libs/glib-2.36:2
+	>=dev-libs/libxml2-2.6:2
+	>=dev-libs/libxslt-1.1.7
+	>=media-libs/harfbuzz-0.9.7:=[icu(+)]
+	>=net-libs/libsoup-2.42:2.4[introspection?]
 	media-libs/mesa[egl]
 	media-libs/mesa[gles2]
 	>=dev-libs/gobject-introspection-1.32.0
@@ -2285,8 +2363,11 @@
 	<dev-python/sqlalchemy-0.9.99
 =net-misc/gsutil-3.37::gentoo
 	>=dev-python/crcmod-1.7
+=net-misc/guidedog-1.1-r1::gentoo
+	>=dev-qt/qtwebkit-4.8.5:4
 =net-misc/hotot-0.9.8.14::gentoo
 	dev-python/pywebkitgtk
+	dev-qt/qtwebkit:4
 =net-misc/leapcast-9999::gentoo
 	dev-vcs/git
 =net-misc/livestreamer-1.7.2::gentoo
@@ -2313,9 +2394,6 @@
 	dev-python/twisted-core
 	dev-python/twisted-conch
 	dev-python/twisted-web
-=net-misc/polly-0.93.9::gentoo
-	dev-python/gconf-python
-	dev-python/gtkspell-python
 =net-misc/pycnb-0.0.4::gentoo
 	dev-python/twisted-web
 =net-misc/rabbitmq-server-3.2.4::gentoo
@@ -2462,6 +2540,7 @@
 	app-doc/doxygen
 =sci-chemistry/ball-1.4.2::gentoo
 	dev-libs/boost
+	dev-qt/qtwebkit:4
 	sci-libs/libsvm
 	dev-python/sip
 =sci-chemistry/ccp4-apps-6.1.3-r13::gentoo
@@ -2520,6 +2599,7 @@
 	>=net-libs/libsoup-2.4.0:2.4
 	dev-libs/gobject-introspection
 =sci-geosciences/qgis-1.8.0::gentoo
+	dev-qt/qtwebkit:4
 	>=sci-libs/gdal-1.6.1[geos,python?]
 	sci-libs/geos
 	>=dev-db/postgresql-8.4
@@ -2544,10 +2624,10 @@
 	dev-libs/boost
 =sci-libs/deap-0.9.1::gentoo
 	dev-python/setuptools
-=sci-libs/gdal-1.10.1::gentoo
+=sci-libs/gdal-1.11.1-r3::gentoo
 	dev-libs/libxml2
 	>=sci-libs/geos-2.2.1
-	>=dev-db/postgresql-8.4:*
+	>=dev-db/postgresql-8.4:=
 	>=dev-java/java-config-2.2.0
 	app-doc/doxygen
 =sci-libs/geos-3.4.1-r1::gentoo
@@ -2575,6 +2655,7 @@
 	>=dev-libs/boost-1.40.0[mpi?]
 	media-libs/mesa[osmesa]
 	dev-db/postgresql:=
+	dev-qt/qtwebkit:4
 	>=dev-java/java-config-2.2.0
 	app-doc/doxygen
 	dev-util/ninja
@@ -2590,6 +2671,8 @@
 	dev-python/setuptools
 =sci-mathematics/singular-3.1.6::gentoo
 	dev-libs/boost:0=
+=sci-misc/mendeleydesktop-1.14::gentoo
+	dev-qt/qtwebkit:4
 =sci-physics/espresso-3.3.0::gentoo
 	app-doc/doxygen[dot]
 =sci-physics/espresso++-1.9.2::gentoo
@@ -2601,6 +2684,7 @@
 	dev-libs/boost:0=
 	app-doc/doxygen[latex]
 =sci-physics/root-5.34.26::gentoo
+	dev-qt/qtwebkit:4=
 	net-dns/avahi:0=
 	media-gfx/graphviz:0=
 	dev-db/postgresql:=
@@ -2620,6 +2704,7 @@
 	dev-libs/libxml2:2
 	<dev-libs/protobuf-2.6
 	dev-python/PyQt4
+	dev-qt/qtwebkit:4
 	app-doc/doxygen
 =sci-visualization/pythonprop-0.13::gentoo
 	dev-python/matplotlib[gtk]
@@ -2692,10 +2777,9 @@
 =sys-apps/util-linux-2.24.1-r2::gentoo
 	sys-libs/libcap-ng
 	sys-libs/libselinux
-=sys-auth/keystone-2014.2.9999::gentoo
+=sys-auth/keystone-2015.1.0::gentoo
 	dev-python/mysql-python
 	dev-python/psycopg:2
-	dev-vcs/git
 =sys-auth/pam_usb-0.5.0::gentoo
 	dev-libs/libxml2
 	sys-apps/dbus
@@ -2728,7 +2812,7 @@
 	sys-apps/util-linux
 	dev-libs/libxml2
 	sys-fs/zfs
-=sys-cluster/cinder-2014.2.2::gentoo
+=sys-cluster/cinder-2015.1.0-r1::gentoo
 	dev-python/mysql-python
 	dev-python/psycopg:2
 =sys-cluster/crmsh-2.1.1::gentoo
@@ -2744,11 +2828,11 @@
 =sys-cluster/hpx-0.9.8::gentoo
 	>=dev-libs/boost-1.51
 	dev-libs/libxml2
-=sys-cluster/neutron-2014.2.3-r1::gentoo
+=sys-cluster/neutron-2015.1.0-r2::gentoo
 	dev-python/mysql-python
 	dev-python/psycopg:2
 	net-misc/openvswitch
-=sys-cluster/nova-2014.2.3::gentoo
+=sys-cluster/nova-2015.1.0-r3::gentoo
 	dev-python/mysql-python
 	dev-python/psycopg:2
 	net-misc/openvswitch
@@ -2825,6 +2909,8 @@
 =sys-process/audit-2.2.2-r2::gentoo
 	sys-libs/libcap-ng
 	>=sys-kernel/linux-headers-2.6.34
+=sys-process/systemd-cron-1.5.3::gentoo
+	>=sys-apps/systemd-217
 =virtual/funcsigs-0::gentoo
 	dev-python/funcsigs
 =www-apache/mod_spdy-9999::gentoo
@@ -2860,7 +2946,7 @@
 	>=app-admin/webapp-config-1.50.15
 =www-apps/trac-accountmanager-0.4.2-r1::gentoo
 	>=www-apps/trac-0.12
-=www-client/chromium-43.0.2357.130::gentoo
+=www-client/chromium-44.0.2403.89::gentoo
 	>=app-accessibility/speech-dispatcher-0.8:=
 	>=net-print/cups-1.3.11:=
 	dev-libs/glib:=
@@ -2878,7 +2964,7 @@
 	net-fs/samba
 	>=dev-lang/spidermonkey-1.8.5:0=
 	>=dev-vcs/git-1.8.2.1
-=www-client/firefox-31.5.3::gentoo
+=www-client/firefox-31.8.0::gentoo
 	>=media-libs/mesa-10.2:*
 	media-libs/alsa-lib
 	>=sys-apps/dbus-0.60
@@ -2924,6 +3010,7 @@
 	dev-python/pygtk:2
 	media-libs/mesa[openvg]
 	sys-apps/dbus
+	>=dev-qt/qtwebkit-4.8.5:4
 =www-servers/cherokee-1.2.103-r2::gentoo
 	net-analyzer/rrdtool
 =www-servers/uwsgi-2.0.9::gentoo
@@ -3029,6 +3116,10 @@
 	dev-python/pygtk
 	dev-python/pyxdg
 	x11-libs/vte:0[python]
+=x11-terms/roxterm-2.9.3-r1::gentoo
+	>=dev-libs/glib-2.28
+	dev-libs/libxslt
+	dev-python/lockfile
 =x11-terms/terminator-0.96-r2::gentoo
 	dev-libs/keybinder:0[python]
 	x11-libs/vte:0[python]
