@@ -1,4 +1,4 @@
-address:after { content: '; generated on 2015-08-06 04:49:30.959278'; }
+address:after { content: '; generated on 2015-08-06 08:49:31.534869'; }
 
 /* python-any-r1 */
 #python-any-r1-old:before { content: '25'; }
@@ -9,36 +9,36 @@ address:after { content: '; generated on 2015-08-06 04:49:30.959278'; }
 #python-any-r1-perc2:before { content: '85'; }
 #python-any-r1-bar { width: 81.55%; }
 #python-any-r1-bar2 { width: 85.12%; }
-address:after { content: '; generated on 2015-08-06 04:49:30.959358'; }
+address:after { content: '; generated on 2015-08-06 08:49:31.534955'; }
 
 /* python-single-r1 */
 #python-single-r1-old:before { content: '103'; }
 #python-single-r1-new:before { content: '403'; }
-#python-single-r1-unstable:before { content: '36'; }
+#python-single-r1-unstable:before { content: '33'; }
 #python-single-r1-all:before { content: '506'; }
-#python-single-r1-perc:before { content: '72'; }
+#python-single-r1-perc:before { content: '73'; }
 #python-single-r1-perc2:before { content: '79'; }
-#python-single-r1-bar { width: 72.53%; }
+#python-single-r1-bar { width: 73.12%; }
 #python-single-r1-bar2 { width: 79.64%; }
-address:after { content: '; generated on 2015-08-06 04:49:30.959397'; }
+address:after { content: '; generated on 2015-08-06 08:49:31.534993'; }
 
 /* python-r1 */
 #python-r1-old:before { content: '20'; }
 #python-r1-new:before { content: '225'; }
-#python-r1-unstable:before { content: '6'; }
+#python-r1-unstable:before { content: '4'; }
 #python-r1-all:before { content: '245'; }
-#python-r1-perc:before { content: '89'; }
+#python-r1-perc:before { content: '90'; }
 #python-r1-perc2:before { content: '91'; }
-#python-r1-bar { width: 89.39%; }
+#python-r1-bar { width: 90.20%; }
 #python-r1-bar2 { width: 91.84%; }
-address:after { content: '; generated on 2015-08-06 04:49:30.959431'; }
+address:after { content: '; generated on 2015-08-06 08:49:31.535030'; }
 
 /* distutils-r1 */
 #distutils-r1-old:before { content: '55'; }
 #distutils-r1-new:before { content: '1639'; }
-#distutils-r1-unstable:before { content: '91'; }
+#distutils-r1-unstable:before { content: '89'; }
 #distutils-r1-all:before { content: '1694'; }
 #distutils-r1-perc:before { content: '91'; }
 #distutils-r1-perc2:before { content: '96'; }
-#distutils-r1-bar { width: 91.38%; }
+#distutils-r1-bar { width: 91.50%; }
 #distutils-r1-bar2 { width: 96.75%; }

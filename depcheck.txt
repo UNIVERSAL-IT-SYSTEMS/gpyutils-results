@@ -801,8 +801,6 @@
 	dev-util/scons
 =dev-python/cliapp-1.20130808::gentoo
 	dev-python/CoverageTestRunner
-=dev-python/click-2.0::gentoo
-	dev-python/colorama
 =dev-python/compizconfig-python-0.8.4-r5::gentoo
 	>=dev-libs/glib-2.6
 =dev-python/configshell-9999::gentoo
@@ -2919,7 +2917,6 @@
 	dev-vcs/subversion[webdav-serf]
 	dev-vcs/git
 =www-apps/blohg-0.13::gentoo
-	=dev-python/click-2.0
 	=dev-python/docutils-0.11*
 	>=dev-python/flask-0.10.1
 	>=dev-python/flask-babel-0.7
