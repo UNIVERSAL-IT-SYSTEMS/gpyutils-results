@@ -257,7 +257,7 @@
 	~app-emulation/xen-tools-4.2.5
 =app-emulation/xen-pvgrub-4.2.5::gentoo
 	>=app-emulation/xen-4.2.1
-=app-emulation/xen-tools-4.2.5-r9::gentoo
+=app-emulation/xen-tools-4.2.5-r10::gentoo
 	dev-libs/glib:2
 	sys-firmware/seabios
 	dev-libs/libxml2
