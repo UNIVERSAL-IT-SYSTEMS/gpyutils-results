@@ -1046,8 +1046,8 @@
 	>=dev-vcs/git-1.8.2.1
 =dev-python/pyopencl-9999::gentoo
 	dev-vcs/git
-=dev-python/pyparted-3.10::gentoo
-	dev-python/decorator
+=dev-python/pyparted-3.10.3-r1::gentoo
+	dev-python/pychecker
 =dev-python/pypgsql-2.5.1-r1::gentoo
 	dev-db/postgresql
 =dev-python/pyplusplus-9999::gentoo
