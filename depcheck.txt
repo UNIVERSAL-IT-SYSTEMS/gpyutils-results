@@ -2472,7 +2472,7 @@
 =net-wireless/aircrack-ng-1.2_rc1-r1::gentoo
 	dev-libs/libnl:3
 	sys-apps/usbutils
-=net-wireless/blueman-1.23_p20140717-r1::gentoo
+=net-wireless/blueman-1.98_p20150105::gentoo
 	dev-libs/glib:2=
 	dev-python/pygobject:3
 	>=net-wireless/bluez-4.61:=
