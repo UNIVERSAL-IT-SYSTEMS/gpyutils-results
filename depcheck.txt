@@ -145,7 +145,7 @@
 	dev-python/mock
 	dev-python/pygobject:3
 	>=gnome-base/gnome-keyring-3
-=app-doc/doxygen-1.8.3.1::gentoo
+=app-doc/doxygen-1.8.5::gentoo
 	media-gfx/graphviz
 =app-editors/bluefish-2.2.6::gentoo
 	>=dev-libs/glib-2.16:2
@@ -488,14 +488,13 @@
 	sys-apps/portage
 =app-portage/gentoolkit-dev-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=app-portage/gentoopm-0.2.6::gentoo
+=app-portage/gentoopm-0.2.9::gentoo
 	sys-apps/pkgcore
-	>=sys-apps/portage-2.1.10.3
 	>=sys-apps/paludis-0.64.2[python-bindings]
 	dev-python/epydoc
 =app-portage/gpyutils-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=app-portage/grs-9999::gentoo
+=app-portage/grs-0.1::gentoo
 	dev-vcs/git
 	sys-apps/portage
 =app-portage/gs-elpa-9999::gentoo
@@ -956,9 +955,6 @@
 	dev-python/ipython
 	dev-python/matplotlib
 	dev-python/sphinx
-=dev-python/pillow-2.5.3-r1::gentoo
-	dev-python/sphinx
-	dev-python/sphinx-better-theme
 =dev-python/pivy-9999::gentoo
 	dev-vcs/mercurial
 =dev-python/polib-1.0.4::gentoo
@@ -1780,7 +1776,7 @@
 =media-gfx/fontforge-20120731-r1::gentoo
 	>=dev-libs/libxml2-2.6.7
 =media-gfx/freecad-0.13.1830-r1::gentoo
-	dev-libs/boost
+	<dev-libs/boost-1.57
 	dev-python/matplotlib
 	dev-qt/qtwebkit:4
 	dev-python/pycollada
@@ -2113,7 +2109,7 @@
 	gnome-base/libglade
 =media-video/gtk-recordmydesktop-0.3.8-r3::gentoo
 	dev-python/pygtk:2
-=media-video/handbrake-0.9.9-r1::gentoo
+=media-video/handbrake-0.10.2::gentoo
 	dev-libs/glib:2
 	dev-lang/yasm
 =media-video/mpv-0.3.10::gentoo
