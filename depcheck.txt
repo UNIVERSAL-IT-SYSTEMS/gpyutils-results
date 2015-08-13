@@ -232,7 +232,7 @@
 	>=sys-apps/util-linux-2.16.0[static-libs(+)]
 	net-misc/vde[static-libs(+)]
 	dev-libs/glib[utils]
-=app-emulation/qemu-guest-agent-1.5.2-r2::gentoo
+=app-emulation/qemu-guest-agent-2.3.0::gentoo
 	>=dev-libs/glib-2.22
 =app-emulation/spice-0.12.5-r1::gentoo
 	>=dev-libs/glib-2.22:2[static-libs(+)?]
