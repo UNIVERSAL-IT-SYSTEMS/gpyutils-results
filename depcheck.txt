@@ -2962,7 +2962,7 @@
 	net-fs/samba
 	>=dev-lang/spidermonkey-1.8.5:0=
 	>=dev-vcs/git-1.8.2.1
-=www-client/firefox-31.8.0::gentoo
+=www-client/firefox-38.1.1::gentoo
 	>=media-libs/mesa-10.2:*
 	media-libs/alsa-lib
 	>=sys-apps/dbus-0.60
