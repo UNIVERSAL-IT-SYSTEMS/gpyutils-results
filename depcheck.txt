@@ -35,7 +35,7 @@
 	sys-apps/dbus
 	sys-boot/grub:2
 	net-misc/networkmanager
-	>=kde-frameworks/extra-cmake-modules-5.11.0:5
+	>=kde-frameworks/extra-cmake-modules-5.12.0:5
 =app-admin/collectd-5.4.1-r1::gentoo
 	dev-libs/libxml2
 	sys-cluster/ganglia
@@ -1382,6 +1382,8 @@
 =dev-vcs/git-cola-2.1.2::gentoo
 	dev-vcs/git
 	app-text/asciidoc
+=dev-vcs/git-imerge-0.7.0::gentoo
+	dev-python/docutils
 =dev-vcs/gitg-0.3.2::gentoo
 	>=dev-libs/glib-2.38:2
 	>=dev-libs/gobject-introspection-0.10.1
