@@ -1212,10 +1212,6 @@
 	dev-python/twisted-core
 =dev-python/vatnumber-1.1::gentoo
 	dev-python/suds
-=dev-python/watchdog-0.8.2::gentoo
-	dev-python/pytest
-	dev-python/pytest-cov
-	>=dev-python/pytest-timeout-0.3
 =dev-python/weasyprint-0.21-r1::gentoo
 	media-gfx/cairosvg
 =dev-python/wehjit-0.2.2-r1::gentoo
@@ -1340,9 +1336,6 @@
 	app-doc/doxygen
 	dev-libs/libxslt
 	dev-cpp/gtest
-=dev-util/ninja-ide-2.1.1-r3::gentoo
-	dev-python/PyQt4[webkit]
-	dev-python/pyinotify
 =dev-util/osc-9999::gentoo
 	dev-vcs/git
 =dev-util/perf-3.12::gentoo
@@ -1383,6 +1376,7 @@
 	dev-vcs/git
 	app-text/asciidoc
 =dev-vcs/git-imerge-0.7.0::gentoo
+	dev-vcs/git
 	dev-python/docutils
 =dev-vcs/gitg-0.3.2::gentoo
 	>=dev-libs/glib-2.38:2
@@ -1748,7 +1742,7 @@
 	media-libs/mesa[osmesa]
 	app-editors/vim
 	app-editors/gvim
-=media-gfx/blender-2.72b-r2::gentoo
+=media-gfx/blender-2.72b-r3::gentoo
 	>=dev-libs/boost-1.44[nls?,threads(+)]
 	<=media-libs/opencolorio-1.0.9
 	media-libs/openimageio
