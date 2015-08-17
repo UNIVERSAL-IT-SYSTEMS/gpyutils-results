@@ -2342,11 +2342,11 @@
 =net-mail/mpop-1.0.29::gentoo
 	dev-python/gnome-keyring-python
 	gnome-base/libgnome-keyring
-=net-mail/notmuch-0.16-r1::gentoo
+=net-mail/notmuch-0.18.2::gentoo
 	>=dev-libs/glib-2.22
 	sys-libs/talloc
 	dev-vcs/git
-	<sys-devel/gdb-7.8
+	sys-devel/gdb
 =net-mail/offlineimap-6.5.5::gentoo
 	dev-python/docutils
 =net-misc/elliptics-eblob-0.22.16::gentoo
