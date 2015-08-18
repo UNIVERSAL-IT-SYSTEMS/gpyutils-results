@@ -661,7 +661,7 @@
 	>=sys-devel/llvm-3.0
 =dev-lang/python-exec-2.9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=dev-lang/rust-1.1.0::gentoo
+=dev-lang/rust-1.2.0::gentoo
 	sys-devel/clang
 	>=sys-devel/llvm-3.6.0[multitarget(-)]
 =dev-lang/yasm-9999::gentoo
@@ -1695,7 +1695,7 @@
 =kde-misc/wicd-client-kde-0.3.1-r1::gentoo
 	net-misc/wicd
 	>=dev-qt/qtwebkit-4.8.5:4
-=mail-client/alot-0.3.5::gentoo
+=mail-client/alot-0.3.6::gentoo
 	>=dev-python/twisted-core-10.2.0
 	>=net-mail/notmuch-0.13[crypt,python]
 	sys-apps/file[python]
