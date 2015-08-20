@@ -2681,6 +2681,8 @@
 	media-gfx/graphviz:0=
 	dev-db/postgresql:=
 	dev-libs/libxml2:2=
+=sci-physics/yoda-1.4.0::gentoo
+	dev-libs/boost:0=
 =sci-visualization/fityk-1.2.1::gentoo
 	sci-libs/nlopt
 	dev-libs/boost
