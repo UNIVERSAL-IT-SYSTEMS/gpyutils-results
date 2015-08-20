@@ -810,7 +810,7 @@
 	dev-python/sphinx
 =dev-python/dbus-python-1.2.0-r1::gentoo
 	>=sys-apps/dbus-1.6:=
-=dev-python/django-1.4.21::gentoo
+=dev-python/django-1.4.22::gentoo
 	>=app-admin/webapp-config-1.50.15
 =dev-python/django-international-0.0.3::gentoo
 	dev-python/django
