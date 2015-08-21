@@ -2514,6 +2514,8 @@
 	>=net-analyzer/scapy-2
 	net-wireless/cpyrit-opencl
 	net-wireless/cpyrit-cuda
+=net-wireless/rfcat-9999::gentoo
+	dev-vcs/mercurial
 =net-wireless/ubertooth-9999::gentoo
 	net-wireless/bluez:=
 	>=dev-vcs/git-1.8.2.1
@@ -2679,6 +2681,10 @@
 =sci-physics/lhapdf-6.1.5::gentoo
 	dev-libs/boost:0=
 	app-doc/doxygen[latex]
+=sci-physics/rivet-2.3.0::gentoo
+	dev-libs/boost:0=
+	sci-physics/yoda:0=[python]
+	app-doc/doxygen[latex,dot]
 =sci-physics/root-5.34.26::gentoo
 	dev-qt/qtwebkit:4=
 	net-dns/avahi:0=
