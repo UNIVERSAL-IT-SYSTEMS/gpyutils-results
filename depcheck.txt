@@ -1901,6 +1901,9 @@
 	dev-libs/libclc
 	sys-devel/llvm[video_cards_radeon]
 	>=sys-devel/clang-3.3:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_ppc_32(-)?,abi_ppc_64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
+=media-libs/mlt-0.9.8::gentoo
+	>=dev-libs/libxml2-2.5
+	media-libs/alsa-lib
 =media-libs/opencolorio-1.0.8::gentoo
 	>=media-libs/openimageio-1.1.0
 =media-libs/opencv-2.4.9::gentoo
@@ -2115,6 +2118,7 @@
 	media-libs/mesa[egl,wayland]
 	dev-python/docutils
 =media-video/openshot-1.4.3::gentoo
+	>=media-libs/mlt-0.8.2[ffmpeg,frei0r,gtk,melt,python,sdl,xml]
 	dev-python/librsvg-python
 =media-video/pitivi-0.94::gentoo
 	dev-libs/glib:2
