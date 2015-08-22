@@ -2081,6 +2081,7 @@
 =media-tv/kodi-14.1::gentoo
 	app-pda/libplist
 	dev-libs/boost
+	>=dev-libs/libcec-2.2
 	dev-libs/libxml2
 	dev-libs/libxslt
 	media-libs/alsa-lib
@@ -2096,6 +2097,7 @@
 =media-tv/xbmc-12.1-r1::gentoo
 	app-pda/libplist
 	dev-libs/boost
+	>=dev-libs/libcec-2.1
 	media-libs/alsa-lib
 	net-dns/avahi
 	>=net-fs/samba-3.4.6[smbclient]
@@ -2760,8 +2762,8 @@
 =sys-apps/rigo-daemon-254::gentoo
 	dev-python/dbus-python
 	dev-python/pygobject:3
-=sys-apps/systemd-216-r3::gentoo
-	>=sys-apps/util-linux-2.20:0=
+=sys-apps/systemd-218-r3::gentoo
+	>=sys-apps/util-linux-2.25:0=
 	sys-libs/libapparmor:0=
 	>=sys-process/audit-2:0=
 	>=sys-fs/cryptsetup-1.6:0=
@@ -2769,8 +2771,7 @@
 	>=dev-libs/gobject-introspection-1.31.1:0=
 	>=sys-apps/kmod-15:0=
 	sys-libs/libselinux:0=
-	>=sys-apps/util-linux-2.24.1-r2
-	>=sys-apps/util-linux-2.22
+	>=dev-libs/libevdev-1.2:0=
 	>=sys-kernel/linux-headers-3.8
 	>=sys-kernel/linux-headers-3.9
 	>=dev-util/gtk-doc-1.18
