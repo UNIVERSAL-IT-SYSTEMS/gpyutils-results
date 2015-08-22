@@ -2836,11 +2836,12 @@
 	dev-python/mysql-python
 	dev-python/psycopg:2
 	net-misc/openvswitch
-=sys-cluster/nova-2015.1.0-r3::gentoo
+=sys-cluster/nova-2015.1.1-r2::gentoo
 	dev-python/mysql-python
 	dev-python/psycopg:2
 	net-misc/openvswitch
 	net-misc/rabbitmq-server
+	dev-python/python-memcached
 	app-emulation/qemu
 	app-emulation/xen
 	app-emulation/xen-tools
