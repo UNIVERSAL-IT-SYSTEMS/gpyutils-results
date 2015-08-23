@@ -482,7 +482,7 @@
 	dev-vcs/git
 =app-portage/flaggie-9999::gentoo
 	>=dev-vcs/git-1.8.2.1
-=app-portage/g-sorcery-9999::gentoo
+=app-portage/g-sorcery-0.2.1::gentoo
 	dev-vcs/git
 =app-portage/gentoolkit-0.3.0.8-r2::gentoo
 	sys-apps/portage
